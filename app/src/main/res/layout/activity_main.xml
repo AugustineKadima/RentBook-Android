@@ -32,14 +32,15 @@
         android:id="@+id/welcome_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="16dp"
-        android:layout_centerHorizontal="true"
         android:layout_centerInParent="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
         android:gravity="center"
-        android:textSize="20sp"
-        android:textColor="@color/black"
         android:text="Track all records for tenants in your property"
-        />
+        android:textColor="@color/black"
+        android:textSize="20sp" />
 
     <Button
         android:layout_width="match_parent"
