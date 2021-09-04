@@ -38,6 +38,7 @@
         android:layout_marginEnd="16sp"
         android:layout_marginTop="32sp"
         android:textColor="@color/rentBookColor"/>
+
     <EditText
         android:id="@+id/landlord_name"
         android:layout_width="match_parent"
@@ -46,7 +47,8 @@
         android:layout_marginStart="16sp"
         android:layout_marginEnd="16sp"
         android:layout_marginTop="8dp"
-        android:hint="Name"/>
+        android:hint="Name"
+        android:inputType="text"/>
 
     <EditText
         android:id="@+id/landlord_email"
@@ -56,7 +58,8 @@
         android:layout_marginStart="16sp"
         android:layout_marginEnd="16sp"
         android:layout_marginTop="8dp"
-        android:hint="Email"/>
+        android:hint="Email"
+        android:inputType="textWebEmailAddress"/>
 
     <EditText
         android:id="@+id/landlord_phone_number"
@@ -64,8 +67,38 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/landlord_email"
         android:layout_marginStart="16sp"
-        android:layout_marginEnd="16sp"
         android:layout_marginTop="8dp"
-        android:hint="Phone number"/>
+        android:layout_marginEnd="16sp"
+        android:hint="Phone number"
+        android:inputType="phone" />
+
+   <TextView
+       android:id="@+id/gender_header"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Gender"
+       android:layout_below="@id/landlord_phone_number"
+       android:layout_marginStart="16dp"
+       android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+       />
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gender_header"
+        android:layout_marginStart="16sp"
+        >
+        <RadioButton
+            android:id="@+id/radio_male"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Male"/>
+        <RadioButton
+            android:id="@+id/radio_female"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Female"/>
+    </RadioGroup>
+
 
 </RelativeLayout>
