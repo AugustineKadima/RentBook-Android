@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.RentBook">
         <activity
+            android:name=".LandlordSignup"
+            android:exported="true" />
+        <activity
             android:name=".PropertyAndTenants"
             android:exported="true" />
         <activity
