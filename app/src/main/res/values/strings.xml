@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Rent Book</string>
+    <string name="track_all_records_for_tenants_in_your_property">Track all records for tenants in your property</string>
+    <string name="get_started">Get Started</string>
+    <string name="rentbook">RentBook</string>
+    <string name="todo">TODO</string>
 </resources>
