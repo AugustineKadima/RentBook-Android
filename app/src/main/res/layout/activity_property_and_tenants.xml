@@ -27,6 +27,7 @@
         android:textSize="35sp"
         android:textColor="@color/black"
         android:text="RentBook"
+        android:textStyle="bold"
         />
 
 
