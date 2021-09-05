@@ -38,6 +38,14 @@ public class PropertyAndTenants extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        property.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(PropertyAndTenants.this, PropertyList.class);
+                startActivity(intent);
+            }
+        });
     }
 
 }
