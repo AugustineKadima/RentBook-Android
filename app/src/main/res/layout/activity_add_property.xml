@@ -56,7 +56,7 @@
             android:minHeight="48dp"
             android:padding="10dp"
             android:inputType="text"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="16sp"
             android:layout_marginStart="16dp"
@@ -71,7 +71,7 @@
             android:minHeight="48dp"
             android:padding="10dp"
             android:inputType="text"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="16sp"
             android:layout_marginStart="16dp"
@@ -86,14 +86,173 @@
             android:minHeight="48dp"
             android:padding="10dp"
             android:inputType="number"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="16sp"
             android:layout_marginStart="16dp"
             android:background="@color/cardview_dark_background"/>
 
         <TextView
+            android:id="@+id/electricity_present_header"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:text="Electricity present"
+            android:minHeight="48dp"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:layout_below="@id/property_number_of_units"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="0dp"
+            />
+
+        <RadioGroup
+            android:id="@+id/electricity_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/electricity_present_header">
+            <RadioButton
+                android:id="@+id/electricity_yes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yes"
+                android:minHeight="48dp"
+                android:textColor="@color/black"
+                android:layout_marginStart="16dp"
+                android:buttonTint="@color/black"/>
+            <RadioButton
+                android:id="@+id/electricity_no"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="No"
+                android:minHeight="48dp"
+                android:textColor="@color/black"
+                android:layout_marginStart="16dp"
+                android:buttonTint="@color/black"/>
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/water_present_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Water present"
+            android:textSize="18sp"
+            android:minHeight="48dp"
+            android:textColor="@color/black"
+            android:layout_below="@id/electricity_group"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="0dp"
+            />
+
+        <RadioGroup
+            android:id="@+id/water_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/water_present_header">
+            <RadioButton
+                android:id="@+id/water_yes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yes"
+                android:minHeight="48dp"
+                android:textColor="@color/black"
+                android:layout_marginStart="16dp"
+                android:buttonTint="@color/black"/>
+            <RadioButton
+                android:id="@+id/water_no"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="No"
+                android:minHeight="48dp"
+                android:textColor="@color/black"
+                android:layout_marginStart="16dp"
+                android:buttonTint="@color/black"/>
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/internet_present_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Internet present"
+            android:minHeight="48dp"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:layout_below="@id/water_group"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="0dp"
+            />
+
+        <RadioGroup
+            android:id="@+id/internet_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/internet_present_header">
+            <RadioButton
+                android:id="@+id/internet_yes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yes"
+                android:minHeight="48dp"
+                android:textColor="@color/black"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:buttonTint="@color/black"/>
+            <RadioButton
+                android:id="@+id/internet_no"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="No"
+                android:minHeight="48dp"
+                android:textColor="@color/black"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:buttonTint="@color/black"/>
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/caretaker_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/internet_group"
+            android:hint="Caretaker name"
+            android:minHeight="48dp"
+            android:padding="10dp"
+            android:inputType="text"
+            android:textColor="@color/white"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16sp"
+            android:layout_marginStart="16dp"
+            android:background="@color/cardview_dark_background"/>
+
+        <EditText
+            android:id="@+id/caretaker_phone_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/caretaker_name"
+            android:hint="Caretaker phone number"
+            android:minHeight="48dp"
+            android:padding="10dp"
+            android:inputType="phone"
+            android:textColor="@color/white"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16sp"
+            android:layout_marginStart="16dp"
+            android:background="@color/cardview_dark_background"/>
+
+        <Button
+            android:id="@+id/add_property_submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:padding="10dp"
+            android:layout_below="@id/caretaker_phone_number"
+            android:background="@color/rentBookColor"
+            android:text="Add property"
+            android:layout_margin="16dp"/>
     </RelativeLayout>
 </ScrollView>
