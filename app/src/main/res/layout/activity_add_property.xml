@@ -34,5 +34,66 @@
             android:text="RentBook"
             android:textStyle="bold"
             />
+
+        <TextView
+            android:id="@+id/add_property_form_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Property"
+            android:layout_below="@id/logo_image"
+            android:textSize="24sp"
+            android:layout_marginStart="16sp"
+            android:layout_marginEnd="16sp"
+            android:layout_marginTop="32sp"
+            android:textColor="@color/rentBookColor"/>
+
+        <EditText
+            android:id="@+id/property_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/add_property_form_header"
+            android:hint="Property name"
+            android:minHeight="48dp"
+            android:padding="10dp"
+            android:inputType="text"
+            android:textColor="@color/black"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16sp"
+            android:layout_marginStart="16dp"
+            android:background="@color/cardview_dark_background"/>
+
+        <EditText
+            android:id="@+id/property_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/property_name"
+            android:hint="Property location"
+            android:minHeight="48dp"
+            android:padding="10dp"
+            android:inputType="text"
+            android:textColor="@color/black"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16sp"
+            android:layout_marginStart="16dp"
+            android:background="@color/cardview_dark_background"/>
+
+        <EditText
+            android:id="@+id/property_number_of_units"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/property_location"
+            android:hint="Number of units"
+            android:minHeight="48dp"
+            android:padding="10dp"
+            android:inputType="number"
+            android:textColor="@color/black"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16sp"
+            android:layout_marginStart="16dp"
+            android:background="@color/cardview_dark_background"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
     </RelativeLayout>
 </ScrollView>
