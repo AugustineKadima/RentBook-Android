@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.RadioButton;
+import android.widget.Toast;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -32,8 +33,20 @@ public class LandlordSignup extends AppCompatActivity {
         landlord_signup_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(LandlordSignup.this, PropertyAndTenants.class);
-                startActivity(intent);
+
+                String landlordName = landlord_name.getText().toString().trim();
+                String landlordEmail = landlord_email.getText().toString().trim();
+                String landlordPhoneNumber = landlord_phone_number.getText().toString().trim();
+                int numberOfProperties = Integer.parseInt(number_of_properties.getText().toString().trim());
+
+                if(!(landlordName.isEmpty()) && !(landlordEmail.isEmpty()) && !(landlordPhoneNumber.isEmpty())){
+                    Intent intent = new Intent(LandlordSignup.this, PropertyAndTenants.class);
+                    startActivity(intent);
+                }else{
+                    Toast.makeText(LandlordSignup.this, "Name, email and phone number are required to signup", Toast.LENGTH_SHORT).show();
+                }
+
+
             }
         });
     }
