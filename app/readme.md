@@ -1,4 +1,4 @@
-# News Portal
+# RentBook
 #### RentBook, 5 September 2021
 #### By **Augustine Kadima Samuel**
 ## Description
