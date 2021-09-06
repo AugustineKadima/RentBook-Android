@@ -16,6 +16,8 @@ public class PropertyAndTenants extends AppCompatActivity {
     @BindView(R.id.add_tenant_btn) Button add_tenant;
     @BindView(R.id.tenants_btn) Button tenants;
     @BindView(R.id.property_btn) Button property;
+    @BindView(R.id.rv_property) Button rv_property;
+    @BindView(R.id.rv_tenants) Button rv_tenants;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

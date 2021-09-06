@@ -4,6 +4,8 @@ import java.util.ArrayList;
 
 public class Utils {
 
+    private Utils(){}
+
     public static ArrayList<Property> getPropertyList(){
         ArrayList<Property> allProperty = new ArrayList<>();
 
