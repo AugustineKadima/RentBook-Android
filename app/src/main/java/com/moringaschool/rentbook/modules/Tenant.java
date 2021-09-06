@@ -3,22 +3,22 @@ package com.moringaschool.rentbook.modules;
 import java.util.Objects;
 
 public class Tenant {
-    String name;
-    String email;
-    String phone;
-    String tenantIdNumber;
-    int age;
-    boolean gender;
-    String occupation;
-    boolean hasFamily;
-    String tenancyDate;
-    int paidDeposit;
-    int paidRent;
-    int rentBalance;
-    String houseNumber;
-    String propertyName;
+    private String name;
+    private String email;
+    private String phone;
+    private String tenantIdNumber;
+    private int age;
+    private String gender;
+    private String occupation;
+    private boolean hasFamily;
+    private String tenancyDate;
+    private int paidDeposit;
+    private int paidRent;
+    private int rentBalance;
+    private String houseNumber;
+    private String propertyName;
 
-    public Tenant(String name, String email, String phone, String tenantIdNumber, int age, boolean gender, String occupation, boolean hasFamily, String tenancyDate, int paidDeposit, int paidRent, int rentBalance, String houseNumber, String propertyName) {
+    public Tenant(String name, String email, String phone, String tenantIdNumber, int age, String gender, String occupation, boolean hasFamily, String tenancyDate, int paidDeposit, int paidRent, int rentBalance, String houseNumber, String propertyName) {
         this.name = name;
         this.email = email;
         this.phone = phone;
@@ -75,11 +75,11 @@ public class Tenant {
         this.age = age;
     }
 
-    public boolean isGender() {
+    public String isGender() {
         return gender;
     }
 
-    public void setGender(boolean gender) {
+    public void setGender(String gender) {
         this.gender = gender;
     }
 
