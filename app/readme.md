@@ -23,14 +23,13 @@ MIT License
 
 Copyright (c) [2021] [Augustine Kadima Samuel]
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
+Permission is hereby restricted, You cannot use this software without permission, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), not to deal
+in the Software without permission, the person is limited by the rights
 to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+copies of the Software. The person is not allowed to use this software.
 
-The above copyright notice and this permission notice shall be included in all
+The above copyright notice and this permission limitation notice shall be included in all
 copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
