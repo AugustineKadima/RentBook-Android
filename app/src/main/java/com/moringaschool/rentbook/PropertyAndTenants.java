@@ -33,10 +33,10 @@ public class PropertyAndTenants extends AppCompatActivity {
         add_property.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-//                LinearLayoutManager layoutManager= new LinearLayoutManager(PropertyAndTenants.this, LinearLayoutManager.VERTICAL, false);
-//                TenantsAdapter adapter = new TenantsAdapter(PropertyAndTenants.this, Utils.getAllTenants());
-//                rv_tenants.setLayoutManager(layoutManager);
-//                rv_tenants.setAdapter(adapter);
+                LinearLayoutManager layoutManager= new LinearLayoutManager(PropertyAndTenants.this, LinearLayoutManager.VERTICAL, false);
+                TenantsAdapter adapter = new TenantsAdapter(PropertyAndTenants.this, Utils.getAllTenants());
+                rv_tenants.setLayoutManager(layoutManager);
+                rv_tenants.setAdapter(adapter);
                 Intent intent = new Intent(PropertyAndTenants.this, AddProperty.class);
                 startActivity(intent);
             }
