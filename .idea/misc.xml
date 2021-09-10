@@ -5,10 +5,11 @@
       <map>
         <entry key="app/src/main/res/layout/activity_add_property.xml" value="0.22" />
         <entry key="app/src/main/res/layout/activity_add_tenant.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/activity_fragment.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_landlord_signup.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_property.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/activity_property_and_tenants.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_property_and_tenants.xml" value="0.15" />
         <entry key="app/src/main/res/layout/activity_property_list.xml" value="0.22" />
         <entry key="app/src/main/res/layout/activity_tenants_list.xml" value="0.22" />
       </map>
