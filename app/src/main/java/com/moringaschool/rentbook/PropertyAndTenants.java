@@ -8,9 +8,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.TextView;
-
-import com.moringaschool.rentbook.modules.Utils;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
