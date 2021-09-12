@@ -18,8 +18,7 @@ public class PropertyAndTenants extends AppCompatActivity {
     @BindView(R.id.add_tenant_btn) Button add_tenant;
     @BindView(R.id.tenants_btn) Button tenants;
     @BindView(R.id.property_btn) Button property;
-    @BindView(R.id.rv_property) RecyclerView rv_property;
-    @BindView(R.id.rv_tenants) RecyclerView rv_tenants;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,7 +29,6 @@ public class PropertyAndTenants extends AppCompatActivity {
         add_property.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
                 Intent intent = new Intent(PropertyAndTenants.this, AddProperty.class);
                 startActivity(intent);
             }

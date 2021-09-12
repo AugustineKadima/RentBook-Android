@@ -5,7 +5,6 @@ import android.view.View;
 import android.widget.Button;
 import androidx.annotation.CallSuper;
 import androidx.annotation.UiThread;
-import androidx.recyclerview.widget.RecyclerView;
 import butterknife.Unbinder;
 import butterknife.internal.Utils;
 import java.lang.IllegalStateException;
@@ -27,8 +26,6 @@ public class PropertyAndTenants_ViewBinding implements Unbinder {
     target.add_tenant = Utils.findRequiredViewAsType(source, R.id.add_tenant_btn, "field 'add_tenant'", Button.class);
     target.tenants = Utils.findRequiredViewAsType(source, R.id.tenants_btn, "field 'tenants'", Button.class);
     target.property = Utils.findRequiredViewAsType(source, R.id.property_btn, "field 'property'", Button.class);
-    target.rv_property = Utils.findRequiredViewAsType(source, R.id.rv_property, "field 'rv_property'", RecyclerView.class);
-    target.rv_tenants = Utils.findRequiredViewAsType(source, R.id.rv_tenants, "field 'rv_tenants'", RecyclerView.class);
   }
 
   @Override
@@ -42,7 +39,5 @@ public class PropertyAndTenants_ViewBinding implements Unbinder {
     target.add_tenant = null;
     target.tenants = null;
     target.property = null;
-    target.rv_property = null;
-    target.rv_tenants = null;
   }
 }

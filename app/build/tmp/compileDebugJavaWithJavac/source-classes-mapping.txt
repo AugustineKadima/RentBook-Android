@@ -1,10 +1,5 @@
-com/moringaschool/rentbook/modules/Utils.java
- com.moringaschool.rentbook.modules.Utils
-com/moringaschool/rentbook/TenantsAdapter.java
- com.moringaschool.rentbook.TenantsAdapter
- com.moringaschool.rentbook.TenantsAdapter$ViewHolder
-com/moringaschool/rentbook/modules/Tenant.java
- com.moringaschool.rentbook.modules.Tenant
+com/moringaschool/rentbook/modules/PropertyItemModel.java
+ com.moringaschool.rentbook.modules.PropertyItemModel
 com/moringaschool/rentbook/PropertyList.java
  com.moringaschool.rentbook.PropertyList
 com/moringaschool/rentbook/AddProperty.java
@@ -16,17 +11,17 @@ com/moringaschool/rentbook/BuildConfig.java
  com.moringaschool.rentbook.BuildConfig
 com/moringaschool/rentbook/TenantsList.java
  com.moringaschool.rentbook.TenantsList
-com/moringaschool/rentbook/LandlordSignup.java
- com.moringaschool.rentbook.LandlordSignup
- com.moringaschool.rentbook.LandlordSignup$1
+com/moringaschool/rentbook/modules/TenantItemModel.java
+ com.moringaschool.rentbook.modules.TenantItemModel
 com/moringaschool/rentbook/MainActivity.java
  com.moringaschool.rentbook.MainActivity
  com.moringaschool.rentbook.MainActivity$1
+com/moringaschool/rentbook/LandlordSignup.java
+ com.moringaschool.rentbook.LandlordSignup
+ com.moringaschool.rentbook.LandlordSignup$1
 com/moringaschool/rentbook/PropertyAndTenants.java
  com.moringaschool.rentbook.PropertyAndTenants
  com.moringaschool.rentbook.PropertyAndTenants$1
  com.moringaschool.rentbook.PropertyAndTenants$2
  com.moringaschool.rentbook.PropertyAndTenants$3
  com.moringaschool.rentbook.PropertyAndTenants$4
-com/moringaschool/rentbook/modules/Property.java
- com.moringaschool.rentbook.modules.Property
