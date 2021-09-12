@@ -8,6 +8,10 @@
     android:background="@color/white"
     tools:context=".PropertyList">
 
-
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_property"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"/>
 
 </LinearLayout>
