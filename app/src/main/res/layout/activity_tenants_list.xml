@@ -7,5 +7,9 @@
     android:background="@color/white"
     tools:context=".TenantsList">
 
-
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_tenants"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"/>
 </RelativeLayout>
