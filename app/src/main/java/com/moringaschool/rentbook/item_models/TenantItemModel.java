@@ -1,4 +1,4 @@
-package com.moringaschool.rentbook.modules;
+package com.moringaschool.rentbook.item_models;
 
 import android.widget.TextView;
 
