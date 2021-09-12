@@ -1,4 +1,31 @@
 package com.moringaschool.rentbook.adapters;
 
-public class TenantAdapter {
+import android.view.View;
+import android.view.ViewGroup;
+
+import androidx.annotation.NonNull;
+import androidx.recyclerview.widget.RecyclerView;
+
+public class TenantAdapter extends RecyclerView.Adapter<TenantAdapter.ViewHolder>{
+    @NonNull
+    @Override
+    public TenantAdapter.ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+        return null;
+    }
+
+    @Override
+    public void onBindViewHolder(@NonNull TenantAdapter.ViewHolder holder, int position) {
+
+    }
+
+    @Override
+    public int getItemCount() {
+        return 0;
+    }
+
+    public class ViewHolder extends RecyclerView.ViewHolder {
+        public ViewHolder(@NonNull View itemView) {
+            super(itemView);
+        }
+    }
 }
