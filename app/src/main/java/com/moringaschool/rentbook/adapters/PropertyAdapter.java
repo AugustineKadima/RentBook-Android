@@ -10,14 +10,15 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.moringaschool.rentbook.R;
 import com.moringaschool.rentbook.item_models.PropertyItemModel;
+import com.moringaschool.rentbook.modules.Property;
 
 import java.util.List;
 
 public class PropertyAdapter extends RecyclerView.Adapter<PropertyAdapter.ViewHolder> {
 
-    List<PropertyItemModel> propertyList;
+    List<Property> propertyList;
 
-    public PropertyAdapter(List<PropertyItemModel> propertyList) {
+    public PropertyAdapter(List<Property> propertyList) {
         this.propertyList = propertyList;
     }
 
@@ -30,8 +31,8 @@ public class PropertyAdapter extends RecyclerView.Adapter<PropertyAdapter.ViewHo
 
     @Override
     public void onBindViewHolder(@NonNull PropertyAdapter.ViewHolder holder, int position) {
-        String propertyName = propertyList.get(position).getProperty_display_name();
-        String propertyLocation = propertyList.get(position).getProperty_display_location();
+        String propertyName = propertyList.get(position).getName();
+        String propertyLocation = propertyList.get(position).getLocation();
 
         holder.setData(propertyName, propertyLocation);
     }
