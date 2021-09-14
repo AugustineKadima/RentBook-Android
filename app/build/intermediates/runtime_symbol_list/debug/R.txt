@@ -2271,9 +2271,9 @@ int id tag_unhandled_key_event_manager 0x7f0801ba
 int id tag_unhandled_key_listeners 0x7f0801bb
 int id tag_window_insets_animation_callback 0x7f0801bc
 int id tenancy_date 0x7f0801bd
-int id tenancy_date_display 0x7f0801be
 int id tenant_age 0x7f0801bf
 int id tenant_deposit_paid 0x7f0801c0
+int id tenant_display_email 0x7f080214
 int id tenant_display_name 0x7f0801c1
 int id tenant_display_room 0x7f080213
 int id tenant_email 0x7f0801c2

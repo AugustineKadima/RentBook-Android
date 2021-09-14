@@ -21,6 +21,7 @@ com/moringaschool/rentbook/api/ApiInterface.java
  com.moringaschool.rentbook.api.ApiInterface
 com/moringaschool/rentbook/TenantsList.java
  com.moringaschool.rentbook.TenantsList
+ com.moringaschool.rentbook.TenantsList$1
 com/moringaschool/rentbook/adapters/PropertyAdapter.java
  com.moringaschool.rentbook.adapters.PropertyAdapter
  com.moringaschool.rentbook.adapters.PropertyAdapter$ViewHolder

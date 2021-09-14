@@ -9,7 +9,6 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.moringaschool.rentbook.R;
-import com.moringaschool.rentbook.item_models.PropertyItemModel;
 import com.moringaschool.rentbook.modules.Property;
 
 import java.util.List;
@@ -31,10 +30,6 @@ public class PropertyAdapter extends RecyclerView.Adapter<PropertyAdapter.ViewHo
 
     @Override
     public void onBindViewHolder(@NonNull PropertyAdapter.ViewHolder holder, int position) {
-//        String propertyName = propertyList.get(position).getName();
-//        String propertyLocation = propertyList.get(position).getLocation();
-//
-//        holder.setData(propertyName, propertyLocation);
         holder.property_display_name.setText(propertyList.get(position).getName());
         holder.property_display_location.setText(propertyList.get(position).getLocation());
     }
@@ -55,9 +50,5 @@ public class PropertyAdapter extends RecyclerView.Adapter<PropertyAdapter.ViewHo
             property_display_location = (TextView) itemView.findViewById(R.id.property_display_location);
         }
 
-//        public void setData(String propertyName, String propertyLocation) {
-//            property_display_name.setText(propertyName);
-//            property_display_location.setText(propertyLocation);
-//        }
     }
 }
