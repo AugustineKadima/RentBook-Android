@@ -31,10 +31,12 @@ public class PropertyAdapter extends RecyclerView.Adapter<PropertyAdapter.ViewHo
 
     @Override
     public void onBindViewHolder(@NonNull PropertyAdapter.ViewHolder holder, int position) {
-        String propertyName = propertyList.get(position).getName();
-        String propertyLocation = propertyList.get(position).getLocation();
-
-        holder.setData(propertyName, propertyLocation);
+//        String propertyName = propertyList.get(position).getName();
+//        String propertyLocation = propertyList.get(position).getLocation();
+//
+//        holder.setData(propertyName, propertyLocation);
+        holder.property_display_name.setText(propertyList.get(position).getName());
+        holder.property_display_location.setText(propertyList.get(position).getLocation());
     }
 
     @Override
@@ -45,16 +47,17 @@ public class PropertyAdapter extends RecyclerView.Adapter<PropertyAdapter.ViewHo
     public class ViewHolder extends RecyclerView.ViewHolder {
 
         private TextView property_display_name, property_display_location;
+
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
 
-            property_display_name = itemView.findViewById(R.id.property_display_name);
-            property_display_location = itemView.findViewById(R.id.property_display_location);
+            property_display_name = (TextView) itemView.findViewById(R.id.property_display_name);
+            property_display_location = (TextView) itemView.findViewById(R.id.property_display_location);
         }
 
-        public void setData(String propertyName, String propertyLocation) {
-            property_display_name.setText(propertyName);
-            property_display_location.setText(propertyLocation);
-        }
+//        public void setData(String propertyName, String propertyLocation) {
+//            property_display_name.setText(propertyName);
+//            property_display_location.setText(propertyLocation);
+//        }
     }
 }
