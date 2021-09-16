@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.PropertyDetailFragment"
+    android:background="@color/white">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/fragment_property_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kadima Samuel"
+            android:textColor="@color/rentBookColor"
+            android:textSize="24dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            />
+
+        <TextView
+            android:id="@+id/fragment_property_location"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Nairobi"
+            android:textColor="@color/rentBookColor"
+            android:textSize="14dp"
+            android:layout_below="@id/fragment_property_name"
+            android:layout_marginStart="16dp"
+           android:layout_marginEnd="16dp"
+            />
+
+    </RelativeLayout>
+
+</FrameLayout>

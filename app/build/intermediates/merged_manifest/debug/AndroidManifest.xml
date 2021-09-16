@@ -29,6 +29,12 @@
         android:testOnly="true"
         android:theme="@style/Theme.RentBook" >
         <activity
+            android:name="com.moringaschool.rentbook.PropertyDetails"
+            android:exported="true" />
+        <activity
+            android:name="com.moringaschool.rentbook.TenantDetails"
+            android:exported="true" />
+        <activity
             android:name="com.moringaschool.rentbook.TenantsList"
             android:exported="true" />
         <activity

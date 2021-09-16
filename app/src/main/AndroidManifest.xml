@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.moringaschool.rentbook">
 
-    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -11,6 +11,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.RentBook">
+        <activity
+            android:name=".PropertyDetails"
+            android:exported="true" />
+        <activity
+            android:name=".TenantDetails"
+            android:exported="true" />
         <activity
             android:name=".TenantsList"
             android:exported="true" />

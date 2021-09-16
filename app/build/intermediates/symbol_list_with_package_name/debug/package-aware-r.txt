@@ -2215,6 +2215,7 @@ id outline
 id outward
 id overshoot
 id packed
+id pagerHeader
 id parallax
 id parent
 id parentPanel
@@ -2391,6 +2392,7 @@ id unlabeled
 id up
 id useLogo
 id vertical_only
+id viewPager
 id view_offset_helper
 id view_transition
 id view_tree_lifecycle_owner
@@ -2486,7 +2488,9 @@ layout activity_add_tenant
 layout activity_landlord_signup
 layout activity_main
 layout activity_property_and_tenants
+layout activity_property_details
 layout activity_property_list
+layout activity_tenant_details
 layout activity_tenants_list
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
