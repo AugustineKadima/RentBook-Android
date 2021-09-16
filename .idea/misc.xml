@@ -14,7 +14,7 @@
         <entry key="app/src/main/res/layout/activity_property_list.xml" value="0.12" />
         <entry key="app/src/main/res/layout/activity_tenant_details.xml" value="0.19322916666666667" />
         <entry key="app/src/main/res/layout/activity_tenants_list.xml" value="0.2" />
-        <entry key="app/src/main/res/layout/fragment_property_detail.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_property_detail.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_tenant_detail.xml" value="0.19322916666666667" />
         <entry key="app/src/main/res/layout/property_list_item.xml" value="0.18" />
         <entry key="app/src/main/res/layout/proprerty_details.xml" value="0.19322916666666667" />

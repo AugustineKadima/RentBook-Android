@@ -2089,8 +2089,16 @@ id floating
 id forever
 id fragment_container
 id fragment_container_view_tag
+id fragment_property_caretaker_name_label
+id fragment_property_caretaker_name_value
+id fragment_property_caretaker_phone_number_label
+id fragment_property_caretaker_phone_number_value
+id fragment_property_caretaker_rent_per_unit_label
+id fragment_property_caretaker_rent_per_unit_value
 id fragment_property_location
 id fragment_property_name
+id fragment_property_number_of_units_label
+id fragment_property_number_of_units_value
 id frost
 id gender_header
 id gender_options

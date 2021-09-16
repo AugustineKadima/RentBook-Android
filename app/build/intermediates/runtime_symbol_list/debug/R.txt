@@ -2088,8 +2088,16 @@ int id floating 0x7f0800cf
 int id forever 0x7f0800d0
 int id fragment_container 0x7f080224
 int id fragment_container_view_tag 0x7f0800d1
+int id fragment_property_caretaker_name_label 0x7f080229
+int id fragment_property_caretaker_name_value 0x7f08022a
+int id fragment_property_caretaker_phone_number_label 0x7f08022b
+int id fragment_property_caretaker_phone_number_value 0x7f08022c
+int id fragment_property_caretaker_rent_per_unit_label 0x7f08022d
+int id fragment_property_caretaker_rent_per_unit_value 0x7f08022e
 int id fragment_property_location 0x7f080225
 int id fragment_property_name 0x7f080226
+int id fragment_property_number_of_units_label 0x7f08022f
+int id fragment_property_number_of_units_value 0x7f080230
 int id frost 0x7f0800d2
 int id gender_header 0x7f0800d3
 int id gender_options 0x7f0800d4
