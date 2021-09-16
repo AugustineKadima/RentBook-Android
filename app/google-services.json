@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "143497014339",
+    "project_id": "rentbook-9f0ef",
+    "storage_bucket": "rentbook-9f0ef.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:143497014339:android:364441918edd04f97b38f6",
+        "android_client_info": {
+          "package_name": "com.moringaschool.rentbook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "143497014339-k3f5s7c6mvrcc0831unoiqcdest183b0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.moringaschool.rentbook",
+            "certificate_hash": "5092ca5f7637343cf868676db8c430b76cbf006f"
+          }
+        },
+        {
+          "client_id": "143497014339-d0k9gittdrvb0a7ppl5m3t6jmbntvm2l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyxZglmankUwrvvCARKQP1iZ3WQzSIdFA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "143497014339-d0k9gittdrvb0a7ppl5m3t6jmbntvm2l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

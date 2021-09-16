@@ -9,7 +9,6 @@ import android.os.Bundle;
 import com.moringaschool.rentbook.adapters.TenantAdapter;
 import com.moringaschool.rentbook.api.ApiClient;
 import com.moringaschool.rentbook.api.ApiInterface;
-import com.moringaschool.rentbook.item_models.TenantItemModel;
 import com.moringaschool.rentbook.modules.Tenant;
 
 import java.util.ArrayList;
