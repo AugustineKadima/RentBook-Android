@@ -8,12 +8,12 @@
         "source": "/home/sirkadima/moringa-school-projects/CORE/RentBook/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "/home/sirkadima/moringa-school-projects/CORE/RentBook/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "/home/sirkadima/moringa-school-projects/CORE/RentBook/app/src/main/res/mipmap-hdpi/ic_launcher.webp"
-    },
-    {
         "merged": "/home/sirkadima/moringa-school-projects/CORE/RentBook/app/build/intermediates/merged_res/debug/layout_tenant_list_item.xml.flat",
         "source": "/home/sirkadima/moringa-school-projects/CORE/RentBook/app/src/main/res/layout/tenant_list_item.xml"
+    },
+    {
+        "merged": "/home/sirkadima/moringa-school-projects/CORE/RentBook/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "/home/sirkadima/moringa-school-projects/CORE/RentBook/app/src/main/res/mipmap-hdpi/ic_launcher.webp"
     },
     {
         "merged": "/home/sirkadima/moringa-school-projects/CORE/RentBook/app/build/intermediates/merged_res/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
@@ -38,6 +38,10 @@
     {
         "merged": "/home/sirkadima/moringa-school-projects/CORE/RentBook/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher.webp.flat",
         "source": "/home/sirkadima/moringa-school-projects/CORE/RentBook/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/sirkadima/moringa-school-projects/CORE/RentBook/app/build/intermediates/merged_res/debug/layout_fragment_tenant_detail.xml.flat",
+        "source": "/home/sirkadima/moringa-school-projects/CORE/RentBook/app/src/main/res/layout/fragment_tenant_detail.xml"
     },
     {
         "merged": "/home/sirkadima/moringa-school-projects/CORE/RentBook/app/build/intermediates/merged_res/debug/layout_property_list_item.xml.flat",
@@ -74,6 +78,10 @@
     {
         "merged": "/home/sirkadima/moringa-school-projects/CORE/RentBook/app/build/intermediates/merged_res/debug/layout_activity_main.xml.flat",
         "source": "/home/sirkadima/moringa-school-projects/CORE/RentBook/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/sirkadima/moringa-school-projects/CORE/RentBook/app/build/intermediates/merged_res/debug/layout_fragment_property_detail.xml.flat",
+        "source": "/home/sirkadima/moringa-school-projects/CORE/RentBook/app/src/main/res/layout/fragment_property_detail.xml"
     },
     {
         "merged": "/home/sirkadima/moringa-school-projects/CORE/RentBook/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher_round.webp.flat",

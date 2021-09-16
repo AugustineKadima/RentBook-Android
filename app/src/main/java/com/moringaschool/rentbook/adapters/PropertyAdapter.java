@@ -1,5 +1,6 @@
 package com.moringaschool.rentbook.adapters;
 
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -8,6 +9,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.moringaschool.rentbook.PropertyDetails;
 import com.moringaschool.rentbook.R;
 import com.moringaschool.rentbook.modules.Property;
 
@@ -42,12 +44,20 @@ public class PropertyAdapter extends RecyclerView.Adapter<PropertyAdapter.ViewHo
     public class ViewHolder extends RecyclerView.ViewHolder {
 
         private TextView property_display_name, property_display_location;
+        View rootView;
 
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
 
+            rootView = itemView;
+
             property_display_name = (TextView) itemView.findViewById(R.id.property_display_name);
             property_display_location = (TextView) itemView.findViewById(R.id.property_display_location);
+
+            itemView.setOnClickListener((v) -> {
+                Intent intent = new Intent(rootView.getContext(), PropertyDetails.class);
+                rootView.getContext().startActivity(intent);
+            });
         }
 
     }
