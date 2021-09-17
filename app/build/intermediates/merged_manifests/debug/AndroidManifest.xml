@@ -29,6 +29,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.RentBook" >
         <activity
+            android:name="com.moringaschool.rentbook.Login"
+            android:exported="true" />
+        <activity
             android:name="com.moringaschool.rentbook.PropertyDetails"
             android:exported="true" />
         <activity

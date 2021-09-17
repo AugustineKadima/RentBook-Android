@@ -23,6 +23,7 @@ public class MainActivity_ViewBinding implements Unbinder {
     this.target = target;
 
     target.get_started = Utils.findRequiredViewAsType(source, R.id.get_started, "field 'get_started'", Button.class);
+    target.login_btn = Utils.findRequiredViewAsType(source, R.id.login_btn, "field 'login_btn'", Button.class);
   }
 
   @Override
@@ -33,5 +34,6 @@ public class MainActivity_ViewBinding implements Unbinder {
     this.target = null;
 
     target.get_started = null;
+    target.login_btn = null;
   }
 }

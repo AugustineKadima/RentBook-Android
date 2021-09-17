@@ -12,6 +12,7 @@ import butterknife.ButterKnife;
 
 public class MainActivity extends AppCompatActivity {
     @BindView(R.id.get_started) Button get_started;
+    @BindView(R.id.login_btn) Button login_btn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,6 +24,14 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this, LandlordSignup.class);
+                startActivity(intent);
+            }
+        });
+
+        login_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, Login.class);
                 startActivity(intent);
             }
         });

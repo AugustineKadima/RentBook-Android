@@ -2153,6 +2153,9 @@ int id linear 0x7f080105
 int id listMode 0x7f080106
 int id list_item 0x7f080107
 int id login_btn 0x7f080231
+int id login_button 0x7f080232
+int id login_email 0x7f080233
+int id login_header 0x7f080234
 int id logo_image 0x7f080108
 int id logo_text 0x7f080109
 int id masked 0x7f08010a
@@ -2505,6 +2508,7 @@ int layout abc_tooltip 0x7f0b001b
 int layout activity_add_property 0x7f0b001c
 int layout activity_add_tenant 0x7f0b001d
 int layout activity_landlord_signup 0x7f0b001e
+int layout activity_login 0x7f0b0088
 int layout activity_main 0x7f0b001f
 int layout activity_property_and_tenants 0x7f0b0020
 int layout activity_property_details 0x7f0b007b
