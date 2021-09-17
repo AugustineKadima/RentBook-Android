@@ -2153,6 +2153,7 @@ id line3
 id linear
 id listMode
 id list_item
+id login_btn
 id logo_image
 id logo_text
 id masked

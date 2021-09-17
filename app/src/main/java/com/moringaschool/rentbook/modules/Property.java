@@ -16,6 +16,8 @@ public class Property {
     private String caretaker_phone_number;
     private int landlord_id;
 
+    public Property(){}
+
     public Property(String name, String location, int number_of_units, long rent_per_unit, boolean has_electricity, boolean has_water, boolean has_internet, String caretaker_name, String caretaker_phone_number, int landlord_id) {
         this.name = name;
         this.location = location;
