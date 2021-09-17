@@ -1,5 +1,8 @@
 package com.moringaschool.rentbook.modules;
 
+import org.parceler.Parcel;
+
+@Parcel
 public class Property {
     private int id;
     private String name;
