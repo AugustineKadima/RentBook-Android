@@ -41,7 +41,7 @@
         android:textColor="@color/rentBookColor"/>
 
     <EditText
-        android:id="@+id/landlord_name"
+        android:id="@+id/login_email"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/login_header"
@@ -55,10 +55,10 @@
         android:padding="10dp" />
 
     <EditText
-        android:id="@+id/login_email"
+        android:id="@+id/login_password"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/landlord_name"
+        android:layout_below="@id/login_email"
         android:layout_marginStart="16sp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="16sp"
@@ -69,10 +69,10 @@
         android:padding="10dp" />
 
     <Button
-        android:id="@+id/login_button"
+        android:id="@+id/login_page_login_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/login_email"
+        android:layout_below="@id/login_password"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
