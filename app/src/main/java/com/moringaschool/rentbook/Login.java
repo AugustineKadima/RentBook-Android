@@ -32,14 +32,16 @@ public class Login extends AppCompatActivity {
                 String Email = login_email.getText().toString().trim();
                 String Password = login_password.getText().toString().trim();
 
-                if(Email.isEmpty()){
+                if (Email.isEmpty() && Password.isEmpty()) {
+                    Toast.makeText(Login.this, "Email and Password required", Toast.LENGTH_LONG).show();
+                }else if(Email.isEmpty()){
                     Toast.makeText(Login.this, "Email is required", Toast.LENGTH_LONG).show();
                 }else if(Password.isEmpty()){
                     Toast.makeText(Login.this, "Password is required", Toast.LENGTH_LONG).show();
-                }else if (Email.isEmpty() && Password.isEmpty()){
-                    Toast.makeText(Login.this, "Email and Password required", Toast.LENGTH_LONG).show();
-                }else{
+                }
+                else{
                     Intent intent = new Intent(Login.this, PropertyAndTenants.class);
+                    startActivity(intent);
                 }
             }
         });

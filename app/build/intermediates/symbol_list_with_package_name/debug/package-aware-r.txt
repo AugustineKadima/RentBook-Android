@@ -2154,9 +2154,10 @@ id linear
 id listMode
 id list_item
 id login_btn
-id login_button
 id login_email
 id login_header
+id login_page_login_button
+id login_password
 id logo_image
 id logo_text
 id masked
