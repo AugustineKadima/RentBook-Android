@@ -43,6 +43,7 @@ public class AddProperty extends AppCompatActivity {
         add_property_submit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
                saveDataToDatabase();
             }
 
@@ -71,7 +72,10 @@ public class AddProperty extends AppCompatActivity {
                     internet = "No internet";
                 }
 
-                if(propertyName.isEmpty()){
+                if(propertyName.isEmpty() && propertyLocation.isEmpty() && propertyNumberOfUnits == 0 && caretakerName.isEmpty() && caretakerPhoneNumber.isEmpty() && ((!internet_yes.isChecked() && !internet_no.isChecked()) && (!water_no.isChecked() && !water_yes.isChecked()) && (!electricity_yes.isChecked() && !electricity_no.isChecked()))){
+                    Toast.makeText(AddProperty.this, "Fill all form input fields", Toast.LENGTH_SHORT).show();
+                }
+                else if(propertyName.isEmpty()){
                     property_name.setError("Property name is required");
                     property_name.requestFocus();
                 }else if(propertyLocation.isEmpty()){

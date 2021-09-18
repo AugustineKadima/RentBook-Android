@@ -275,27 +275,27 @@
 146            </intent-filter>
 147        </service>
 148
-149        <provider
-149-->[com.google.firebase:firebase-common:20.0.0] /home/sirkadima/.gradle/caches/transforms-3/ed8893f1a326696110e4d10af8917bc2/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:26:9-31:39
-150            android:name="com.google.firebase.provider.FirebaseInitProvider"
-150-->[com.google.firebase:firebase-common:20.0.0] /home/sirkadima/.gradle/caches/transforms-3/ed8893f1a326696110e4d10af8917bc2/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:27:13-77
-151            android:authorities="com.moringaschool.rentbook.firebaseinitprovider"
-151-->[com.google.firebase:firebase-common:20.0.0] /home/sirkadima/.gradle/caches/transforms-3/ed8893f1a326696110e4d10af8917bc2/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:28:13-72
-152            android:directBootAware="true"
-152-->[com.google.firebase:firebase-common:20.0.0] /home/sirkadima/.gradle/caches/transforms-3/ed8893f1a326696110e4d10af8917bc2/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:29:13-43
-153            android:exported="false"
-153-->[com.google.firebase:firebase-common:20.0.0] /home/sirkadima/.gradle/caches/transforms-3/ed8893f1a326696110e4d10af8917bc2/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:30:13-37
-154            android:initOrder="100" />
-154-->[com.google.firebase:firebase-common:20.0.0] /home/sirkadima/.gradle/caches/transforms-3/ed8893f1a326696110e4d10af8917bc2/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:31:13-36
-155
-156        <activity
-156-->[com.google.android.gms:play-services-base:17.1.0] /home/sirkadima/.gradle/caches/transforms-3/b5289ac9a641f59dd763ec5754e962f8/transformed/jetified-play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
-157            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-157-->[com.google.android.gms:play-services-base:17.1.0] /home/sirkadima/.gradle/caches/transforms-3/b5289ac9a641f59dd763ec5754e962f8/transformed/jetified-play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+149        <activity
+149-->[com.google.android.gms:play-services-base:17.1.0] /home/sirkadima/.gradle/caches/transforms-3/b5289ac9a641f59dd763ec5754e962f8/transformed/jetified-play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+150            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+150-->[com.google.android.gms:play-services-base:17.1.0] /home/sirkadima/.gradle/caches/transforms-3/b5289ac9a641f59dd763ec5754e962f8/transformed/jetified-play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+151            android:exported="false"
+151-->[com.google.android.gms:play-services-base:17.1.0] /home/sirkadima/.gradle/caches/transforms-3/b5289ac9a641f59dd763ec5754e962f8/transformed/jetified-play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+152            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+152-->[com.google.android.gms:play-services-base:17.1.0] /home/sirkadima/.gradle/caches/transforms-3/b5289ac9a641f59dd763ec5754e962f8/transformed/jetified-play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+153
+154        <provider
+154-->[com.google.firebase:firebase-common:20.0.0] /home/sirkadima/.gradle/caches/transforms-3/ed8893f1a326696110e4d10af8917bc2/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:26:9-31:39
+155            android:name="com.google.firebase.provider.FirebaseInitProvider"
+155-->[com.google.firebase:firebase-common:20.0.0] /home/sirkadima/.gradle/caches/transforms-3/ed8893f1a326696110e4d10af8917bc2/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:27:13-77
+156            android:authorities="com.moringaschool.rentbook.firebaseinitprovider"
+156-->[com.google.firebase:firebase-common:20.0.0] /home/sirkadima/.gradle/caches/transforms-3/ed8893f1a326696110e4d10af8917bc2/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:28:13-72
+157            android:directBootAware="true"
+157-->[com.google.firebase:firebase-common:20.0.0] /home/sirkadima/.gradle/caches/transforms-3/ed8893f1a326696110e4d10af8917bc2/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:29:13-43
 158            android:exported="false"
-158-->[com.google.android.gms:play-services-base:17.1.0] /home/sirkadima/.gradle/caches/transforms-3/b5289ac9a641f59dd763ec5754e962f8/transformed/jetified-play-services-base-17.1.0/AndroidManifest.xml:25:13-37
-159            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-159-->[com.google.android.gms:play-services-base:17.1.0] /home/sirkadima/.gradle/caches/transforms-3/b5289ac9a641f59dd763ec5754e962f8/transformed/jetified-play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+158-->[com.google.firebase:firebase-common:20.0.0] /home/sirkadima/.gradle/caches/transforms-3/ed8893f1a326696110e4d10af8917bc2/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:30:13-37
+159            android:initOrder="100" />
+159-->[com.google.firebase:firebase-common:20.0.0] /home/sirkadima/.gradle/caches/transforms-3/ed8893f1a326696110e4d10af8917bc2/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:31:13-36
 160
 161        <receiver
 161-->[com.google.android.gms:play-services-measurement:19.0.1] /home/sirkadima/.gradle/caches/transforms-3/1d4c5290a3226b8c0a572f3caab4a1f7/transformed/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:29:9-33:20
@@ -332,6 +332,17 @@
 178-->[com.google.android.gms:play-services-basement:17.1.0] /home/sirkadima/.gradle/caches/transforms-3/dd899772f6be5434b73cf178284bcfa8/transformed/jetified-play-services-basement-17.1.0/AndroidManifest.xml:24:13-58
 179            android:value="@integer/google_play_services_version" />
 179-->[com.google.android.gms:play-services-basement:17.1.0] /home/sirkadima/.gradle/caches/transforms-3/dd899772f6be5434b73cf178284bcfa8/transformed/jetified-play-services-basement-17.1.0/AndroidManifest.xml:25:13-66
-180    </application>
-181
-182</manifest>
+180
+181        <provider
+181-->[androidx.lifecycle:lifecycle-process:2.3.0] /home/sirkadima/.gradle/caches/transforms-3/6b1da219984fe445c1cb371fb8a0d84e/transformed/jetified-lifecycle-process-2.3.0/AndroidManifest.xml:25:9-29:43
+182            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+182-->[androidx.lifecycle:lifecycle-process:2.3.0] /home/sirkadima/.gradle/caches/transforms-3/6b1da219984fe445c1cb371fb8a0d84e/transformed/jetified-lifecycle-process-2.3.0/AndroidManifest.xml:26:13-79
+183            android:authorities="com.moringaschool.rentbook.lifecycle-process"
+183-->[androidx.lifecycle:lifecycle-process:2.3.0] /home/sirkadima/.gradle/caches/transforms-3/6b1da219984fe445c1cb371fb8a0d84e/transformed/jetified-lifecycle-process-2.3.0/AndroidManifest.xml:27:13-69
+184            android:exported="false"
+184-->[androidx.lifecycle:lifecycle-process:2.3.0] /home/sirkadima/.gradle/caches/transforms-3/6b1da219984fe445c1cb371fb8a0d84e/transformed/jetified-lifecycle-process-2.3.0/AndroidManifest.xml:28:13-37
+185            android:multiprocess="true" />
+185-->[androidx.lifecycle:lifecycle-process:2.3.0] /home/sirkadima/.gradle/caches/transforms-3/6b1da219984fe445c1cb371fb8a0d84e/transformed/jetified-lifecycle-process-2.3.0/AndroidManifest.xml:29:13-40
+186    </application>
+187
+188</manifest>

@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddProperty"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/logo_image"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/rentbook_icon"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="48dp"
+            android:layout_marginLeft="16dp"
+            android:contentDescription="@string/todo" />
+
+        <TextView
+            android:id="@+id/logo_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="56dp"
+            android:layout_toRightOf="@id/logo_image"
+            android:gravity="center"
+            android:textSize="35sp"
+            android:textColor="@color/black"
+            android:text="RentBook"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/add_tenant_form_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/logo_image"
+            android:layout_marginStart="16sp"
+            android:layout_marginTop="32sp"
+            android:layout_marginEnd="16sp"
+            android:text="Add Tenant"
+            android:textColor="@color/rentBookColor"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/property_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/add_tenant_form_header"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16sp"
+            android:background="@color/cardview_dark_background"
+            android:hint="Tenant name"
+            android:inputType="text"
+            android:minHeight="48dp"
+            android:padding="10dp"
+            android:textColor="@color/white"
+            tools:ignore="TextContrastCheck" />
+
+        <EditText
+            android:id="@+id/tenant_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/property_name"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16sp"
+            android:background="@color/cardview_dark_background"
+            android:hint="@string/tenant_email"
+            android:inputType="textWebEmailAddress"
+            android:minHeight="48dp"
+            android:padding="10dp"
+            android:textColor="@color/white"
+            tools:ignore="TextContrastCheck" />
+
+        <EditText
+            android:id="@+id/tenant_id_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tenant_email"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16sp"
+            android:background="@color/cardview_dark_background"
+            android:hint="@string/tenant_id_number"
+            android:inputType="number"
+            android:minHeight="48dp"
+            android:padding="10dp"
+            android:textColor="@color/white"
+            tools:ignore="TextContrastCheck,TextContrastCheck,TextContrastCheck,TextContrastCheck,TextContrastCheck" />
+
+
+        <EditText
+            android:id="@+id/tenant_phone_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tenant_id_number"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16sp"
+            android:background="@color/cardview_dark_background"
+            android:hint="@string/tenant_phone_number"
+            android:inputType="phone"
+            android:minHeight="48dp"
+            android:padding="10dp"
+            android:textColor="@color/white"
+            tools:ignore="TextContrastCheck" />
+
+        <EditText
+            android:id="@+id/tenant_age"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tenant_phone_number"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16sp"
+            android:background="@color/cardview_dark_background"
+            android:hint="@string/tenant_age"
+            android:inputType="number"
+            android:minHeight="48dp"
+            android:padding="10dp"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/tenant_gender_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gender"
+            android:textSize="18sp"
+            android:minHeight="48dp"
+            android:textColor="@color/black"
+            android:layout_below="@id/tenant_age"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="0dp"
+            />
+
+        <RadioGroup
+            android:id="@+id/tenant_gender_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tenant_gender_header">
+            <RadioButton
+                android:id="@+id/tenant_male"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Male"
+                android:minHeight="48dp"
+                android:textColor="@color/black"
+                android:layout_marginStart="16dp"
+                android:buttonTint="@color/black"/>
+            <RadioButton
+                android:id="@+id/tenant_female"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Female"
+                android:minHeight="48dp"
+                android:textColor="@color/black"
+                android:layout_marginStart="16dp"
+                android:buttonTint="@color/black"/>
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/tenant_family_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Has family?"
+            android:textSize="18sp"
+            android:minHeight="48dp"
+            android:textColor="@color/black"
+            android:layout_below="@id/tenant_gender_group"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="0dp"
+            />
+
+        <RadioGroup
+            android:id="@+id/tenant_family_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tenant_family_header">
+            <RadioButton
+                android:id="@+id/tenant_family_yes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yes"
+                android:minHeight="48dp"
+                android:textColor="@color/black"
+                android:layout_marginStart="16dp"
+                android:buttonTint="@color/black"/>
+            <RadioButton
+                android:id="@+id/tenant_family_no"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/no"
+                android:minHeight="48dp"
+                android:textColor="@color/black"
+                android:layout_marginStart="16dp"
+                android:buttonTint="@color/black"/>
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/tenant_occupation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tenant_family_group"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16sp"
+            android:background="@color/cardview_dark_background"
+            android:hint="Tenant occupation"
+            android:inputType="text"
+            android:minHeight="48dp"
+            android:padding="10dp"
+            android:textColor="@color/white" />
+
+        <EditText
+            android:id="@+id/tenancy_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tenant_occupation"
+            android:hint="Tenancy date"
+            android:minHeight="48dp"
+            android:padding="10dp"
+            android:inputType="date"
+            android:textColor="@color/white"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16sp"
+            android:layout_marginStart="16dp"
+            android:background="@color/cardview_dark_background"/>
+
+        <EditText
+            android:id="@+id/tenant_deposit_paid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tenancy_date"
+            android:hint="Deposit paid"
+            android:minHeight="48dp"
+            android:padding="10dp"
+            android:inputType="number"
+            android:textColor="@color/white"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16sp"
+            android:layout_marginStart="16dp"
+            android:background="@color/cardview_dark_background"/>
+
+        <EditText
+            android:id="@+id/tenant_rent_paid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tenant_deposit_paid"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16sp"
+            android:autofillHints=""
+            android:background="@color/cardview_dark_background"
+            android:hint="@string/rent_paid"
+            android:inputType="number"
+            android:minHeight="48dp"
+            android:padding="10dp"
+            android:textColor="@color/white" />
+
+        <EditText
+            android:id="@+id/tenant_rent_balance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tenant_rent_paid"
+            android:hint="Rent balance"
+            android:minHeight="48dp"
+            android:padding="10dp"
+            android:inputType="number"
+            android:textColor="@color/white"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16sp"
+            android:layout_marginStart="16dp"
+            android:background="@color/cardview_dark_background"/>
+
+        <EditText
+            android:id="@+id/tenant_house_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tenant_rent_balance"
+            android:hint="@string/house_number"
+            android:minHeight="48dp"
+            android:padding="10dp"
+            android:inputType="text"
+            android:textColor="@color/white"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16sp"
+            android:layout_marginStart="16dp"
+            android:background="@color/cardview_dark_background"
+            android:autofillHints="" />
+
+        <EditText
+            android:id="@+id/tenant_property_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tenant_house_number"
+            android:hint="@string/property_name"
+            android:minHeight="48dp"
+            android:padding="10dp"
+            android:inputType="text"
+            android:textColor="@color/white"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16sp"
+            android:layout_marginStart="16dp"
+            android:background="@color/cardview_dark_background"
+            android:importantForAutofill="no" />
+        <Button
+            android:id="@+id/add_tenant_submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:padding="10dp"
+            android:layout_below="@id/tenant_property_name"
+            android:background="@color/rentBookColor"
+            android:text="@string/add_tenant"
+            android:layout_margin="16dp"/>
+    </RelativeLayout>
+</ScrollView>

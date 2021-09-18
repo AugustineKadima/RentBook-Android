@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "/home/sirkadima/moringa-school-projects/CORE/RentBook/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/tenant_list_item.xml",
+        "source": "/home/sirkadima/moringa-school-projects/CORE/RentBook/app/src/main/res/layout/tenant_list_item.xml"
+    },
+    {
+        "merged": "/home/sirkadima/moringa-school-projects/CORE/RentBook/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_tenant_details.xml",
+        "source": "/home/sirkadima/moringa-school-projects/CORE/RentBook/app/src/main/res/layout/activity_tenant_details.xml"
+    },
+    {
+        "merged": "/home/sirkadima/moringa-school-projects/CORE/RentBook/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_property_detail.xml",
+        "source": "/home/sirkadima/moringa-school-projects/CORE/RentBook/app/src/main/res/layout/fragment_property_detail.xml"
+    },
+    {
+        "merged": "/home/sirkadima/moringa-school-projects/CORE/RentBook/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_property_list.xml",
+        "source": "/home/sirkadima/moringa-school-projects/CORE/RentBook/app/src/main/res/layout/activity_property_list.xml"
+    },
+    {
+        "merged": "/home/sirkadima/moringa-school-projects/CORE/RentBook/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_add_tenant.xml",
+        "source": "/home/sirkadima/moringa-school-projects/CORE/RentBook/app/src/main/res/layout/activity_add_tenant.xml"
+    },
+    {
+        "merged": "/home/sirkadima/moringa-school-projects/CORE/RentBook/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_tenants_list.xml",
+        "source": "/home/sirkadima/moringa-school-projects/CORE/RentBook/app/src/main/res/layout/activity_tenants_list.xml"
+    },
+    {
+        "merged": "/home/sirkadima/moringa-school-projects/CORE/RentBook/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/property_list_item.xml",
+        "source": "/home/sirkadima/moringa-school-projects/CORE/RentBook/app/src/main/res/layout/property_list_item.xml"
+    },
+    {
+        "merged": "/home/sirkadima/moringa-school-projects/CORE/RentBook/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_property_and_tenants.xml",
+        "source": "/home/sirkadima/moringa-school-projects/CORE/RentBook/app/src/main/res/layout/activity_property_and_tenants.xml"
+    },
+    {
+        "merged": "/home/sirkadima/moringa-school-projects/CORE/RentBook/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_property_details.xml",
+        "source": "/home/sirkadima/moringa-school-projects/CORE/RentBook/app/src/main/res/layout/activity_property_details.xml"
+    },
+    {
+        "merged": "/home/sirkadima/moringa-school-projects/CORE/RentBook/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_login.xml",
+        "source": "/home/sirkadima/moringa-school-projects/CORE/RentBook/app/src/main/res/layout/activity_login.xml"
+    },
+    {
+        "merged": "/home/sirkadima/moringa-school-projects/CORE/RentBook/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_landlord_signup.xml",
+        "source": "/home/sirkadima/moringa-school-projects/CORE/RentBook/app/src/main/res/layout/activity_landlord_signup.xml"
+    },
+    {
+        "merged": "/home/sirkadima/moringa-school-projects/CORE/RentBook/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_main.xml",
+        "source": "/home/sirkadima/moringa-school-projects/CORE/RentBook/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/sirkadima/moringa-school-projects/CORE/RentBook/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_add_property.xml",
+        "source": "/home/sirkadima/moringa-school-projects/CORE/RentBook/app/src/main/res/layout/activity_add_property.xml"
+    },
+    {
+        "merged": "/home/sirkadima/moringa-school-projects/CORE/RentBook/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_tenant_detail.xml",
+        "source": "/home/sirkadima/moringa-school-projects/CORE/RentBook/app/src/main/res/layout/fragment_tenant_detail.xml"
+    }
+]

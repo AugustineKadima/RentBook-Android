@@ -4,6 +4,7 @@ ADDED from /home/sirkadima/moringa-school-projects/CORE/RentBook/app/src/main/An
 INJECTED from /home/sirkadima/moringa-school-projects/CORE/RentBook/app/src/main/AndroidManifest.xml:2:1-52:12
 INJECTED from /home/sirkadima/moringa-school-projects/CORE/RentBook/app/src/main/AndroidManifest.xml:2:1-52:12
 INJECTED from /home/sirkadima/moringa-school-projects/CORE/RentBook/app/src/main/AndroidManifest.xml:2:1-52:12
+MERGED from [androidx.databinding:viewbinding:7.0.0] /home/sirkadima/.gradle/caches/transforms-3/890ead7a225e8e8adbabf1126908806d/transformed/jetified-viewbinding-7.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.material:material:1.4.0] /home/sirkadima/.gradle/caches/transforms-3/a4db12b072650e13bc36a4fc9443bd47/transformed/material-1.4.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] /home/sirkadima/.gradle/caches/transforms-3/fb168b44b05705a805528f1c42f7e2f6/transformed/constraintlayout-2.1.0/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat:1.3.1] /home/sirkadima/.gradle/caches/transforms-3/2fb21fbcddcb4a1a19c9cd01cfb49ddb/transformed/appcompat-1.3.1/AndroidManifest.xml:17:1-24:12
@@ -17,16 +18,16 @@ MERGED from [com.google.firebase:firebase-analytics:19.0.1] /home/sirkadima/.gra
 MERGED from [com.google.firebase:firebase-database:20.0.1] /home/sirkadima/.gradle/caches/transforms-3/7b400ea217a8bf9c711ec34916c87208/transformed/jetified-firebase-database-20.0.1/AndroidManifest.xml:15:1-38:12
 MERGED from [com.google.firebase:firebase-auth:21.0.1] /home/sirkadima/.gradle/caches/transforms-3/99e33d49eb6cb3c8d9236007e84fbe53/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:17:1-83:12
 MERGED from [com.google.firebase:firebase-firestore:23.0.3] /home/sirkadima/.gradle/caches/transforms-3/102caa0d94ccbe26b4cedde9ed1ba31c/transformed/jetified-firebase-firestore-23.0.3/AndroidManifest.xml:2:1-26:12
-MERGED from [com.google.firebase:firebase-iid:21.1.0] /home/sirkadima/.gradle/caches/transforms-3/b8f49b597d11b0939928284c62138a13/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:17:1-38:12
-MERGED from [com.google.android.gms:play-services-measurement-api:19.0.1] /home/sirkadima/.gradle/caches/transforms-3/feaade1a728008bc2075a730969adb4f/transformed/jetified-play-services-measurement-api-19.0.1/AndroidManifest.xml:17:1-36:12
-MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /home/sirkadima/.gradle/caches/transforms-3/451a339f9d7b85ee9761c9ed0292dc01/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:2:1-10:12
-MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta02] /home/sirkadima/.gradle/caches/transforms-3/b4d46fc1bd62c40061ed95432479019b/transformed/jetified-firebase-appcheck-interop-16.0.0-beta02/AndroidManifest.xml:15:1-26:12
-MERGED from [com.google.firebase:firebase-installations:17.0.0] /home/sirkadima/.gradle/caches/transforms-3/18c0e629690351d48432cfb385b45491/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:2:1-24:12
-MERGED from [com.google.firebase:firebase-common:20.0.0] /home/sirkadima/.gradle/caches/transforms-3/ed8893f1a326696110e4d10af8917bc2/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:15:1-40:12
 MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /home/sirkadima/.gradle/caches/transforms-3/4c85c356f92b73b2caf8ebde0606e00e/transformed/jetified-play-services-auth-api-phone-17.4.0/AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /home/sirkadima/.gradle/caches/transforms-3/bbd0db670b9e967ac2d81e2396acc52e/transformed/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:firebase-database-collection:18.0.0] /home/sirkadima/.gradle/caches/transforms-3/6a8526c0a916dd9f10beea66e0647d2e/transformed/jetified-firebase-database-collection-18.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta02] /home/sirkadima/.gradle/caches/transforms-3/b4d46fc1bd62c40061ed95432479019b/transformed/jetified-firebase-appcheck-interop-16.0.0-beta02/AndroidManifest.xml:15:1-26:12
 MERGED from [com.google.android.gms:play-services-base:17.1.0] /home/sirkadima/.gradle/caches/transforms-3/b5289ac9a641f59dd763ec5754e962f8/transformed/jetified-play-services-base-17.1.0/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.firebase:firebase-iid:21.1.0] /home/sirkadima/.gradle/caches/transforms-3/b8f49b597d11b0939928284c62138a13/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:17:1-38:12
+MERGED from [com.google.android.gms:play-services-measurement-api:19.0.1] /home/sirkadima/.gradle/caches/transforms-3/feaade1a728008bc2075a730969adb4f/transformed/jetified-play-services-measurement-api-19.0.1/AndroidManifest.xml:17:1-36:12
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /home/sirkadima/.gradle/caches/transforms-3/451a339f9d7b85ee9761c9ed0292dc01/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /home/sirkadima/.gradle/caches/transforms-3/18c0e629690351d48432cfb385b45491/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:2:1-24:12
+MERGED from [com.google.firebase:firebase-common:20.0.0] /home/sirkadima/.gradle/caches/transforms-3/ed8893f1a326696110e4d10af8917bc2/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:15:1-40:12
 MERGED from [com.google.android.gms:play-services-measurement:19.0.1] /home/sirkadima/.gradle/caches/transforms-3/1d4c5290a3226b8c0a572f3caab4a1f7/transformed/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:17:1-46:12
 MERGED from [com.google.android.gms:play-services-measurement-sdk:19.0.1] /home/sirkadima/.gradle/caches/transforms-3/38f10a2392c1ceafc990689ca416b838/transformed/jetified-play-services-measurement-sdk-19.0.1/AndroidManifest.xml:17:1-25:12
 MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /home/sirkadima/.gradle/caches/transforms-3/b40d675db1d8c4f3d4c27b6c92ca64e7/transformed/jetified-play-services-cloud-messaging-16.0.0/AndroidManifest.xml:2:1-13:12
@@ -42,12 +43,20 @@ MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /home/si
 MERGED from [com.google.android.gms:play-services-basement:17.1.0] /home/sirkadima/.gradle/caches/transforms-3/dd899772f6be5434b73cf178284bcfa8/transformed/jetified-play-services-basement-17.1.0/AndroidManifest.xml:17:1-28:12
 MERGED from [androidx.fragment:fragment:1.3.6] /home/sirkadima/.gradle/caches/transforms-3/65d1d73e580ba527f5c80b9f2f30e9eb/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.activity:activity:1.2.4] /home/sirkadima/.gradle/caches/transforms-3/f0727e18754303d1e3315ddda5dbdbda/transformed/jetified-activity-1.2.4/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.appcompat:appcompat-resources:1.3.1] /home/sirkadima/.gradle/caches/transforms-3/fb82cd814d6b88b1ca417815991711ed/transformed/jetified-appcompat-resources-1.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /home/sirkadima/.gradle/caches/transforms-3/a99a6a3ef3fca7f75c17b47439ee7e66/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/sirkadima/.gradle/caches/transforms-3/366d65d445297f8fde8f73cd755ab914/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.browser:browser:1.0.0] /home/sirkadima/.gradle/caches/transforms-3/b27bb07903eaf3cd5f3a3227bb279aad/transformed/browser-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/sirkadima/.gradle/caches/transforms-3/3204680fb4b944995355cb67e2d4416a/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/sirkadima/.gradle/caches/transforms-3/dbc66d810aadfcbae204aa9f2c96beac/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/sirkadima/.gradle/caches/transforms-3/2f7c01c10d3d7134859f80fe1123d2f3/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /home/sirkadima/.gradle/caches/transforms-3/83ef5a2163392347fc8488b35f811353/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-reactivestreams:2.3.0] /home/sirkadima/.gradle/caches/transforms-3/f05888cda986acc1fd5d0332f6d90a16/transformed/lifecycle-reactivestreams-2.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.3.0] /home/sirkadima/.gradle/caches/transforms-3/d38b9d6d54ab7fbeaedec56edf285677/transformed/lifecycle-livedata-2.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.3.0] /home/sirkadima/.gradle/caches/transforms-3/cea72a4882b10c53f853dfd9afdad01c/transformed/jetified-lifecycle-service-2.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.3.0] /home/sirkadima/.gradle/caches/transforms-3/6b1da219984fe445c1cb371fb8a0d84e/transformed/jetified-lifecycle-process-2.3.0/AndroidManifest.xml:17:1-32:12
+MERGED from [androidx.appcompat:appcompat-resources:1.3.1] /home/sirkadima/.gradle/caches/transforms-3/fb82cd814d6b88b1ca417815991711ed/transformed/jetified-appcompat-resources-1.3.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/sirkadima/.gradle/caches/transforms-3/6677abf4b9f59fe19070d1e82b772f47/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/sirkadima/.gradle/caches/transforms-3/429829a900074ab331793515e7b0d630/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/sirkadima/.gradle/caches/transforms-3/366d65d445297f8fde8f73cd755ab914/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.transition:transition:1.2.0] /home/sirkadima/.gradle/caches/transforms-3/06e956728079b62473f9071c0ed43744/transformed/transition-1.2.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/sirkadima/.gradle/caches/transforms-3/fdd32f901d4bb1d5d33bddeb84a905c7/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/sirkadima/.gradle/caches/transforms-3/29de5575f9927728f2259ca80dea1987/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
@@ -55,25 +64,20 @@ MERGED from [androidx.viewpager:viewpager:1.0.0] /home/sirkadima/.gradle/caches/
 MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/sirkadima/.gradle/caches/transforms-3/dbe6632ea1830f7b528d4645a38df2bc/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.customview:customview:1.0.0] /home/sirkadima/.gradle/caches/transforms-3/bd33b12c49278f934d4edec5459af236/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.media:media:1.0.0] /home/sirkadima/.gradle/caches/transforms-3/cabc7bf9fcd04c9bc88fe0c2ed8f8af4/transformed/media-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/sirkadima/.gradle/caches/transforms-3/dbc66d810aadfcbae204aa9f2c96beac/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.jakewharton:butterknife-runtime:10.2.0] /home/sirkadima/.gradle/caches/transforms-3/3548c2f3f695a06f0595fca0fa8a99bb/transformed/jetified-butterknife-runtime-10.2.0/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.loader:loader:1.0.0] /home/sirkadima/.gradle/caches/transforms-3/2f7c01c10d3d7134859f80fe1123d2f3/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/sirkadima/.gradle/caches/transforms-3/179bb343f7a6cb4f265a076d12a07093/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/sirkadima/.gradle/caches/transforms-3/0d6128869f3f5054df81b46d7aeb5c68/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.core:core:1.5.0] /home/sirkadima/.gradle/caches/transforms-3/a6ed9dfb3abf7d8541f7a1d01bf1d39b/transformed/core-1.5.0/AndroidManifest.xml:17:1-26:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/sirkadima/.gradle/caches/transforms-3/048a965a9baba68ce9534c35414bd90c/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /home/sirkadima/.gradle/caches/transforms-3/a99a6a3ef3fca7f75c17b47439ee7e66/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.savedstate:savedstate:1.1.0] /home/sirkadima/.gradle/caches/transforms-3/90d7d96226831d3e0023a5953d8ff3fd/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /home/sirkadima/.gradle/caches/transforms-3/dc586ffb92118e9bf45ac9249032d001/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /home/sirkadima/.gradle/caches/transforms-3/83ef5a2163392347fc8488b35f811353/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/sirkadima/.gradle/caches/transforms-3/048a965a9baba68ce9534c35414bd90c/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] /home/sirkadima/.gradle/caches/transforms-3/90d7d96226831d3e0023a5953d8ff3fd/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.cardview:cardview:1.0.0] /home/sirkadima/.gradle/caches/transforms-3/73024ad51a4df5238a90a9d634a365dd/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-components:17.0.0] /home/sirkadima/.gradle/caches/transforms-3/5ef5de6b86aba927bed289e100b66e4d/transformed/jetified-firebase-components-17.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /home/sirkadima/.gradle/caches/transforms-3/d2e0dab81ac4ce61a6a5b8e8d3d5f158/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/sirkadima/.gradle/caches/transforms-3/4fc344dd16f2c32b18557242fa2f903e/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/sirkadima/.gradle/caches/transforms-3/11a446e7d11d9332c5acc6192805398e/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/sirkadima/.gradle/caches/transforms-3/c11d12a2baf277b837d8806c6f87fc44/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.tracing:tracing:1.0.0] /home/sirkadima/.gradle/caches/transforms-3/e8ef85e514fc42cbbad75b9b3a8e6cfc/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/sirkadima/.gradle/caches/transforms-3/353f40e5d33d4a82de3f263c7f387564/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /home/sirkadima/.gradle/caches/transforms-3/d2e0dab81ac4ce61a6a5b8e8d3d5f158/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/sirkadima/.gradle/caches/transforms-3/4fc344dd16f2c32b18557242fa2f903e/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.documentfile:documentfile:1.0.0] /home/sirkadima/.gradle/caches/transforms-3/607ff11b516ddc96487249f810d47dc2/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] /home/sirkadima/.gradle/caches/transforms-3/e0704842989cea6c82cf2a91963d9437/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] /home/sirkadima/.gradle/caches/transforms-3/d29c7a8a10622f03cba94cde485782f1/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
@@ -141,22 +145,22 @@ MERGED from [com.google.firebase:firebase-auth:21.0.1] /home/sirkadima/.gradle/c
 MERGED from [com.google.firebase:firebase-auth:21.0.1] /home/sirkadima/.gradle/caches/transforms-3/99e33d49eb6cb3c8d9236007e84fbe53/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:26:5-81:19
 MERGED from [com.google.firebase:firebase-firestore:23.0.3] /home/sirkadima/.gradle/caches/transforms-3/102caa0d94ccbe26b4cedde9ed1ba31c/transformed/jetified-firebase-firestore-23.0.3/AndroidManifest.xml:16:5-24:19
 MERGED from [com.google.firebase:firebase-firestore:23.0.3] /home/sirkadima/.gradle/caches/transforms-3/102caa0d94ccbe26b4cedde9ed1ba31c/transformed/jetified-firebase-firestore-23.0.3/AndroidManifest.xml:16:5-24:19
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /home/sirkadima/.gradle/caches/transforms-3/bbd0db670b9e967ac2d81e2396acc52e/transformed/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /home/sirkadima/.gradle/caches/transforms-3/bbd0db670b9e967ac2d81e2396acc52e/transformed/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta02] /home/sirkadima/.gradle/caches/transforms-3/b4d46fc1bd62c40061ed95432479019b/transformed/jetified-firebase-appcheck-interop-16.0.0-beta02/AndroidManifest.xml:24:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta02] /home/sirkadima/.gradle/caches/transforms-3/b4d46fc1bd62c40061ed95432479019b/transformed/jetified-firebase-appcheck-interop-16.0.0-beta02/AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /home/sirkadima/.gradle/caches/transforms-3/b5289ac9a641f59dd763ec5754e962f8/transformed/jetified-play-services-base-17.1.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /home/sirkadima/.gradle/caches/transforms-3/b5289ac9a641f59dd763ec5754e962f8/transformed/jetified-play-services-base-17.1.0/AndroidManifest.xml:22:5-27:19
 MERGED from [com.google.firebase:firebase-iid:21.1.0] /home/sirkadima/.gradle/caches/transforms-3/b8f49b597d11b0939928284c62138a13/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:28:5-36:19
 MERGED from [com.google.firebase:firebase-iid:21.1.0] /home/sirkadima/.gradle/caches/transforms-3/b8f49b597d11b0939928284c62138a13/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:28:5-36:19
 MERGED from [com.google.android.gms:play-services-measurement-api:19.0.1] /home/sirkadima/.gradle/caches/transforms-3/feaade1a728008bc2075a730969adb4f/transformed/jetified-play-services-measurement-api-19.0.1/AndroidManifest.xml:26:5-34:19
 MERGED from [com.google.android.gms:play-services-measurement-api:19.0.1] /home/sirkadima/.gradle/caches/transforms-3/feaade1a728008bc2075a730969adb4f/transformed/jetified-play-services-measurement-api-19.0.1/AndroidManifest.xml:26:5-34:19
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /home/sirkadima/.gradle/caches/transforms-3/451a339f9d7b85ee9761c9ed0292dc01/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /home/sirkadima/.gradle/caches/transforms-3/451a339f9d7b85ee9761c9ed0292dc01/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:7:5-8:19
-MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta02] /home/sirkadima/.gradle/caches/transforms-3/b4d46fc1bd62c40061ed95432479019b/transformed/jetified-firebase-appcheck-interop-16.0.0-beta02/AndroidManifest.xml:24:5-20
-MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta02] /home/sirkadima/.gradle/caches/transforms-3/b4d46fc1bd62c40061ed95432479019b/transformed/jetified-firebase-appcheck-interop-16.0.0-beta02/AndroidManifest.xml:24:5-20
 MERGED from [com.google.firebase:firebase-installations:17.0.0] /home/sirkadima/.gradle/caches/transforms-3/18c0e629690351d48432cfb385b45491/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:14:5-22:19
 MERGED from [com.google.firebase:firebase-installations:17.0.0] /home/sirkadima/.gradle/caches/transforms-3/18c0e629690351d48432cfb385b45491/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:14:5-22:19
 MERGED from [com.google.firebase:firebase-common:20.0.0] /home/sirkadima/.gradle/caches/transforms-3/ed8893f1a326696110e4d10af8917bc2/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:25:5-38:19
 MERGED from [com.google.firebase:firebase-common:20.0.0] /home/sirkadima/.gradle/caches/transforms-3/ed8893f1a326696110e4d10af8917bc2/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:25:5-38:19
-MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /home/sirkadima/.gradle/caches/transforms-3/bbd0db670b9e967ac2d81e2396acc52e/transformed/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /home/sirkadima/.gradle/caches/transforms-3/bbd0db670b9e967ac2d81e2396acc52e/transformed/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-base:17.1.0] /home/sirkadima/.gradle/caches/transforms-3/b5289ac9a641f59dd763ec5754e962f8/transformed/jetified-play-services-base-17.1.0/AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-base:17.1.0] /home/sirkadima/.gradle/caches/transforms-3/b5289ac9a641f59dd763ec5754e962f8/transformed/jetified-play-services-base-17.1.0/AndroidManifest.xml:22:5-27:19
 MERGED from [com.google.android.gms:play-services-measurement:19.0.1] /home/sirkadima/.gradle/caches/transforms-3/1d4c5290a3226b8c0a572f3caab4a1f7/transformed/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:28:5-44:19
 MERGED from [com.google.android.gms:play-services-measurement:19.0.1] /home/sirkadima/.gradle/caches/transforms-3/1d4c5290a3226b8c0a572f3caab4a1f7/transformed/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:28:5-44:19
 MERGED from [com.google.android.gms:play-services-measurement-sdk:19.0.1] /home/sirkadima/.gradle/caches/transforms-3/38f10a2392c1ceafc990689ca416b838/transformed/jetified-play-services-measurement-sdk-19.0.1/AndroidManifest.xml:22:5-23:19
@@ -177,6 +181,8 @@ MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /home/si
 MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /home/sirkadima/.gradle/caches/transforms-3/cc80685d731bda696262ba37c4571488/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
 MERGED from [com.google.android.gms:play-services-basement:17.1.0] /home/sirkadima/.gradle/caches/transforms-3/dd899772f6be5434b73cf178284bcfa8/transformed/jetified-play-services-basement-17.1.0/AndroidManifest.xml:22:5-26:19
 MERGED from [com.google.android.gms:play-services-basement:17.1.0] /home/sirkadima/.gradle/caches/transforms-3/dd899772f6be5434b73cf178284bcfa8/transformed/jetified-play-services-basement-17.1.0/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.3.0] /home/sirkadima/.gradle/caches/transforms-3/6b1da219984fe445c1cb371fb8a0d84e/transformed/jetified-lifecycle-process-2.3.0/AndroidManifest.xml:24:5-30:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.3.0] /home/sirkadima/.gradle/caches/transforms-3/6b1da219984fe445c1cb371fb8a0d84e/transformed/jetified-lifecycle-process-2.3.0/AndroidManifest.xml:24:5-30:19
 MERGED from [androidx.core:core:1.5.0] /home/sirkadima/.gradle/caches/transforms-3/a6ed9dfb3abf7d8541f7a1d01bf1d39b/transformed/core-1.5.0/AndroidManifest.xml:24:5-89
 MERGED from [androidx.core:core:1.5.0] /home/sirkadima/.gradle/caches/transforms-3/a6ed9dfb3abf7d8541f7a1d01bf1d39b/transformed/core-1.5.0/AndroidManifest.xml:24:5-89
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/sirkadima/.gradle/caches/transforms-3/c11d12a2baf277b837d8806c6f87fc44/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
@@ -269,6 +275,8 @@ uses-sdk
 INJECTED from /home/sirkadima/moringa-school-projects/CORE/RentBook/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/sirkadima/moringa-school-projects/CORE/RentBook/app/src/main/AndroidManifest.xml
 INJECTED from /home/sirkadima/moringa-school-projects/CORE/RentBook/app/src/main/AndroidManifest.xml
+MERGED from [androidx.databinding:viewbinding:7.0.0] /home/sirkadima/.gradle/caches/transforms-3/890ead7a225e8e8adbabf1126908806d/transformed/jetified-viewbinding-7.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.databinding:viewbinding:7.0.0] /home/sirkadima/.gradle/caches/transforms-3/890ead7a225e8e8adbabf1126908806d/transformed/jetified-viewbinding-7.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.material:material:1.4.0] /home/sirkadima/.gradle/caches/transforms-3/a4db12b072650e13bc36a4fc9443bd47/transformed/material-1.4.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.material:material:1.4.0] /home/sirkadima/.gradle/caches/transforms-3/a4db12b072650e13bc36a4fc9443bd47/transformed/material-1.4.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] /home/sirkadima/.gradle/caches/transforms-3/fb168b44b05705a805528f1c42f7e2f6/transformed/constraintlayout-2.1.0/AndroidManifest.xml:5:5-7:41
@@ -295,26 +303,26 @@ MERGED from [com.google.firebase:firebase-auth:21.0.1] /home/sirkadima/.gradle/c
 MERGED from [com.google.firebase:firebase-auth:21.0.1] /home/sirkadima/.gradle/caches/transforms-3/99e33d49eb6cb3c8d9236007e84fbe53/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:21:5-44
 MERGED from [com.google.firebase:firebase-firestore:23.0.3] /home/sirkadima/.gradle/caches/transforms-3/102caa0d94ccbe26b4cedde9ed1ba31c/transformed/jetified-firebase-firestore-23.0.3/AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.firebase:firebase-firestore:23.0.3] /home/sirkadima/.gradle/caches/transforms-3/102caa0d94ccbe26b4cedde9ed1ba31c/transformed/jetified-firebase-firestore-23.0.3/AndroidManifest.xml:7:5-9:41
-MERGED from [com.google.firebase:firebase-iid:21.1.0] /home/sirkadima/.gradle/caches/transforms-3/b8f49b597d11b0939928284c62138a13/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-iid:21.1.0] /home/sirkadima/.gradle/caches/transforms-3/b8f49b597d11b0939928284c62138a13/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-measurement-api:19.0.1] /home/sirkadima/.gradle/caches/transforms-3/feaade1a728008bc2075a730969adb4f/transformed/jetified-play-services-measurement-api-19.0.1/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-measurement-api:19.0.1] /home/sirkadima/.gradle/caches/transforms-3/feaade1a728008bc2075a730969adb4f/transformed/jetified-play-services-measurement-api-19.0.1/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /home/sirkadima/.gradle/caches/transforms-3/451a339f9d7b85ee9761c9ed0292dc01/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /home/sirkadima/.gradle/caches/transforms-3/451a339f9d7b85ee9761c9ed0292dc01/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta02] /home/sirkadima/.gradle/caches/transforms-3/b4d46fc1bd62c40061ed95432479019b/transformed/jetified-firebase-appcheck-interop-16.0.0-beta02/AndroidManifest.xml:19:5-21:41
-MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta02] /home/sirkadima/.gradle/caches/transforms-3/b4d46fc1bd62c40061ed95432479019b/transformed/jetified-firebase-appcheck-interop-16.0.0-beta02/AndroidManifest.xml:19:5-21:41
-MERGED from [com.google.firebase:firebase-installations:17.0.0] /home/sirkadima/.gradle/caches/transforms-3/18c0e629690351d48432cfb385b45491/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:6:5-8:41
-MERGED from [com.google.firebase:firebase-installations:17.0.0] /home/sirkadima/.gradle/caches/transforms-3/18c0e629690351d48432cfb385b45491/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:6:5-8:41
-MERGED from [com.google.firebase:firebase-common:20.0.0] /home/sirkadima/.gradle/caches/transforms-3/ed8893f1a326696110e4d10af8917bc2/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.firebase:firebase-common:20.0.0] /home/sirkadima/.gradle/caches/transforms-3/ed8893f1a326696110e4d10af8917bc2/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /home/sirkadima/.gradle/caches/transforms-3/4c85c356f92b73b2caf8ebde0606e00e/transformed/jetified-play-services-auth-api-phone-17.4.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /home/sirkadima/.gradle/caches/transforms-3/4c85c356f92b73b2caf8ebde0606e00e/transformed/jetified-play-services-auth-api-phone-17.4.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /home/sirkadima/.gradle/caches/transforms-3/bbd0db670b9e967ac2d81e2396acc52e/transformed/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /home/sirkadima/.gradle/caches/transforms-3/bbd0db670b9e967ac2d81e2396acc52e/transformed/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-database-collection:18.0.0] /home/sirkadima/.gradle/caches/transforms-3/6a8526c0a916dd9f10beea66e0647d2e/transformed/jetified-firebase-database-collection-18.0.0/AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.firebase:firebase-database-collection:18.0.0] /home/sirkadima/.gradle/caches/transforms-3/6a8526c0a916dd9f10beea66e0647d2e/transformed/jetified-firebase-database-collection-18.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta02] /home/sirkadima/.gradle/caches/transforms-3/b4d46fc1bd62c40061ed95432479019b/transformed/jetified-firebase-appcheck-interop-16.0.0-beta02/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta02] /home/sirkadima/.gradle/caches/transforms-3/b4d46fc1bd62c40061ed95432479019b/transformed/jetified-firebase-appcheck-interop-16.0.0-beta02/AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.android.gms:play-services-base:17.1.0] /home/sirkadima/.gradle/caches/transforms-3/b5289ac9a641f59dd763ec5754e962f8/transformed/jetified-play-services-base-17.1.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-base:17.1.0] /home/sirkadima/.gradle/caches/transforms-3/b5289ac9a641f59dd763ec5754e962f8/transformed/jetified-play-services-base-17.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:21.1.0] /home/sirkadima/.gradle/caches/transforms-3/b8f49b597d11b0939928284c62138a13/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:21.1.0] /home/sirkadima/.gradle/caches/transforms-3/b8f49b597d11b0939928284c62138a13/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:19.0.1] /home/sirkadima/.gradle/caches/transforms-3/feaade1a728008bc2075a730969adb4f/transformed/jetified-play-services-measurement-api-19.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:19.0.1] /home/sirkadima/.gradle/caches/transforms-3/feaade1a728008bc2075a730969adb4f/transformed/jetified-play-services-measurement-api-19.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /home/sirkadima/.gradle/caches/transforms-3/451a339f9d7b85ee9761c9ed0292dc01/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /home/sirkadima/.gradle/caches/transforms-3/451a339f9d7b85ee9761c9ed0292dc01/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /home/sirkadima/.gradle/caches/transforms-3/18c0e629690351d48432cfb385b45491/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /home/sirkadima/.gradle/caches/transforms-3/18c0e629690351d48432cfb385b45491/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common:20.0.0] /home/sirkadima/.gradle/caches/transforms-3/ed8893f1a326696110e4d10af8917bc2/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-common:20.0.0] /home/sirkadima/.gradle/caches/transforms-3/ed8893f1a326696110e4d10af8917bc2/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.gms:play-services-measurement:19.0.1] /home/sirkadima/.gradle/caches/transforms-3/1d4c5290a3226b8c0a572f3caab4a1f7/transformed/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-measurement:19.0.1] /home/sirkadima/.gradle/caches/transforms-3/1d4c5290a3226b8c0a572f3caab4a1f7/transformed/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-measurement-sdk:19.0.1] /home/sirkadima/.gradle/caches/transforms-3/38f10a2392c1ceafc990689ca416b838/transformed/jetified-play-services-measurement-sdk-19.0.1/AndroidManifest.xml:20:5-44
@@ -345,18 +353,34 @@ MERGED from [androidx.fragment:fragment:1.3.6] /home/sirkadima/.gradle/caches/tr
 MERGED from [androidx.fragment:fragment:1.3.6] /home/sirkadima/.gradle/caches/transforms-3/65d1d73e580ba527f5c80b9f2f30e9eb/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.activity:activity:1.2.4] /home/sirkadima/.gradle/caches/transforms-3/f0727e18754303d1e3315ddda5dbdbda/transformed/jetified-activity-1.2.4/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.activity:activity:1.2.4] /home/sirkadima/.gradle/caches/transforms-3/f0727e18754303d1e3315ddda5dbdbda/transformed/jetified-activity-1.2.4/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.3.1] /home/sirkadima/.gradle/caches/transforms-3/fb82cd814d6b88b1ca417815991711ed/transformed/jetified-appcompat-resources-1.3.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.3.1] /home/sirkadima/.gradle/caches/transforms-3/fb82cd814d6b88b1ca417815991711ed/transformed/jetified-appcompat-resources-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /home/sirkadima/.gradle/caches/transforms-3/a99a6a3ef3fca7f75c17b47439ee7e66/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /home/sirkadima/.gradle/caches/transforms-3/a99a6a3ef3fca7f75c17b47439ee7e66/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/sirkadima/.gradle/caches/transforms-3/366d65d445297f8fde8f73cd755ab914/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/sirkadima/.gradle/caches/transforms-3/366d65d445297f8fde8f73cd755ab914/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.browser:browser:1.0.0] /home/sirkadima/.gradle/caches/transforms-3/b27bb07903eaf3cd5f3a3227bb279aad/transformed/browser-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.browser:browser:1.0.0] /home/sirkadima/.gradle/caches/transforms-3/b27bb07903eaf3cd5f3a3227bb279aad/transformed/browser-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/sirkadima/.gradle/caches/transforms-3/3204680fb4b944995355cb67e2d4416a/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/sirkadima/.gradle/caches/transforms-3/3204680fb4b944995355cb67e2d4416a/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/sirkadima/.gradle/caches/transforms-3/dbc66d810aadfcbae204aa9f2c96beac/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/sirkadima/.gradle/caches/transforms-3/dbc66d810aadfcbae204aa9f2c96beac/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/sirkadima/.gradle/caches/transforms-3/2f7c01c10d3d7134859f80fe1123d2f3/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/sirkadima/.gradle/caches/transforms-3/2f7c01c10d3d7134859f80fe1123d2f3/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /home/sirkadima/.gradle/caches/transforms-3/83ef5a2163392347fc8488b35f811353/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /home/sirkadima/.gradle/caches/transforms-3/83ef5a2163392347fc8488b35f811353/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-reactivestreams:2.3.0] /home/sirkadima/.gradle/caches/transforms-3/f05888cda986acc1fd5d0332f6d90a16/transformed/lifecycle-reactivestreams-2.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-reactivestreams:2.3.0] /home/sirkadima/.gradle/caches/transforms-3/f05888cda986acc1fd5d0332f6d90a16/transformed/lifecycle-reactivestreams-2.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.3.0] /home/sirkadima/.gradle/caches/transforms-3/d38b9d6d54ab7fbeaedec56edf285677/transformed/lifecycle-livedata-2.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.3.0] /home/sirkadima/.gradle/caches/transforms-3/d38b9d6d54ab7fbeaedec56edf285677/transformed/lifecycle-livedata-2.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.3.0] /home/sirkadima/.gradle/caches/transforms-3/cea72a4882b10c53f853dfd9afdad01c/transformed/jetified-lifecycle-service-2.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.3.0] /home/sirkadima/.gradle/caches/transforms-3/cea72a4882b10c53f853dfd9afdad01c/transformed/jetified-lifecycle-service-2.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.3.0] /home/sirkadima/.gradle/caches/transforms-3/6b1da219984fe445c1cb371fb8a0d84e/transformed/jetified-lifecycle-process-2.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.3.0] /home/sirkadima/.gradle/caches/transforms-3/6b1da219984fe445c1cb371fb8a0d84e/transformed/jetified-lifecycle-process-2.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.1] /home/sirkadima/.gradle/caches/transforms-3/fb82cd814d6b88b1ca417815991711ed/transformed/jetified-appcompat-resources-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.1] /home/sirkadima/.gradle/caches/transforms-3/fb82cd814d6b88b1ca417815991711ed/transformed/jetified-appcompat-resources-1.3.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/sirkadima/.gradle/caches/transforms-3/6677abf4b9f59fe19070d1e82b772f47/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/sirkadima/.gradle/caches/transforms-3/6677abf4b9f59fe19070d1e82b772f47/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/sirkadima/.gradle/caches/transforms-3/429829a900074ab331793515e7b0d630/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/sirkadima/.gradle/caches/transforms-3/429829a900074ab331793515e7b0d630/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/sirkadima/.gradle/caches/transforms-3/366d65d445297f8fde8f73cd755ab914/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/sirkadima/.gradle/caches/transforms-3/366d65d445297f8fde8f73cd755ab914/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.transition:transition:1.2.0] /home/sirkadima/.gradle/caches/transforms-3/06e956728079b62473f9071c0ed43744/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.transition:transition:1.2.0] /home/sirkadima/.gradle/caches/transforms-3/06e956728079b62473f9071c0ed43744/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/sirkadima/.gradle/caches/transforms-3/fdd32f901d4bb1d5d33bddeb84a905c7/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
@@ -371,44 +395,34 @@ MERGED from [androidx.customview:customview:1.0.0] /home/sirkadima/.gradle/cache
 MERGED from [androidx.customview:customview:1.0.0] /home/sirkadima/.gradle/caches/transforms-3/bd33b12c49278f934d4edec5459af236/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.media:media:1.0.0] /home/sirkadima/.gradle/caches/transforms-3/cabc7bf9fcd04c9bc88fe0c2ed8f8af4/transformed/media-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.media:media:1.0.0] /home/sirkadima/.gradle/caches/transforms-3/cabc7bf9fcd04c9bc88fe0c2ed8f8af4/transformed/media-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/sirkadima/.gradle/caches/transforms-3/dbc66d810aadfcbae204aa9f2c96beac/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/sirkadima/.gradle/caches/transforms-3/dbc66d810aadfcbae204aa9f2c96beac/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.jakewharton:butterknife-runtime:10.2.0] /home/sirkadima/.gradle/caches/transforms-3/3548c2f3f695a06f0595fca0fa8a99bb/transformed/jetified-butterknife-runtime-10.2.0/AndroidManifest.xml:5:5-44
 MERGED from [com.jakewharton:butterknife-runtime:10.2.0] /home/sirkadima/.gradle/caches/transforms-3/3548c2f3f695a06f0595fca0fa8a99bb/transformed/jetified-butterknife-runtime-10.2.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.loader:loader:1.0.0] /home/sirkadima/.gradle/caches/transforms-3/2f7c01c10d3d7134859f80fe1123d2f3/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /home/sirkadima/.gradle/caches/transforms-3/2f7c01c10d3d7134859f80fe1123d2f3/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/sirkadima/.gradle/caches/transforms-3/179bb343f7a6cb4f265a076d12a07093/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/sirkadima/.gradle/caches/transforms-3/179bb343f7a6cb4f265a076d12a07093/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/sirkadima/.gradle/caches/transforms-3/0d6128869f3f5054df81b46d7aeb5c68/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/sirkadima/.gradle/caches/transforms-3/0d6128869f3f5054df81b46d7aeb5c68/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.core:core:1.5.0] /home/sirkadima/.gradle/caches/transforms-3/a6ed9dfb3abf7d8541f7a1d01bf1d39b/transformed/core-1.5.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.core:core:1.5.0] /home/sirkadima/.gradle/caches/transforms-3/a6ed9dfb3abf7d8541f7a1d01bf1d39b/transformed/core-1.5.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/sirkadima/.gradle/caches/transforms-3/048a965a9baba68ce9534c35414bd90c/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/sirkadima/.gradle/caches/transforms-3/048a965a9baba68ce9534c35414bd90c/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /home/sirkadima/.gradle/caches/transforms-3/a99a6a3ef3fca7f75c17b47439ee7e66/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /home/sirkadima/.gradle/caches/transforms-3/a99a6a3ef3fca7f75c17b47439ee7e66/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.1.0] /home/sirkadima/.gradle/caches/transforms-3/90d7d96226831d3e0023a5953d8ff3fd/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.1.0] /home/sirkadima/.gradle/caches/transforms-3/90d7d96226831d3e0023a5953d8ff3fd/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /home/sirkadima/.gradle/caches/transforms-3/dc586ffb92118e9bf45ac9249032d001/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /home/sirkadima/.gradle/caches/transforms-3/dc586ffb92118e9bf45ac9249032d001/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /home/sirkadima/.gradle/caches/transforms-3/83ef5a2163392347fc8488b35f811353/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /home/sirkadima/.gradle/caches/transforms-3/83ef5a2163392347fc8488b35f811353/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/sirkadima/.gradle/caches/transforms-3/048a965a9baba68ce9534c35414bd90c/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/sirkadima/.gradle/caches/transforms-3/048a965a9baba68ce9534c35414bd90c/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.1.0] /home/sirkadima/.gradle/caches/transforms-3/90d7d96226831d3e0023a5953d8ff3fd/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /home/sirkadima/.gradle/caches/transforms-3/90d7d96226831d3e0023a5953d8ff3fd/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.cardview:cardview:1.0.0] /home/sirkadima/.gradle/caches/transforms-3/73024ad51a4df5238a90a9d634a365dd/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] /home/sirkadima/.gradle/caches/transforms-3/73024ad51a4df5238a90a9d634a365dd/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-components:17.0.0] /home/sirkadima/.gradle/caches/transforms-3/5ef5de6b86aba927bed289e100b66e4d/transformed/jetified-firebase-components-17.0.0/AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-components:17.0.0] /home/sirkadima/.gradle/caches/transforms-3/5ef5de6b86aba927bed289e100b66e4d/transformed/jetified-firebase-components-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /home/sirkadima/.gradle/caches/transforms-3/d2e0dab81ac4ce61a6a5b8e8d3d5f158/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /home/sirkadima/.gradle/caches/transforms-3/d2e0dab81ac4ce61a6a5b8e8d3d5f158/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/sirkadima/.gradle/caches/transforms-3/4fc344dd16f2c32b18557242fa2f903e/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/sirkadima/.gradle/caches/transforms-3/4fc344dd16f2c32b18557242fa2f903e/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/sirkadima/.gradle/caches/transforms-3/11a446e7d11d9332c5acc6192805398e/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/sirkadima/.gradle/caches/transforms-3/11a446e7d11d9332c5acc6192805398e/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/sirkadima/.gradle/caches/transforms-3/c11d12a2baf277b837d8806c6f87fc44/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/sirkadima/.gradle/caches/transforms-3/c11d12a2baf277b837d8806c6f87fc44/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.tracing:tracing:1.0.0] /home/sirkadima/.gradle/caches/transforms-3/e8ef85e514fc42cbbad75b9b3a8e6cfc/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.tracing:tracing:1.0.0] /home/sirkadima/.gradle/caches/transforms-3/e8ef85e514fc42cbbad75b9b3a8e6cfc/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/sirkadima/.gradle/caches/transforms-3/353f40e5d33d4a82de3f263c7f387564/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/sirkadima/.gradle/caches/transforms-3/353f40e5d33d4a82de3f263c7f387564/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /home/sirkadima/.gradle/caches/transforms-3/d2e0dab81ac4ce61a6a5b8e8d3d5f158/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /home/sirkadima/.gradle/caches/transforms-3/d2e0dab81ac4ce61a6a5b8e8d3d5f158/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/sirkadima/.gradle/caches/transforms-3/4fc344dd16f2c32b18557242fa2f903e/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/sirkadima/.gradle/caches/transforms-3/4fc344dd16f2c32b18557242fa2f903e/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.documentfile:documentfile:1.0.0] /home/sirkadima/.gradle/caches/transforms-3/607ff11b516ddc96487249f810d47dc2/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.documentfile:documentfile:1.0.0] /home/sirkadima/.gradle/caches/transforms-3/607ff11b516ddc96487249f810d47dc2/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] /home/sirkadima/.gradle/caches/transforms-3/e0704842989cea6c82cf2a91963d9437/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
@@ -577,6 +591,14 @@ ADDED from [com.google.firebase:firebase-firestore:23.0.3] /home/sirkadima/.grad
 		ADDED from [com.google.firebase:firebase-firestore:23.0.3] /home/sirkadima/.gradle/caches/transforms-3/102caa0d94ccbe26b4cedde9ed1ba31c/transformed/jetified-firebase-firestore-23.0.3/AndroidManifest.xml:22:17-82
 	android:name
 		ADDED from [com.google.firebase:firebase-firestore:23.0.3] /home/sirkadima/.gradle/caches/transforms-3/102caa0d94ccbe26b4cedde9ed1ba31c/transformed/jetified-firebase-firestore-23.0.3/AndroidManifest.xml:21:17-111
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.1.0] /home/sirkadima/.gradle/caches/transforms-3/b5289ac9a641f59dd763ec5754e962f8/transformed/jetified-play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] /home/sirkadima/.gradle/caches/transforms-3/b5289ac9a641f59dd763ec5754e962f8/transformed/jetified-play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] /home/sirkadima/.gradle/caches/transforms-3/b5289ac9a641f59dd763ec5754e962f8/transformed/jetified-play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] /home/sirkadima/.gradle/caches/transforms-3/b5289ac9a641f59dd763ec5754e962f8/transformed/jetified-play-services-base-17.1.0/AndroidManifest.xml:24:13-79
 uses-permission#android.permission.WAKE_LOCK
 ADDED from [com.google.firebase:firebase-iid:21.1.0] /home/sirkadima/.gradle/caches/transforms-3/b8f49b597d11b0939928284c62138a13/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:24:5-68
 MERGED from [com.google.android.gms:play-services-measurement-api:19.0.1] /home/sirkadima/.gradle/caches/transforms-3/feaade1a728008bc2075a730969adb4f/transformed/jetified-play-services-measurement-api-19.0.1/AndroidManifest.xml:24:5-68
@@ -627,14 +649,6 @@ ADDED from [com.google.firebase:firebase-common:20.0.0] /home/sirkadima/.gradle/
 		ADDED from [com.google.firebase:firebase-common:20.0.0] /home/sirkadima/.gradle/caches/transforms-3/ed8893f1a326696110e4d10af8917bc2/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:31:13-36
 	android:name
 		ADDED from [com.google.firebase:firebase-common:20.0.0] /home/sirkadima/.gradle/caches/transforms-3/ed8893f1a326696110e4d10af8917bc2/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:27:13-77
-activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:17.1.0] /home/sirkadima/.gradle/caches/transforms-3/b5289ac9a641f59dd763ec5754e962f8/transformed/jetified-play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
-	android:exported
-		ADDED from [com.google.android.gms:play-services-base:17.1.0] /home/sirkadima/.gradle/caches/transforms-3/b5289ac9a641f59dd763ec5754e962f8/transformed/jetified-play-services-base-17.1.0/AndroidManifest.xml:25:13-37
-	android:theme
-		ADDED from [com.google.android.gms:play-services-base:17.1.0] /home/sirkadima/.gradle/caches/transforms-3/b5289ac9a641f59dd763ec5754e962f8/transformed/jetified-play-services-base-17.1.0/AndroidManifest.xml:26:13-72
-	android:name
-		ADDED from [com.google.android.gms:play-services-base:17.1.0] /home/sirkadima/.gradle/caches/transforms-3/b5289ac9a641f59dd763ec5754e962f8/transformed/jetified-play-services-base-17.1.0/AndroidManifest.xml:24:13-79
 uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
 ADDED from [com.google.android.gms:play-services-measurement:19.0.1] /home/sirkadima/.gradle/caches/transforms-3/1d4c5290a3226b8c0a572f3caab4a1f7/transformed/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:26:5-110
 MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.1] /home/sirkadima/.gradle/caches/transforms-3/eb40fd53891030d51c54eb9548629421/transformed/jetified-play-services-measurement-impl-19.0.1/AndroidManifest.xml:26:5-110
@@ -673,3 +687,13 @@ ADDED from [com.google.android.gms:play-services-basement:17.1.0] /home/sirkadim
 		ADDED from [com.google.android.gms:play-services-basement:17.1.0] /home/sirkadima/.gradle/caches/transforms-3/dd899772f6be5434b73cf178284bcfa8/transformed/jetified-play-services-basement-17.1.0/AndroidManifest.xml:25:13-66
 	android:name
 		ADDED from [com.google.android.gms:play-services-basement:17.1.0] /home/sirkadima/.gradle/caches/transforms-3/dd899772f6be5434b73cf178284bcfa8/transformed/jetified-play-services-basement-17.1.0/AndroidManifest.xml:24:13-58
+provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.3.0] /home/sirkadima/.gradle/caches/transforms-3/6b1da219984fe445c1cb371fb8a0d84e/transformed/jetified-lifecycle-process-2.3.0/AndroidManifest.xml:25:9-29:43
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.3.0] /home/sirkadima/.gradle/caches/transforms-3/6b1da219984fe445c1cb371fb8a0d84e/transformed/jetified-lifecycle-process-2.3.0/AndroidManifest.xml:27:13-69
+	android:multiprocess
+		ADDED from [androidx.lifecycle:lifecycle-process:2.3.0] /home/sirkadima/.gradle/caches/transforms-3/6b1da219984fe445c1cb371fb8a0d84e/transformed/jetified-lifecycle-process-2.3.0/AndroidManifest.xml:29:13-40
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.3.0] /home/sirkadima/.gradle/caches/transforms-3/6b1da219984fe445c1cb371fb8a0d84e/transformed/jetified-lifecycle-process-2.3.0/AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.3.0] /home/sirkadima/.gradle/caches/transforms-3/6b1da219984fe445c1cb371fb8a0d84e/transformed/jetified-lifecycle-process-2.3.0/AndroidManifest.xml:26:13-79
