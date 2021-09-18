@@ -78,6 +78,7 @@ com/moringaschool/rentbook/modules/Landlord.java
 com/moringaschool/rentbook/AddProperty.java
  com.moringaschool.rentbook.AddProperty
  com.moringaschool.rentbook.AddProperty$1
+ com.moringaschool.rentbook.AddProperty$1$1
 com/moringaschool/rentbook/PropertyAndTenants.java
  com.moringaschool.rentbook.PropertyAndTenants
  com.moringaschool.rentbook.PropertyAndTenants$1
