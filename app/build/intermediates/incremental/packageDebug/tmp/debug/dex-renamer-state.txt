@@ -1,10 +1,10 @@
-#Sat Sep 18 19:27:09 EAT 2021
+#Sat Sep 18 22:02:12 EAT 2021
 path.4=3/classes.dex
 path.3=2/classes.dex
 path.2=14/classes.dex
 path.1=0/classes.dex
-path.7=9/classes.dex
-path.6=classes2.dex
+path.7=classes2.dex
+path.6=9/classes.dex
 path.5=6/classes.dex
 path.0=classes.dex
 base.4=/home/sirkadima/moringa-school-projects/CORE/RentBook/app/build/intermediates/dex/debug/mergeProjectDexDebug/3/classes.dex
@@ -18,8 +18,8 @@ renamed.1=classes2.dex
 renamed.0=classes.dex
 renamed.7=classes8.dex
 renamed.6=classes7.dex
-base.7=/home/sirkadima/moringa-school-projects/CORE/RentBook/app/build/intermediates/dex/debug/mergeProjectDexDebug/9/classes.dex
+base.7=/home/sirkadima/moringa-school-projects/CORE/RentBook/app/build/intermediates/dex/debug/mergeExtDexDebug/classes2.dex
 renamed.5=classes6.dex
-base.6=/home/sirkadima/moringa-school-projects/CORE/RentBook/app/build/intermediates/dex/debug/mergeExtDexDebug/classes2.dex
+base.6=/home/sirkadima/moringa-school-projects/CORE/RentBook/app/build/intermediates/dex/debug/mergeProjectDexDebug/9/classes.dex
 renamed.4=classes5.dex
 base.5=/home/sirkadima/moringa-school-projects/CORE/RentBook/app/build/intermediates/dex/debug/mergeProjectDexDebug/6/classes.dex
