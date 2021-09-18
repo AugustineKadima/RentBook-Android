@@ -3,6 +3,7 @@ package com.moringaschool.rentbook;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Patterns;
@@ -16,6 +17,7 @@ import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.database.FirebaseDatabase;
 import com.moringaschool.rentbook.modules.Landlord;
 
 import butterknife.BindView;
@@ -56,13 +58,13 @@ public class LandlordSignup extends AppCompatActivity {
                 }else if(radio_female.isChecked()){
                     gender = "Female";
                 }
-                else if(landlordName.isEmpty() && landlordEmail.isEmpty() && landlordPhoneNumber.isEmpty() && landlordPassword.isEmpty()){
+
+                if(landlordName.isEmpty() && landlordEmail.isEmpty() && landlordPhoneNumber.isEmpty() && landlordPassword.isEmpty()){
                     Toast.makeText(LandlordSignup.this, "Name, email and phone number are required to signup", Toast.LENGTH_LONG).show();
 
                 }else if(landlordName.isEmpty()){
                     landlord_name.setError("Name is required");
                     landlord_name.requestFocus();
-                    return;
                 }else if(landlordEmail.isEmpty()){
                     landlord_email.setError("Email is required");
                     landlord_email.requestFocus();
@@ -91,12 +93,29 @@ public class LandlordSignup extends AppCompatActivity {
                                 public void onComplete(@NonNull Task<AuthResult> task) {
                                     if(task.isSuccessful()){
                                         Landlord landlord = new Landlord(landlordName, landlordEmail, landlordPassword, landlordPhoneNumber, gender);
+                                        FirebaseDatabase.getInstance().getReference("landlords")
+                                                .child(FirebaseAuth.getInstance().getCurrentUser().getUid())
+                                                .setValue(landlord).addOnCompleteListener(new OnCompleteListener<Void>() {
+                                            @Override
+                                            public void onComplete(@NonNull Task<Void> task) {
+                                                if(task.isSuccessful()){
+                                                    Toast.makeText(LandlordSignup.this, "You signed up successfully", Toast.LENGTH_SHORT).show();
+
+                                                    Intent intent = new Intent(LandlordSignup.this, Login.class);
+                                                    startActivity(intent);
+                                                    finish();
+                                                }else{
+                                                    Toast.makeText(LandlordSignup.this, "Failed! Try again.", Toast.LENGTH_LONG).show();
+                                                }
+                                            }
+                                        });
+                                    }else{
+                                        Toast.makeText(LandlordSignup.this, "Failed! Try again.", Toast.LENGTH_LONG).show();
                                     }
                                 }
                             });
 
-                    Intent intent = new Intent(LandlordSignup.this, PropertyAndTenants.class);
-                    startActivity(intent);
+
                 }
 
 

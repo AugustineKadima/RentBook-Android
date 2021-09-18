@@ -9,6 +9,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.RadioButton;
 
+
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
@@ -27,12 +28,14 @@ public class AddProperty extends AppCompatActivity {
     @BindView(R.id.caretaker_name) EditText caretaker_name;
     @BindView(R.id.caretaker_phone_number) EditText caretaker_phone_number;
 
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add_property);
-
         ButterKnife.bind(this);
+
 
         add_property_submit.setOnClickListener(new View.OnClickListener() {
             @Override

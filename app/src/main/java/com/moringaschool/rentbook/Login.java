@@ -18,6 +18,7 @@ public class Login extends AppCompatActivity {
     @BindView(R.id.login_page_login_button) Button login_page_btn;
     @BindView((R.id.login_email)) EditText login_email;
     @BindView(R.id.login_password) EditText login_password;
+    FirebaseAuth mAuth;
 
 
 
@@ -39,9 +40,11 @@ public class Login extends AppCompatActivity {
                 if (Email.isEmpty() && Password.isEmpty()) {
                     Toast.makeText(Login.this, "Email and Password required", Toast.LENGTH_LONG).show();
                 }else if(Email.isEmpty()){
-                    Toast.makeText(Login.this, "Email is required", Toast.LENGTH_LONG).show();
+                    login_email.setError("Email required");
+                    login_email.requestFocus();
                 }else if(Password.isEmpty()){
-                    Toast.makeText(Login.this, "Password is required", Toast.LENGTH_LONG).show();
+                    login_password.setError("Password required");
+                    login_password.requestFocus();
                 }
                 else{
                     Intent intent = new Intent(Login.this, PropertyAndTenants.class);
