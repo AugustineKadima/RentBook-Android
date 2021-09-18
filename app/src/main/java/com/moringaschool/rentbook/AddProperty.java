@@ -11,6 +11,11 @@ import android.widget.RadioButton;
 import android.widget.Toast;
 
 
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+
+import java.util.HashMap;
+
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
@@ -32,6 +37,9 @@ public class AddProperty extends AppCompatActivity {
     String electricity;
     String internet;
 
+    private FirebaseDatabase db = FirebaseDatabase.getInstance();
+    private DatabaseReference root = db.getReference().child("properties");
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -50,7 +58,8 @@ public class AddProperty extends AppCompatActivity {
             private void saveDataToDatabase() {
                 String propertyName = property_name.getText().toString().trim();
                 String propertyLocation = property_location.getText().toString().trim();
-                int propertyNumberOfUnits = Integer.parseInt(property_number_of_units.getText().toString().trim());
+                String propertyNumberOfUnits = property_number_of_units.getText().toString().trim();
+                int units = Integer.parseInt(propertyNumberOfUnits);
                 String caretakerName = caretaker_name.getText().toString().trim();
                 String caretakerPhoneNumber = caretaker_phone_number.getText().toString().trim();
 
@@ -72,7 +81,7 @@ public class AddProperty extends AppCompatActivity {
                     internet = "No internet";
                 }
 
-                if(propertyName.isEmpty() && propertyLocation.isEmpty() && propertyNumberOfUnits == 0 && caretakerName.isEmpty() && caretakerPhoneNumber.isEmpty() && ((!internet_yes.isChecked() && !internet_no.isChecked()) && (!water_no.isChecked() && !water_yes.isChecked()) && (!electricity_yes.isChecked() && !electricity_no.isChecked()))){
+                if(propertyName.isEmpty() && propertyLocation.isEmpty() && propertyNumberOfUnits.isEmpty() && caretakerName.isEmpty() && caretakerPhoneNumber.isEmpty() && ((!internet_yes.isChecked() && !internet_no.isChecked()) && (!water_no.isChecked() && !water_yes.isChecked()) && (!electricity_yes.isChecked() && !electricity_no.isChecked()))){
                     Toast.makeText(AddProperty.this, "Fill all form input fields", Toast.LENGTH_SHORT).show();
                 }
                 else if(propertyName.isEmpty()){
@@ -81,7 +90,7 @@ public class AddProperty extends AppCompatActivity {
                 }else if(propertyLocation.isEmpty()){
                     property_location.setError("Property location is required");
                     property_location.requestFocus();
-                }else if(propertyNumberOfUnits == 0){
+                }else if(propertyNumberOfUnits.isEmpty()){
                     property_number_of_units.setError("Units required");
                     property_number_of_units.requestFocus();
                 }else if(caretakerName.isEmpty()){
@@ -93,6 +102,16 @@ public class AddProperty extends AppCompatActivity {
                 }else if((!internet_yes.isChecked() && !internet_no.isChecked()) || (!water_no.isChecked() && !water_yes.isChecked()) || (!electricity_yes.isChecked() && !electricity_no.isChecked())){
                     Toast.makeText(AddProperty.this, "Check the appropriate box", Toast.LENGTH_SHORT).show();
                 }
+
+                HashMap<String, String> propertyMap = new HashMap<>();
+                propertyMap.put("property_name", propertyName);
+                propertyMap.put("property_location", propertyLocation);
+                propertyMap.put("number_of_units", propertyNumberOfUnits);
+                propertyMap.put("caretaker_name", caretakerName);
+                propertyMap.put("caretaker_phone_number", caretakerPhoneNumber);
+                propertyMap.put("water",water);
+                propertyMap.put("electricity", electricity);
+                propertyMap.put("internet", internet);
 
             }
         });
