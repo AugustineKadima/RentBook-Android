@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Patterns;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -62,6 +63,14 @@ public class LandlordSignup extends AppCompatActivity {
                     return;
                 }else if (landlordPassword.isEmpty()){
                     landlord_signup_password.setError("Password is required");
+                    landlord_signup_password.requestFocus();
+                    return;
+                }else if(!Patterns.EMAIL_ADDRESS.matcher(landlordEmail).matches()){
+                    landlord_email.setError("Please provide a valid email");
+                    landlord_email.requestFocus();
+                    return;
+                }else if(landlordPassword.length() < 6){
+                    landlord_signup_password.setError("Password should contain at least 6 values");
                     landlord_signup_password.requestFocus();
                     return;
                 }
