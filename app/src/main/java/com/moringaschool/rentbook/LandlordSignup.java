@@ -1,5 +1,6 @@
 package com.moringaschool.rentbook;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -11,7 +12,11 @@ import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.Toast;
 
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
+import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
+import com.moringaschool.rentbook.modules.Landlord;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -25,7 +30,7 @@ public class LandlordSignup extends AppCompatActivity {
     @BindView(R.id.radio_male) RadioButton radio_male;
     @BindView(R.id.radio_female) RadioButton radio_female;
     @BindView(R.id.landlord_signup_password) EditText landlord_signup_password;
-
+    String gender;
     private FirebaseAuth mAuth;
 
     @Override
@@ -46,7 +51,12 @@ public class LandlordSignup extends AppCompatActivity {
                 String landlordPhoneNumber = landlord_phone_number.getText().toString().trim();
                 String landlordPassword = landlord_signup_password.getText().toString().trim();
 
-                if(landlordName.isEmpty() && landlordEmail.isEmpty() && landlordPhoneNumber.isEmpty() && landlordPassword.isEmpty()){
+                if (radio_male.isChecked()){
+                    gender = "Male";
+                }else if(radio_female.isChecked()){
+                    gender = "Female";
+                }
+                else if(landlordName.isEmpty() && landlordEmail.isEmpty() && landlordPhoneNumber.isEmpty() && landlordPassword.isEmpty()){
                     Toast.makeText(LandlordSignup.this, "Name, email and phone number are required to signup", Toast.LENGTH_LONG).show();
 
                 }else if(landlordName.isEmpty()){
@@ -74,6 +84,17 @@ public class LandlordSignup extends AppCompatActivity {
                     landlord_signup_password.requestFocus();
                     return;
                 }else{
+
+                    mAuth.createUserWithEmailAndPassword(landlordEmail, landlordPassword)
+                            .addOnCompleteListener(new OnCompleteListener<AuthResult>() {
+                                @Override
+                                public void onComplete(@NonNull Task<AuthResult> task) {
+                                    if(task.isSuccessful()){
+                                        Landlord landlord = new Landlord(landlordName, landlordEmail, landlordPassword, landlordPhoneNumber, gender);
+                                    }
+                                }
+                            });
+
                     Intent intent = new Intent(LandlordSignup.this, PropertyAndTenants.class);
                     startActivity(intent);
                 }
