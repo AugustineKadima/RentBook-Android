@@ -35,6 +35,8 @@ public class Login extends AppCompatActivity {
 
         ButterKnife.bind(this);
 
+        mAuth = FirebaseAuth.getInstance();
+
 
         login_page_btn.setOnClickListener(new View.OnClickListener() {
             @Override
