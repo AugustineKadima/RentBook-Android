@@ -6,13 +6,16 @@ com/moringaschool/rentbook/TenantDetails.java
  com.moringaschool.rentbook.TenantDetails
 com/moringaschool/rentbook/fragments/PropertyDetailFragment.java
  com.moringaschool.rentbook.fragments.PropertyDetailFragment
-com/moringaschool/rentbook/LandlordSignup.java
- com.moringaschool.rentbook.LandlordSignup
- com.moringaschool.rentbook.LandlordSignup$1
-com/moringaschool/rentbook/fragments/TenantDetailFragment.java
- com.moringaschool.rentbook.fragments.TenantDetailFragment
 com/moringaschool/rentbook/modules/Property.java
  com.moringaschool.rentbook.modules.Property
+com/moringaschool/rentbook/fragments/TenantDetailFragment.java
+ com.moringaschool.rentbook.fragments.TenantDetailFragment
+com/moringaschool/rentbook/PropertyAndTenants.java
+ com.moringaschool.rentbook.PropertyAndTenants
+ com.moringaschool.rentbook.PropertyAndTenants$1
+ com.moringaschool.rentbook.PropertyAndTenants$2
+ com.moringaschool.rentbook.PropertyAndTenants$3
+ com.moringaschool.rentbook.PropertyAndTenants$4
 com/moringaschool/rentbook/PropertyList.java
  com.moringaschool.rentbook.PropertyList
  com.moringaschool.rentbook.PropertyList$1
@@ -36,15 +39,12 @@ com/moringaschool/rentbook/api/ApiClient.java
  com.moringaschool.rentbook.api.ApiClient
 com/moringaschool/rentbook/PropertyDetails.java
  com.moringaschool.rentbook.PropertyDetails
-com/moringaschool/rentbook/PropertyAndTenants.java
- com.moringaschool.rentbook.PropertyAndTenants
- com.moringaschool.rentbook.PropertyAndTenants$1
- com.moringaschool.rentbook.PropertyAndTenants$2
- com.moringaschool.rentbook.PropertyAndTenants$3
- com.moringaschool.rentbook.PropertyAndTenants$4
 com/moringaschool/rentbook/Login.java
  com.moringaschool.rentbook.Login
  com.moringaschool.rentbook.Login$1
+com/moringaschool/rentbook/LandlordSignup.java
+ com.moringaschool.rentbook.LandlordSignup
+ com.moringaschool.rentbook.LandlordSignup$1
 com/moringaschool/rentbook/MainActivity.java
  com.moringaschool.rentbook.MainActivity
  com.moringaschool.rentbook.MainActivity$1

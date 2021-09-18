@@ -30,7 +30,7 @@ public class LandlordSignup_ViewBinding implements Unbinder {
     target.landlord_phone_number = Utils.findRequiredViewAsType(source, R.id.landlord_phone_number, "field 'landlord_phone_number'", EditText.class);
     target.radio_male = Utils.findRequiredViewAsType(source, R.id.radio_male, "field 'radio_male'", RadioButton.class);
     target.radio_female = Utils.findRequiredViewAsType(source, R.id.radio_female, "field 'radio_female'", RadioButton.class);
-    target.number_of_properties = Utils.findRequiredViewAsType(source, R.id.number_of_proprerties, "field 'number_of_properties'", EditText.class);
+    target.landlord_signup_password = Utils.findRequiredViewAsType(source, R.id.landlord_signup_password, "field 'landlord_signup_password'", EditText.class);
   }
 
   @Override
@@ -46,6 +46,6 @@ public class LandlordSignup_ViewBinding implements Unbinder {
     target.landlord_phone_number = null;
     target.radio_male = null;
     target.radio_female = null;
-    target.number_of_properties = null;
+    target.landlord_signup_password = null;
   }
 }

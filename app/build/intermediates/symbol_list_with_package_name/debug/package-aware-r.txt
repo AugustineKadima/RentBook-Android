@@ -2143,6 +2143,7 @@ id landlord_email
 id landlord_name
 id landlord_phone_number
 id landlord_signup_button
+id landlord_signup_password
 id layout
 id left
 id leftToRight
@@ -2233,7 +2234,6 @@ id north
 id notification_background
 id notification_main_column
 id notification_main_column_container
-id number_of_proprerties
 id off
 id on
 id outline

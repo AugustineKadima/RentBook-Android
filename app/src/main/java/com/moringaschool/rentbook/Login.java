@@ -9,6 +9,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.google.firebase.auth.FirebaseAuth;
+
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
@@ -16,6 +18,8 @@ public class Login extends AppCompatActivity {
     @BindView(R.id.login_page_login_button) Button login_page_btn;
     @BindView((R.id.login_email)) EditText login_email;
     @BindView(R.id.login_password) EditText login_password;
+
+
 
 
     @Override

@@ -10,6 +10,8 @@ import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.Toast;
 
+import com.google.firebase.auth.FirebaseAuth;
+
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
@@ -21,8 +23,9 @@ public class LandlordSignup extends AppCompatActivity {
     @BindView(R.id.landlord_phone_number) EditText landlord_phone_number;
     @BindView(R.id.radio_male) RadioButton radio_male;
     @BindView(R.id.radio_female) RadioButton radio_female;
-    @BindView(R.id.number_of_proprerties) EditText number_of_properties;
+    @BindView(R.id.landlord_signup_password) EditText landlord_signup_password;
 
+    private FirebaseAuth mAuth;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,18 +37,36 @@ public class LandlordSignup extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
+                mAuth = FirebaseAuth.getInstance();
+
+
                 String landlordName = landlord_name.getText().toString().trim();
                 String landlordEmail = landlord_email.getText().toString().trim();
                 String landlordPhoneNumber = landlord_phone_number.getText().toString().trim();
-                int numberOfProperties = Integer.parseInt(number_of_properties.getText().toString().trim());
+                String landlordPassword = landlord_signup_password.getText().toString().trim();
 
-                if(!(landlordName.isEmpty()) && !(landlordEmail.isEmpty()) && !(landlordPhoneNumber.isEmpty())){
-                    Intent intent = new Intent(LandlordSignup.this, PropertyAndTenants.class);
-                    startActivity(intent);
-                }else{
-                    Toast.makeText(LandlordSignup.this, "Name, email and phone number are required to signup", Toast.LENGTH_SHORT).show();
+                if(landlordName.isEmpty() && landlordEmail.isEmpty() && landlordPhoneNumber.isEmpty() && landlordPassword.isEmpty()){
+                    Toast.makeText(LandlordSignup.this, "Name, email and phone number are required to signup", Toast.LENGTH_LONG).show();
+
+                }else if(landlordName.isEmpty()){
+                    landlord_name.setError("Name is required");
+                    landlord_name.requestFocus();
+                    return;
+                }else if(landlordEmail.isEmpty()){
+                    landlord_email.setError("Email is required");
+                    landlord_email.requestFocus();
+                    return;
+                }else if(landlordPhoneNumber.isEmpty()){
+                    landlord_phone_number.setError("Phone number required");
+                    landlord_phone_number.requestFocus();
+                    return;
+                }else if (landlordPassword.isEmpty()){
+                    landlord_signup_password.setError("Password is required");
+                    landlord_signup_password.requestFocus();
+                    return;
                 }
-
+                Intent intent = new Intent(LandlordSignup.this, PropertyAndTenants.class);
+                startActivity(intent);
 
             }
         });
