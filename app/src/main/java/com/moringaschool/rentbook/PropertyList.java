@@ -43,7 +43,7 @@ public class PropertyList extends AppCompatActivity {
             @Override
             public void onResponse(Call<List<Property>> call, Response<List<Property>> response) {
                 propertyItems = response.body();
-                adapter = new PropertyAdapter(propertyItems);
+                adapter = new PropertyAdapter(PropertyList.this, propertyItems);
                 recyclerView.setAdapter(adapter);
             }
 

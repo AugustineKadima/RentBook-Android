@@ -2087,7 +2087,6 @@ id fixed
 id flip
 id floating
 id forever
-id fragment_container
 id fragment_container_view_tag
 id fragment_property_caretaker_name_label
 id fragment_property_caretaker_name_value
@@ -2418,6 +2417,7 @@ id up
 id useLogo
 id vertical_only
 id view_offset_helper
+id view_pager
 id view_transition
 id view_tree_lifecycle_owner
 id view_tree_saved_state_registry_owner
