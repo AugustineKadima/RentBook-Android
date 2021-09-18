@@ -73,9 +73,11 @@ public class LandlordSignup extends AppCompatActivity {
                     landlord_signup_password.setError("Password should contain at least 6 values");
                     landlord_signup_password.requestFocus();
                     return;
+                }else{
+                    Intent intent = new Intent(LandlordSignup.this, PropertyAndTenants.class);
+                    startActivity(intent);
                 }
-                Intent intent = new Intent(LandlordSignup.this, PropertyAndTenants.class);
-                startActivity(intent);
+
 
             }
         });
