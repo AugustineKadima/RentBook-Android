@@ -51,17 +51,14 @@ public class Property$$Parcelable
             parcel$$1 .writeInt(identity$$0);
         } else {
             parcel$$1 .writeInt(identityMap$$0 .put(property$$1));
-            parcel$$1 .writeString(InjectionUtil.getField(java.lang.String.class, com.moringaschool.rentbook.modules.Property.class, property$$1, "name"));
-            parcel$$1 .writeString(InjectionUtil.getField(java.lang.String.class, com.moringaschool.rentbook.modules.Property.class, property$$1, "location"));
-            parcel$$1 .writeInt(InjectionUtil.getField(int.class, com.moringaschool.rentbook.modules.Property.class, property$$1, "number_of_units"));
-            parcel$$1 .writeLong(InjectionUtil.getField(long.class, com.moringaschool.rentbook.modules.Property.class, property$$1, "rent_per_unit"));
-            parcel$$1 .writeInt((InjectionUtil.getField(boolean.class, com.moringaschool.rentbook.modules.Property.class, property$$1, "has_electricity")? 1 : 0));
-            parcel$$1 .writeInt((InjectionUtil.getField(boolean.class, com.moringaschool.rentbook.modules.Property.class, property$$1, "has_water")? 1 : 0));
-            parcel$$1 .writeInt((InjectionUtil.getField(boolean.class, com.moringaschool.rentbook.modules.Property.class, property$$1, "has_internet")? 1 : 0));
-            parcel$$1 .writeString(InjectionUtil.getField(java.lang.String.class, com.moringaschool.rentbook.modules.Property.class, property$$1, "caretaker_name"));
+            parcel$$1 .writeString(InjectionUtil.getField(java.lang.String.class, com.moringaschool.rentbook.modules.Property.class, property$$1, "property_location"));
             parcel$$1 .writeString(InjectionUtil.getField(java.lang.String.class, com.moringaschool.rentbook.modules.Property.class, property$$1, "caretaker_phone_number"));
-            parcel$$1 .writeInt(InjectionUtil.getField(int.class, com.moringaschool.rentbook.modules.Property.class, property$$1, "landlord_id"));
-            parcel$$1 .writeInt(InjectionUtil.getField(int.class, com.moringaschool.rentbook.modules.Property.class, property$$1, "id"));
+            parcel$$1 .writeString(InjectionUtil.getField(java.lang.String.class, com.moringaschool.rentbook.modules.Property.class, property$$1, "electricity"));
+            parcel$$1 .writeString(InjectionUtil.getField(java.lang.String.class, com.moringaschool.rentbook.modules.Property.class, property$$1, "water"));
+            parcel$$1 .writeString(InjectionUtil.getField(java.lang.String.class, com.moringaschool.rentbook.modules.Property.class, property$$1, "internet"));
+            parcel$$1 .writeString(InjectionUtil.getField(java.lang.String.class, com.moringaschool.rentbook.modules.Property.class, property$$1, "caretaker_name"));
+            parcel$$1 .writeString(InjectionUtil.getField(java.lang.String.class, com.moringaschool.rentbook.modules.Property.class, property$$1, "number_of_units"));
+            parcel$$1 .writeString(InjectionUtil.getField(java.lang.String.class, com.moringaschool.rentbook.modules.Property.class, property$$1, "property_name"));
         }
     }
 
@@ -85,19 +82,16 @@ public class Property$$Parcelable
         } else {
             com.moringaschool.rentbook.modules.Property property$$4;
             int reservation$$0 = identityMap$$1 .reserve();
-            java.lang.String string$$0 = parcel$$3 .readString();
-            java.lang.String string$$1 = parcel$$3 .readString();
-            int int$$0 = parcel$$3 .readInt();
-            long long$$0 = parcel$$3 .readLong();
-            boolean boolean$$0 = (parcel$$3 .readInt() == 1);
-            boolean boolean$$1 = (parcel$$3 .readInt() == 1);
-            boolean boolean$$2 = (parcel$$3 .readInt() == 1);
-            java.lang.String string$$2 = parcel$$3 .readString();
-            java.lang.String string$$3 = parcel$$3 .readString();
-            int int$$1 = parcel$$3 .readInt();
-            property$$4 = new com.moringaschool.rentbook.modules.Property(string$$0, string$$1, int$$0, long$$0, boolean$$0, boolean$$1, boolean$$2, string$$2, string$$3, int$$1);
+            property$$4 = new com.moringaschool.rentbook.modules.Property();
             identityMap$$1 .put(reservation$$0, property$$4);
-            InjectionUtil.setField(com.moringaschool.rentbook.modules.Property.class, property$$4, "id", parcel$$3 .readInt());
+            InjectionUtil.setField(com.moringaschool.rentbook.modules.Property.class, property$$4, "property_location", parcel$$3 .readString());
+            InjectionUtil.setField(com.moringaschool.rentbook.modules.Property.class, property$$4, "caretaker_phone_number", parcel$$3 .readString());
+            InjectionUtil.setField(com.moringaschool.rentbook.modules.Property.class, property$$4, "electricity", parcel$$3 .readString());
+            InjectionUtil.setField(com.moringaschool.rentbook.modules.Property.class, property$$4, "water", parcel$$3 .readString());
+            InjectionUtil.setField(com.moringaschool.rentbook.modules.Property.class, property$$4, "internet", parcel$$3 .readString());
+            InjectionUtil.setField(com.moringaschool.rentbook.modules.Property.class, property$$4, "caretaker_name", parcel$$3 .readString());
+            InjectionUtil.setField(com.moringaschool.rentbook.modules.Property.class, property$$4, "number_of_units", parcel$$3 .readString());
+            InjectionUtil.setField(com.moringaschool.rentbook.modules.Property.class, property$$4, "property_name", parcel$$3 .readString());
             com.moringaschool.rentbook.modules.Property property$$3 = property$$4;
             identityMap$$1 .put(identity$$1, property$$3);
             return property$$3;

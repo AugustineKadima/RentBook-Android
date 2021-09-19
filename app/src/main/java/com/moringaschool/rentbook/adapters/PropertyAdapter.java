@@ -33,14 +33,15 @@ public class PropertyAdapter extends RecyclerView.Adapter<PropertyAdapter.ViewHo
     @NonNull
     @Override
     public PropertyAdapter.ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.property_list_item, parent, false);
+        View view = LayoutInflater.from(mContext).inflate(R.layout.property_list_item, parent, false);
         return new ViewHolder(view);
     }
 
     @Override
     public void onBindViewHolder(@NonNull PropertyAdapter.ViewHolder holder, int position) {
-        holder.property_display_name.setText(propertyList.get(position).getName());
-        holder.property_display_location.setText(propertyList.get(position).getLocation());
+        Property property = propertyList.get(position);
+        holder.property_display_name.setText(property.getProperty_name());
+        holder.property_display_location.setText(property.getProperty_location());
     }
 
     @Override
@@ -56,7 +57,6 @@ public class PropertyAdapter extends RecyclerView.Adapter<PropertyAdapter.ViewHo
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
 
-            context = itemView.getContext();
 //            rootView = itemView;
 
             property_display_name = (TextView) itemView.findViewById(R.id.property_display_name);

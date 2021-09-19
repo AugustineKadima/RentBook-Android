@@ -4,7 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/layout/activity_add_property.xml" value="0.22" />
-        <entry key="app/src/main/res/layout/activity_add_tenant.xml" value="0.2087912087912088" />
+        <entry key="app/src/main/res/layout/activity_add_tenant.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_fragment.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_landlord_signup.xml" value="0.22" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.18" />
@@ -17,7 +17,7 @@
         <entry key="app/src/main/res/layout/activity_tenants_list.xml" value="0.2" />
         <entry key="app/src/main/res/layout/fragment_property_detail.xml" value="0.22" />
         <entry key="app/src/main/res/layout/fragment_tenant_detail.xml" value="0.19322916666666667" />
-        <entry key="app/src/main/res/layout/property_list_item.xml" value="0.18" />
+        <entry key="app/src/main/res/layout/property_list_item.xml" value="0.25" />
         <entry key="app/src/main/res/layout/proprerty_details.xml" value="0.19322916666666667" />
         <entry key="app/src/main/res/layout/tenant_list_item.xml" value="0.22" />
       </map>

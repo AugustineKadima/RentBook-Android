@@ -60,12 +60,11 @@ public class PropertyDetailFragment extends Fragment {
         fragment_property_caretaker_phone_number_value = (TextView) v.findViewById(R.id.fragment_property_caretaker_phone_number_value);
         fragment_property_rent_per_unit_value = (TextView) v.findViewById(R.id.fragment_property_caretaker_rent_per_unit_value);
 
-        fragment_property_name.setText(property.getName());
-        fragment_property_location.setText(property.getLocation());
+        fragment_property_name.setText(property.getProperty_name());
+        fragment_property_location.setText(property.getProperty_location());
         fragment_property_number_of_units_value.setText(property.getNumber_of_units());
         fragment_property_caretaker_name_value.setText(property.getCaretaker_name());
         fragment_property_caretaker_phone_number_value.setText(property.getCaretaker_phone_number());
-        fragment_property_rent_per_unit_value.setText(Long.toString(property.getRent_per_unit()));
 
 
 

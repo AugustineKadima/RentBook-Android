@@ -23,6 +23,7 @@ public class AddTenant_ViewBinding implements Unbinder {
   public AddTenant_ViewBinding(AddTenant target, View source) {
     this.target = target;
 
+    target.tenant_name = Utils.findRequiredViewAsType(source, R.id.tenant_name, "field 'tenant_name'", EditText.class);
     target.tenant_age = Utils.findRequiredViewAsType(source, R.id.tenant_age, "field 'tenant_age'", EditText.class);
     target.tenancy_date = Utils.findRequiredViewAsType(source, R.id.tenancy_date, "field 'tenancy_date'", EditText.class);
     target.tenant_email = Utils.findRequiredViewAsType(source, R.id.tenant_email, "field 'tenant_email'", EditText.class);
@@ -45,6 +46,7 @@ public class AddTenant_ViewBinding implements Unbinder {
     if (target == null) throw new IllegalStateException("Bindings already cleared.");
     this.target = null;
 
+    target.tenant_name = null;
     target.tenant_age = null;
     target.tenancy_date = null;
     target.tenant_email = null;
