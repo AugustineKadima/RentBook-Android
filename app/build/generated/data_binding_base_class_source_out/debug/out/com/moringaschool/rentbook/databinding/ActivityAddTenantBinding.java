@@ -37,9 +37,6 @@ public final class ActivityAddTenantBinding implements ViewBinding {
   public final TextView logoText;
 
   @NonNull
-  public final EditText propertyName;
-
-  @NonNull
   public final EditText tenancyDate;
 
   @NonNull
@@ -82,6 +79,9 @@ public final class ActivityAddTenantBinding implements ViewBinding {
   public final RadioButton tenantMale;
 
   @NonNull
+  public final EditText tenantName;
+
+  @NonNull
   public final EditText tenantOccupation;
 
   @NonNull
@@ -98,14 +98,14 @@ public final class ActivityAddTenantBinding implements ViewBinding {
 
   private ActivityAddTenantBinding(@NonNull ScrollView rootView,
       @NonNull TextView addTenantFormHeader, @NonNull Button addTenantSubmit,
-      @NonNull ImageView logoImage, @NonNull TextView logoText, @NonNull EditText propertyName,
-      @NonNull EditText tenancyDate, @NonNull EditText tenantAge,
-      @NonNull EditText tenantDepositPaid, @NonNull EditText tenantEmail,
-      @NonNull RadioGroup tenantFamilyGroup, @NonNull TextView tenantFamilyHeader,
-      @NonNull RadioButton tenantFamilyNo, @NonNull RadioButton tenantFamilyYes,
-      @NonNull RadioButton tenantFemale, @NonNull RadioGroup tenantGenderGroup,
-      @NonNull TextView tenantGenderHeader, @NonNull EditText tenantHouseNumber,
-      @NonNull EditText tenantIdNumber, @NonNull RadioButton tenantMale,
+      @NonNull ImageView logoImage, @NonNull TextView logoText, @NonNull EditText tenancyDate,
+      @NonNull EditText tenantAge, @NonNull EditText tenantDepositPaid,
+      @NonNull EditText tenantEmail, @NonNull RadioGroup tenantFamilyGroup,
+      @NonNull TextView tenantFamilyHeader, @NonNull RadioButton tenantFamilyNo,
+      @NonNull RadioButton tenantFamilyYes, @NonNull RadioButton tenantFemale,
+      @NonNull RadioGroup tenantGenderGroup, @NonNull TextView tenantGenderHeader,
+      @NonNull EditText tenantHouseNumber, @NonNull EditText tenantIdNumber,
+      @NonNull RadioButton tenantMale, @NonNull EditText tenantName,
       @NonNull EditText tenantOccupation, @NonNull EditText tenantPhoneNumber,
       @NonNull EditText tenantPropertyName, @NonNull EditText tenantRentBalance,
       @NonNull EditText tenantRentPaid) {
@@ -114,7 +114,6 @@ public final class ActivityAddTenantBinding implements ViewBinding {
     this.addTenantSubmit = addTenantSubmit;
     this.logoImage = logoImage;
     this.logoText = logoText;
-    this.propertyName = propertyName;
     this.tenancyDate = tenancyDate;
     this.tenantAge = tenantAge;
     this.tenantDepositPaid = tenantDepositPaid;
@@ -129,6 +128,7 @@ public final class ActivityAddTenantBinding implements ViewBinding {
     this.tenantHouseNumber = tenantHouseNumber;
     this.tenantIdNumber = tenantIdNumber;
     this.tenantMale = tenantMale;
+    this.tenantName = tenantName;
     this.tenantOccupation = tenantOccupation;
     this.tenantPhoneNumber = tenantPhoneNumber;
     this.tenantPropertyName = tenantPropertyName;
@@ -184,12 +184,6 @@ public final class ActivityAddTenantBinding implements ViewBinding {
       id = R.id.logo_text;
       TextView logoText = ViewBindings.findChildViewById(rootView, id);
       if (logoText == null) {
-        break missingId;
-      }
-
-      id = R.id.property_name;
-      EditText propertyName = ViewBindings.findChildViewById(rootView, id);
-      if (propertyName == null) {
         break missingId;
       }
 
@@ -277,6 +271,12 @@ public final class ActivityAddTenantBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.tenant_name;
+      EditText tenantName = ViewBindings.findChildViewById(rootView, id);
+      if (tenantName == null) {
+        break missingId;
+      }
+
       id = R.id.tenant_occupation;
       EditText tenantOccupation = ViewBindings.findChildViewById(rootView, id);
       if (tenantOccupation == null) {
@@ -308,10 +308,10 @@ public final class ActivityAddTenantBinding implements ViewBinding {
       }
 
       return new ActivityAddTenantBinding((ScrollView) rootView, addTenantFormHeader,
-          addTenantSubmit, logoImage, logoText, propertyName, tenancyDate, tenantAge,
-          tenantDepositPaid, tenantEmail, tenantFamilyGroup, tenantFamilyHeader, tenantFamilyNo,
-          tenantFamilyYes, tenantFemale, tenantGenderGroup, tenantGenderHeader, tenantHouseNumber,
-          tenantIdNumber, tenantMale, tenantOccupation, tenantPhoneNumber, tenantPropertyName,
+          addTenantSubmit, logoImage, logoText, tenancyDate, tenantAge, tenantDepositPaid,
+          tenantEmail, tenantFamilyGroup, tenantFamilyHeader, tenantFamilyNo, tenantFamilyYes,
+          tenantFemale, tenantGenderGroup, tenantGenderHeader, tenantHouseNumber, tenantIdNumber,
+          tenantMale, tenantName, tenantOccupation, tenantPhoneNumber, tenantPropertyName,
           tenantRentBalance, tenantRentPaid);
     }
     String missingId = rootView.getResources().getResourceName(id);

@@ -2368,6 +2368,7 @@ id tenant_gender_header
 id tenant_house_number
 id tenant_id_number
 id tenant_male
+id tenant_name
 id tenant_occupation
 id tenant_phone_number
 id tenant_property_name

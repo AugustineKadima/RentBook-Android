@@ -48,7 +48,7 @@
             android:textSize="24sp" />
 
         <EditText
-            android:id="@+id/property_name"
+            android:id="@+id/tenant_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/add_tenant_form_header"
@@ -67,7 +67,7 @@
             android:id="@+id/tenant_email"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/property_name"
+            android:layout_below="@id/tenant_name"
             android:layout_marginStart="16dp"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="16sp"

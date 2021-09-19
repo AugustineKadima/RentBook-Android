@@ -2367,6 +2367,7 @@ int id tenant_gender_header 0x7f0801e9
 int id tenant_house_number 0x7f0801ea
 int id tenant_id_number 0x7f0801eb
 int id tenant_male 0x7f0801ec
+int id tenant_name 0x7f080234
 int id tenant_occupation 0x7f0801ed
 int id tenant_phone_number 0x7f0801ee
 int id tenant_property_name 0x7f0801ef
