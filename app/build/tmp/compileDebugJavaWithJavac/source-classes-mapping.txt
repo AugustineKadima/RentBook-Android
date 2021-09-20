@@ -37,12 +37,10 @@ com/moringaschool/rentbook/databinding/ActivityMainBinding.java
 com/moringaschool/rentbook/PropertyList.java
  com.moringaschool.rentbook.PropertyList
  com.moringaschool.rentbook.PropertyList$1
-com/moringaschool/rentbook/PropertyAndTenants.java
- com.moringaschool.rentbook.PropertyAndTenants
- com.moringaschool.rentbook.PropertyAndTenants$1
- com.moringaschool.rentbook.PropertyAndTenants$2
- com.moringaschool.rentbook.PropertyAndTenants$3
- com.moringaschool.rentbook.PropertyAndTenants$4
+com/moringaschool/rentbook/adapters/PropertyAdapter.java
+ com.moringaschool.rentbook.adapters.PropertyAdapter
+ com.moringaschool.rentbook.adapters.PropertyAdapter$ViewHolder
+ com.moringaschool.rentbook.adapters.PropertyAdapter$ViewHolder$1
 com/moringaschool/rentbook/databinding/PropertyListItemBinding.java
  com.moringaschool.rentbook.databinding.PropertyListItemBinding
 com/moringaschool/rentbook/databinding/ActivityLandlordSignupBinding.java
@@ -67,10 +65,8 @@ com/moringaschool/rentbook/Login.java
  com.moringaschool.rentbook.Login$1$1
 com/moringaschool/rentbook/databinding/TenantListItemBinding.java
  com.moringaschool.rentbook.databinding.TenantListItemBinding
-com/moringaschool/rentbook/AddProperty.java
- com.moringaschool.rentbook.AddProperty
- com.moringaschool.rentbook.AddProperty$1
- com.moringaschool.rentbook.AddProperty$1$1
+com/moringaschool/rentbook/PropertyDetails.java
+ com.moringaschool.rentbook.PropertyDetails
 com/moringaschool/rentbook/AddTenant.java
  com.moringaschool.rentbook.AddTenant
  com.moringaschool.rentbook.AddTenant$1
@@ -81,9 +77,16 @@ com/moringaschool/rentbook/TenantsList.java
  com.moringaschool.rentbook.TenantsList$1
 com/moringaschool/rentbook/databinding/ActivityTenantsListBinding.java
  com.moringaschool.rentbook.databinding.ActivityTenantsListBinding
-com/moringaschool/rentbook/adapters/PropertyAdapter.java
- com.moringaschool.rentbook.adapters.PropertyAdapter
- com.moringaschool.rentbook.adapters.PropertyAdapter$ViewHolder
- com.moringaschool.rentbook.adapters.PropertyAdapter$ViewHolder$1
-com/moringaschool/rentbook/PropertyDetails.java
- com.moringaschool.rentbook.PropertyDetails
+com/moringaschool/rentbook/fragments/DataSavedDialogue.java
+ com.moringaschool.rentbook.fragments.DataSavedDialogue
+ com.moringaschool.rentbook.fragments.DataSavedDialogue$1
+com/moringaschool/rentbook/AddProperty.java
+ com.moringaschool.rentbook.AddProperty
+ com.moringaschool.rentbook.AddProperty$1
+ com.moringaschool.rentbook.AddProperty$1$1
+com/moringaschool/rentbook/PropertyAndTenants.java
+ com.moringaschool.rentbook.PropertyAndTenants
+ com.moringaschool.rentbook.PropertyAndTenants$1
+ com.moringaschool.rentbook.PropertyAndTenants$2
+ com.moringaschool.rentbook.PropertyAndTenants$3
+ com.moringaschool.rentbook.PropertyAndTenants$4
