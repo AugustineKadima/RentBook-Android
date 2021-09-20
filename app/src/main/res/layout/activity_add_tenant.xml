@@ -61,7 +61,7 @@
             android:padding="10dp"
             android:textColor="@color/white"
             tools:ignore="TextContrastCheck"
-            android:autofillHints="" />
+            android:autofillHints="testHint" />
 
         <EditText
             android:id="@+id/tenant_email"
@@ -78,7 +78,7 @@
             android:padding="10dp"
             android:textColor="@color/white"
             tools:ignore="TextContrastCheck"
-            android:autofillHints="" />
+            android:autofillHints="testHint" />
 
         <EditText
             android:id="@+id/tenant_id_number"
@@ -95,7 +95,7 @@
             android:padding="10dp"
             android:textColor="@color/white"
             tools:ignore="TextContrastCheck,TextContrastCheck,TextContrastCheck,TextContrastCheck,TextContrastCheck"
-            android:autofillHints="" />
+            android:autofillHints="testHint" />
 
 
         <EditText
@@ -113,7 +113,7 @@
             android:padding="10dp"
             android:textColor="@color/white"
             tools:ignore="TextContrastCheck"
-            android:autofillHints="" />
+            android:autofillHints="testHint"/>
 
         <EditText
             android:id="@+id/tenant_age"
@@ -129,7 +129,7 @@
             android:minHeight="48dp"
             android:padding="10dp"
             android:textColor="@color/white"
-            android:autofillHints="" />
+            android:autofillHints="testHint" />
 
         <TextView
             android:id="@+id/tenant_gender_header"
@@ -225,7 +225,7 @@
             android:minHeight="48dp"
             android:padding="10dp"
             android:textColor="@color/white"
-            android:autofillHints="" />
+            android:autofillHints="testHint"/>
 
         <EditText
             android:id="@+id/tenancy_date"
@@ -241,7 +241,7 @@
             android:layout_marginEnd="16sp"
             android:layout_marginStart="16dp"
             android:background="@color/cardview_dark_background"
-            android:autofillHints="" />
+            android:autofillHints="testHint"/>
 
         <EditText
             android:id="@+id/tenant_deposit_paid"
@@ -257,7 +257,7 @@
             android:layout_marginEnd="16sp"
             android:layout_marginStart="16dp"
             android:background="@color/cardview_dark_background"
-            android:autofillHints="" />
+            android:autofillHints="testHint" />
 
         <EditText
             android:id="@+id/tenant_rent_paid"
@@ -289,7 +289,7 @@
             android:layout_marginEnd="16sp"
             android:layout_marginStart="16dp"
             android:background="@color/cardview_dark_background"
-            android:autofillHints="" />
+            android:autofillHints="testHint" />
 
         <EditText
             android:id="@+id/tenant_house_number"
@@ -322,7 +322,7 @@
             android:layout_marginEnd="16sp"
             android:layout_marginStart="16dp"
             android:background="@color/cardview_dark_background"
-            android:importantForAutofill="no" />
+            android:autofillHints="testHint" />
         <Button
             android:id="@+id/add_tenant_submit"
             android:layout_width="match_parent"

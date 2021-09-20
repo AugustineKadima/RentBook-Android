@@ -49,33 +49,44 @@ public class PropertyAdapter extends RecyclerView.Adapter<PropertyAdapter.ViewHo
         return propertyList.size();
     }
 
-    public class ViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
+    public class ViewHolder extends RecyclerView.ViewHolder {
 
         private TextView property_display_name, property_display_location;
-        View rootView;
-        Context context;
+        private Context context;
+
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
 
-//            rootView = itemView;
+            View rootView =itemView;
+            context = itemView.getContext();
 
             property_display_name = (TextView) itemView.findViewById(R.id.property_display_name);
             property_display_location = (TextView) itemView.findViewById(R.id.property_display_location);
 
-//            itemView.setOnClickListener((v) -> {
-//                Intent intent = new Intent(rootView.getContext(), PropertyDetails.class);
-//                rootView.getContext().startActivity(intent);
-//
-//            });
+            rootView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    int itemPosition = getLayoutPosition();
+                    Intent intent = new Intent(context, PropertyDetails.class);
+
+                    intent.putExtra("position", itemPosition);
+                    intent.putExtra("property_detail",Parcels.wrap(propertyList));
+
+                    mContext.startActivity(intent);
+                }
+            });
+
+
         }
 
-        @Override
-        public void onClick(View view) {
-            int itemPosition = getLayoutPosition();
-            Intent intent = new Intent(context, PropertyDetails.class);
-            intent.putExtra("position", itemPosition);
-            intent.putExtra("property_key", Parcels.wrap(propertyList));
-            mContext.startActivity(intent);
-        }
+
+//        @Override
+//        public void onClick(View view) {
+//            int itemPosition = getLayoutPosition();
+//            Intent intent = new Intent(context, PropertyDetails.class);
+//            intent.putExtra("position", itemPosition);
+//            intent.putExtra("property_detail",Parcels.wrap(propertyList));
+//            mContext.startActivity(intent);
+//        }
     }
 }

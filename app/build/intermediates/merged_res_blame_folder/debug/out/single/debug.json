@@ -24,6 +24,10 @@
         "source": "/home/sirkadima/moringa-school-projects/CORE/RentBook/app/src/main/res/drawable/rentbook_icon.png"
     },
     {
+        "merged": "/home/sirkadima/moringa-school-projects/CORE/RentBook/app/build/intermediates/merged_res/debug/menu_menu.xml.flat",
+        "source": "/home/sirkadima/moringa-school-projects/CORE/RentBook/app/src/main/res/menu/menu.xml"
+    },
+    {
         "merged": "/home/sirkadima/moringa-school-projects/CORE/RentBook/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher.webp.flat",
         "source": "/home/sirkadima/moringa-school-projects/CORE/RentBook/app/src/main/res/mipmap-mdpi/ic_launcher.webp"
     },

@@ -32,7 +32,7 @@ public class PropertyDetails extends AppCompatActivity {
 
         ButterKnife.bind(this);
 
-        properties = Parcels.unwrap(getIntent().getParcelableExtra("property_key"));
+        properties = Parcels.unwrap(getIntent().getParcelableExtra("property_detail"));
         int startingPosition = getIntent().getIntExtra("position", 0);
         PropertyPagerAdapter pagerAdapter = new PropertyPagerAdapter(getSupportFragmentManager(), FragmentPagerAdapter.BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT, properties);
         view_pager.setAdapter(pagerAdapter);
