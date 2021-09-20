@@ -120,10 +120,14 @@ public class AddProperty extends AppCompatActivity {
                     @Override
                     public void onComplete(@NonNull Task<Void> task) {
                         if(task.isSuccessful()){
+                            openDialogue();
                             Toast.makeText(AddProperty.this, "Property successfully saved to the database", Toast.LENGTH_LONG).show();
                         }else{
                             Toast.makeText(AddProperty.this, "Failed! Property was not saved. Try again.", Toast.LENGTH_SHORT).show();
                         }
+                    }
+
+                    private void openDialogue() {
                     }
                 });
 
