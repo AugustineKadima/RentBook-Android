@@ -1999,6 +1999,7 @@ int id center_horizontal 0x7f080078
 int id center_vertical 0x7f080079
 int id chain 0x7f08007a
 int id chains 0x7f08007b
+int id check_box 0x7f080236
 int id checkbox 0x7f08007c
 int id checked 0x7f08007d
 int id chip 0x7f08007e

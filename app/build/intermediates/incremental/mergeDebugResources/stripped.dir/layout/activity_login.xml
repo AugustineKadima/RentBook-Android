@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/logo_image"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="48dp"
+        android:src="@drawable/rentbook_icon" />
+
+    <TextView
+        android:id="@+id/logo_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="56dp"
+        android:layout_toRightOf="@id/logo_image"
+        android:gravity="center"
+        android:text="RentBook"
+        android:textColor="@color/black"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/login_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_below="@id/logo_image"
+        android:textSize="24sp"
+        android:layout_marginStart="16sp"
+        android:layout_marginEnd="16sp"
+        android:layout_marginTop="32sp"
+        android:textColor="@color/rentBookColor"/>
+
+    <EditText
+        android:id="@+id/login_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/login_header"
+        android:layout_marginStart="16sp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16sp"
+        android:background="@color/cardview_dark_background"
+        android:hint="Email"
+        android:inputType="textWebEmailAddress"
+        android:minHeight="48dp"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/login_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/login_email"
+        android:layout_marginStart="16sp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16sp"
+        android:background="@color/cardview_dark_background"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:padding="10dp" />
+
+    <Button
+        android:id="@+id/login_page_login_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/check_box"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@color/rentBookColor"
+        android:padding="20dp"
+        android:text="Login"
+        android:textSize="20dp" />
+
+    <CheckBox
+        android:id="@+id/check_box"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/login_password"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:buttonTint="@color/black"
+         />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="Remember me?"
+        android:textSize="18sp"
+        android:layout_below="@id/login_password"
+        android:layout_toRightOf="@id/check_box"
+        android:layout_marginTop="16dp"/>
+
+
+</RelativeLayout>

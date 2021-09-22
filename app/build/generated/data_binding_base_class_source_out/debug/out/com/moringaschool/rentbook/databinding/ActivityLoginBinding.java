@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
@@ -21,6 +22,9 @@ import java.lang.String;
 public final class ActivityLoginBinding implements ViewBinding {
   @NonNull
   private final RelativeLayout rootView;
+
+  @NonNull
+  public final CheckBox checkBox;
 
   @NonNull
   public final EditText loginEmail;
@@ -40,10 +44,12 @@ public final class ActivityLoginBinding implements ViewBinding {
   @NonNull
   public final TextView logoText;
 
-  private ActivityLoginBinding(@NonNull RelativeLayout rootView, @NonNull EditText loginEmail,
-      @NonNull TextView loginHeader, @NonNull Button loginPageLoginButton,
-      @NonNull EditText loginPassword, @NonNull ImageView logoImage, @NonNull TextView logoText) {
+  private ActivityLoginBinding(@NonNull RelativeLayout rootView, @NonNull CheckBox checkBox,
+      @NonNull EditText loginEmail, @NonNull TextView loginHeader,
+      @NonNull Button loginPageLoginButton, @NonNull EditText loginPassword,
+      @NonNull ImageView logoImage, @NonNull TextView logoText) {
     this.rootView = rootView;
+    this.checkBox = checkBox;
     this.loginEmail = loginEmail;
     this.loginHeader = loginHeader;
     this.loginPageLoginButton = loginPageLoginButton;
@@ -79,6 +85,12 @@ public final class ActivityLoginBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.check_box;
+      CheckBox checkBox = ViewBindings.findChildViewById(rootView, id);
+      if (checkBox == null) {
+        break missingId;
+      }
+
       id = R.id.login_email;
       EditText loginEmail = ViewBindings.findChildViewById(rootView, id);
       if (loginEmail == null) {
@@ -115,7 +127,7 @@ public final class ActivityLoginBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityLoginBinding((RelativeLayout) rootView, loginEmail, loginHeader,
+      return new ActivityLoginBinding((RelativeLayout) rootView, checkBox, loginEmail, loginHeader,
           loginPageLoginButton, loginPassword, logoImage, logoText);
     }
     String missingId = rootView.getResources().getResourceName(id);

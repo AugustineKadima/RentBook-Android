@@ -3,6 +3,7 @@ package com.moringaschool.rentbook;
 
 import android.view.View;
 import android.widget.Button;
+import android.widget.CheckBox;
 import android.widget.EditText;
 import androidx.annotation.CallSuper;
 import androidx.annotation.UiThread;
@@ -26,6 +27,7 @@ public class Login_ViewBinding implements Unbinder {
     target.login_page_btn = Utils.findRequiredViewAsType(source, R.id.login_page_login_button, "field 'login_page_btn'", Button.class);
     target.login_email = Utils.findRequiredViewAsType(source, R.id.login_email, "field 'login_email'", EditText.class);
     target.login_password = Utils.findRequiredViewAsType(source, R.id.login_password, "field 'login_password'", EditText.class);
+    target.checkBox = Utils.findRequiredViewAsType(source, R.id.check_box, "field 'checkBox'", CheckBox.class);
   }
 
   @Override
@@ -38,5 +40,6 @@ public class Login_ViewBinding implements Unbinder {
     target.login_page_btn = null;
     target.login_email = null;
     target.login_password = null;
+    target.checkBox = null;
   }
 }

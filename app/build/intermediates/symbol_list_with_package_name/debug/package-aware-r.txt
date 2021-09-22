@@ -2000,6 +2000,7 @@ id center_horizontal
 id center_vertical
 id chain
 id chains
+id check_box
 id checkbox
 id checked
 id chip
