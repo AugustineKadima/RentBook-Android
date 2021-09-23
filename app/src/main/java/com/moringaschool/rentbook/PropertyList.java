@@ -2,10 +2,15 @@ package com.moringaschool.rentbook;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.view.MenuItemCompat;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
+import android.widget.SearchView;
 
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -29,6 +34,7 @@ public class PropertyList extends AppCompatActivity {
     private RecyclerView recyclerView;
     private List<Property> propertyItems;
     private PropertyAdapter adapter;
+
 //    private ApiInterface apiInterface;
 
     private FirebaseDatabase db = FirebaseDatabase.getInstance();
@@ -65,23 +71,38 @@ public class PropertyList extends AppCompatActivity {
             }
         });
 
-//        apiInterface = ApiClient.getApiClient().create(ApiInterface.class);
-//
-//        Call<List<Property>> call = apiInterface.getProperties();
-//
-//        call.enqueue(new Callback<List<Property>>() {
-//            @Override
-//            public void onResponse(Call<List<Property>> call, Response<List<Property>> response) {
-//                propertyItems = response.body();
-//                adapter = new PropertyAdapter(PropertyList.this, propertyItems);
-//                recyclerView.setAdapter(adapter);
-//            }
-//
-//            @Override
-//            public void onFailure(Call<List<Property>> call, Throwable t) {
-//
-//            }
-//        });
+
     }
 
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+
+//        Initialize menu inflater
+        MenuInflater menuInflater = getMenuInflater();
+
+//        Inflate menu
+        menuInflater.inflate(R.menu.menu, menu);
+
+//        Initialize menu item
+        MenuItem menuItem = menu.findItem(R.id.action_search);
+
+//        Initialize search view
+        SearchView searchView = (SearchView) menuItem.getActionView();
+        searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
+            @Override
+            public boolean onQueryTextSubmit(String s) {
+                return false;
+            }
+
+            @Override
+            public boolean onQueryTextChange(String s) {
+                adapter.getFilter().filter(s);
+
+                return false;
+            }
+        });
+
+
+        return super.onCreateOptionsMenu(menu);
+    }
 }

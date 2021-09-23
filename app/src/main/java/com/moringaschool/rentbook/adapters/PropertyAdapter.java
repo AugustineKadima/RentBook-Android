@@ -5,6 +5,8 @@ import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Filter;
+import android.widget.Filterable;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -18,16 +20,20 @@ import com.moringaschool.rentbook.modules.Property;
 
 import org.parceler.Parcels;
 
+import java.util.ArrayList;
+import java.util.Collection;
 import java.util.List;
 
-public class PropertyAdapter extends RecyclerView.Adapter<PropertyAdapter.ViewHolder> {
+public class PropertyAdapter extends RecyclerView.Adapter<PropertyAdapter.ViewHolder> implements Filterable {
 
     private List<Property> propertyList;
+    private List<Property> propertyListAll;
     Context mContext;
 
     public PropertyAdapter(Context mContext ,List<Property> propertyList) {
         this.propertyList = propertyList;
         this.mContext = mContext;
+        this.propertyListAll = new ArrayList<>(propertyList);
     }
 
     @NonNull
@@ -48,6 +54,45 @@ public class PropertyAdapter extends RecyclerView.Adapter<PropertyAdapter.ViewHo
     public int getItemCount() {
         return propertyList.size();
     }
+
+//    Filter for menu search
+    @Override
+    public Filter getFilter() {
+        return filter;
+    }
+
+    Filter filter = new Filter() {
+//        Run on background thread
+        @Override
+        protected FilterResults performFiltering(CharSequence charSequence) {
+
+            List<Property> filterList = new ArrayList<>();
+            if(charSequence.toString().isEmpty()){
+                filterList.addAll(propertyListAll);
+            }else{
+                for(Property property: propertyListAll){
+                    if(property.getProperty_name().toLowerCase().contains(charSequence.toString().toLowerCase())){
+                        filterList.add(property);
+                    }
+                }
+            }
+
+            FilterResults filterResults = new FilterResults();
+            filterResults.values = filterList;
+
+            return filterResults;
+        }
+
+//        Run on ui thread
+        @Override
+        protected void publishResults(CharSequence charSequence, FilterResults filterResults) {
+            propertyList.clear();
+            propertyList.addAll((Collection<? extends Property>) filterResults.values);
+            notifyDataSetChanged();
+        }
+    };
+
+
 
     public class ViewHolder extends RecyclerView.ViewHolder {
 
