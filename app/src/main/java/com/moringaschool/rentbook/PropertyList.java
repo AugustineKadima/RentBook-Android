@@ -3,6 +3,7 @@ package com.moringaschool.rentbook;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.view.MenuItemCompat;
+import androidx.recyclerview.widget.ItemTouchHelper;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -72,6 +73,7 @@ public class PropertyList extends AppCompatActivity {
         });
 
 
+
     }
 
     @Override
@@ -105,4 +107,6 @@ public class PropertyList extends AppCompatActivity {
 
         return super.onCreateOptionsMenu(menu);
     }
+
+
 }
