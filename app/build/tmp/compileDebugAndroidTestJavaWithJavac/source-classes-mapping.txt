@@ -1,0 +1,4 @@
+com/moringaschool/rentbook/ExampleInstrumentedTest.java
+ com.moringaschool.rentbook.ExampleInstrumentedTest
+com/moringaschool/rentbook/test/BuildConfig.java
+ com.moringaschool.rentbook.test.BuildConfig

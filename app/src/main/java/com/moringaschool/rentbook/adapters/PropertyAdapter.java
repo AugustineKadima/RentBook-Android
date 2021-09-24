@@ -17,6 +17,7 @@ import com.moringaschool.rentbook.PropertyDetails;
 import com.moringaschool.rentbook.PropertyList;
 import com.moringaschool.rentbook.R;
 import com.moringaschool.rentbook.modules.Property;
+import com.moringaschool.rentbook.utils.ItemTouchHelperAdapter;
 
 import org.parceler.Parcels;
 
@@ -24,7 +25,7 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 
-public class PropertyAdapter extends RecyclerView.Adapter<PropertyAdapter.ViewHolder> implements Filterable {
+public class PropertyAdapter extends RecyclerView.Adapter<PropertyAdapter.ViewHolder> implements Filterable, ItemTouchHelperAdapter {
 
     private List<Property> propertyList;
     private List<Property> propertyListAll;
@@ -92,7 +93,19 @@ public class PropertyAdapter extends RecyclerView.Adapter<PropertyAdapter.ViewHo
         }
     };
 
+//    Gestures
+//    ----------------------------------------------------
+    @Override
+    public boolean onItemMove(int fromPosition, int toPosition) {
+        return false;
+    }
 
+    @Override
+    public void onItemDismiss(int position) {
+
+    }
+
+//-------------------------------------------------------
 
     public class ViewHolder extends RecyclerView.ViewHolder {
 
