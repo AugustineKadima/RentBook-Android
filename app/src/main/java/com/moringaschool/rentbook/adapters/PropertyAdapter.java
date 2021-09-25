@@ -25,7 +25,7 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 
-public class PropertyAdapter extends RecyclerView.Adapter<PropertyAdapter.ViewHolder> implements Filterable, ItemTouchHelperAdapter {
+public class PropertyAdapter extends RecyclerView.Adapter<PropertyAdapter.ViewHolder> implements Filterable{
 
     private List<Property> propertyList;
     private List<Property> propertyListAll;
@@ -93,19 +93,6 @@ public class PropertyAdapter extends RecyclerView.Adapter<PropertyAdapter.ViewHo
         }
     };
 
-//    Gestures
-//    ----------------------------------------------------
-    @Override
-    public boolean onItemMove(int fromPosition, int toPosition) {
-        return false;
-    }
-
-    @Override
-    public void onItemDismiss(int position) {
-
-    }
-
-//-------------------------------------------------------
 
     public class ViewHolder extends RecyclerView.ViewHolder {
 
