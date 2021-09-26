@@ -30,9 +30,10 @@ import org.parceler.Parcels;
 
 import java.util.ArrayList;
 import java.util.Collection;
+import java.util.Collections;
 import java.util.List;
 
-public class PropertyAdapter extends RecyclerView.Adapter<PropertyAdapter.ViewHolder> implements Filterable{
+public class PropertyAdapter extends RecyclerView.Adapter<PropertyAdapter.ViewHolder> implements Filterable, ItemTouchHelperAdapter{
 
     private List<Property> propertyList;
     private List<Property> propertyListAll;
@@ -68,7 +69,7 @@ public class PropertyAdapter extends RecyclerView.Adapter<PropertyAdapter.ViewHo
 
             @Override
             public void onChildRemoved(@NonNull DataSnapshot snapshot) {
-
+                notifyDataSetChanged();
             }
 
             @Override
@@ -131,6 +132,22 @@ public class PropertyAdapter extends RecyclerView.Adapter<PropertyAdapter.ViewHo
             notifyDataSetChanged();
         }
     };
+
+//    ItemTouchHelper
+    @Override
+    public boolean onItemMove(int fromPosition, int toPosition) {
+        Collections.swap(propertyList, fromPosition, toPosition);
+        notifyItemMoved(fromPosition, toPosition);
+//        setIndexInForebase();
+        return false;
+    }
+
+    @Override
+    public void onItemDismiss(int position) {
+
+    }
+
+
 
 
     public class ViewHolder extends RecyclerView.ViewHolder {

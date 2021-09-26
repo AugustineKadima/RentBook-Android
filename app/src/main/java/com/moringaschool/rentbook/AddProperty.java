@@ -17,6 +17,7 @@ import com.google.android.gms.tasks.Task;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.moringaschool.rentbook.fragments.DataSavedDialogue;
+import com.moringaschool.rentbook.modules.Property;
 
 import java.util.HashMap;
 
@@ -60,12 +61,15 @@ public class AddProperty extends AppCompatActivity {
             }
 
             private void saveDataToDatabase() {
+                Property property = new Property();
+
                 String propertyName = property_name.getText().toString().trim();
                 String propertyLocation = property_location.getText().toString().trim();
                 String propertyNumberOfUnits = property_number_of_units.getText().toString().trim();
                 int units = Integer.parseInt(propertyNumberOfUnits);
                 String caretakerName = caretaker_name.getText().toString().trim();
                 String caretakerPhoneNumber = caretaker_phone_number.getText().toString().trim();
+
 
                 if(water_yes.isChecked()){
                     water = "Has water";

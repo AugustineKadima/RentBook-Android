@@ -3,6 +3,8 @@ package com.moringaschool.rentbook.modules;
 import org.parceler.Parcel;
 import org.parceler.ParcelConstructor;
 
+import java.util.ArrayList;
+
 @Parcel
 public class Property {
     private String caretaker_name;
@@ -13,6 +15,7 @@ public class Property {
     private String property_location;
     private String property_name;
     private String water;
+
 
     public Property(){}
 
@@ -25,6 +28,7 @@ public class Property {
         this.property_location = property_location;
         this.property_name = property_name;
         this.water = water;
+
     }
 
     public String getCaretaker_name() {
@@ -58,4 +62,6 @@ public class Property {
     public String getWater() {
         return water;
     }
+
+
 }
