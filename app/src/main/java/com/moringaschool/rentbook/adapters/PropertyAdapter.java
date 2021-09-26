@@ -11,6 +11,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
+import androidx.recyclerview.widget.ItemTouchHelper;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.moringaschool.rentbook.PropertyDetails;
@@ -43,6 +44,7 @@ public class PropertyAdapter extends RecyclerView.Adapter<PropertyAdapter.ViewHo
         View view = LayoutInflater.from(mContext).inflate(R.layout.property_list_item, parent, false);
         return new ViewHolder(view);
     }
+
 
     @Override
     public void onBindViewHolder(@NonNull PropertyAdapter.ViewHolder holder, int position) {
@@ -121,17 +123,9 @@ public class PropertyAdapter extends RecyclerView.Adapter<PropertyAdapter.ViewHo
                 }
             });
 
-
         }
 
 
-//        @Override
-//        public void onClick(View view) {
-//            int itemPosition = getLayoutPosition();
-//            Intent intent = new Intent(context, PropertyDetails.class);
-//            intent.putExtra("position", itemPosition);
-//            intent.putExtra("property_detail",Parcels.wrap(propertyList));
-//            mContext.startActivity(intent);
-//        }
+
     }
 }

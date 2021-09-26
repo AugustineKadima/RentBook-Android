@@ -12,6 +12,7 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.widget.SearchView;
+import android.widget.Toast;
 
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -55,6 +56,10 @@ public class PropertyList extends AppCompatActivity {
         adapter = new PropertyAdapter(this, propertyItems);
 
         recyclerView.setAdapter(adapter);
+
+        ItemTouchHelper itemTouchHelper = new ItemTouchHelper(simpleCallback);
+        itemTouchHelper.attachToRecyclerView(recyclerView);
+
 
         root.addValueEventListener(new ValueEventListener() {
             @Override
@@ -109,6 +114,20 @@ public class PropertyList extends AppCompatActivity {
     }
 
 
+
+    ItemTouchHelper.SimpleCallback simpleCallback = new ItemTouchHelper.SimpleCallback(0, ItemTouchHelper.LEFT) {
+        @Override
+        public boolean onMove(@NonNull RecyclerView recyclerView, @NonNull RecyclerView.ViewHolder viewHolder, @NonNull RecyclerView.ViewHolder target) {
+            return false;
+        }
+
+        @Override
+        public void onSwiped(@NonNull RecyclerView.ViewHolder viewHolder, int direction) {
+            if(direction == ItemTouchHelper.LEFT){
+                Toast.makeText(PropertyList.this, "Deleting", Toast.LENGTH_SHORT).show();
+            }
+        }
+    };
 
 
 
