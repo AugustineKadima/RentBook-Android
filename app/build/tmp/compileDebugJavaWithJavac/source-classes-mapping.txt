@@ -93,6 +93,7 @@ com/moringaschool/rentbook/PropertyList.java
 com/moringaschool/rentbook/adapters/PropertyAdapter.java
  com.moringaschool.rentbook.adapters.PropertyAdapter
  com.moringaschool.rentbook.adapters.PropertyAdapter$1
+ com.moringaschool.rentbook.adapters.PropertyAdapter$2
  com.moringaschool.rentbook.adapters.PropertyAdapter$ViewHolder
  com.moringaschool.rentbook.adapters.PropertyAdapter$ViewHolder$1
 com/moringaschool/rentbook/PropertyAndTenants.java

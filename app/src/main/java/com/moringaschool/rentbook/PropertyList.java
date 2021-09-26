@@ -114,7 +114,7 @@ public class PropertyList extends AppCompatActivity {
     }
 
 
-
+//Gestures
     ItemTouchHelper.SimpleCallback simpleCallback = new ItemTouchHelper.SimpleCallback(0, ItemTouchHelper.LEFT) {
         @Override
         public boolean onMove(@NonNull RecyclerView recyclerView, @NonNull RecyclerView.ViewHolder viewHolder, @NonNull RecyclerView.ViewHolder target) {
@@ -124,6 +124,7 @@ public class PropertyList extends AppCompatActivity {
         @Override
         public void onSwiped(@NonNull RecyclerView.ViewHolder viewHolder, int direction) {
             if(direction == ItemTouchHelper.LEFT){
+                adapter.deleteItem();
                 Toast.makeText(PropertyList.this, "Deleting", Toast.LENGTH_SHORT).show();
             }
         }
