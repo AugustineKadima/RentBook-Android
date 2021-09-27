@@ -7,6 +7,8 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.Button;
 
 import butterknife.BindView;
@@ -19,12 +21,20 @@ public class PropertyAndTenants extends AppCompatActivity {
     @BindView(R.id.tenants_btn) Button tenants;
     @BindView(R.id.property_btn) Button property;
 
+    Animation animation;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_property_and_tenants);
         ButterKnife.bind(this);
+
+        animation = AnimationUtils.loadAnimation(this, R.anim.list_slide_animation);
+        add_property.setAnimation(animation);
+        add_tenant.setAnimation(animation);
+        tenants.setAnimation(animation);
+        property.setAnimation(animation);
 
         add_property.setOnClickListener(new View.OnClickListener() {
             @Override
