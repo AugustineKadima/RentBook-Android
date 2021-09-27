@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/sirkadima/moringa-school-projects/CORE/RentBook/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w360dp-port-v13/values-w360dp-port-v13.xml",
+            "outputFile": "/media/sirkadima/Elements4/ANDROID/RentBook/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w360dp-port-v13/values-w360dp-port-v13.xml",
             "map": [
                 {
                     "source": "/home/sirkadima/.gradle/caches/transforms-3/a4db12b072650e13bc36a4fc9443bd47/transformed/material-1.4.0/res/values-w360dp-port-v13/values-w360dp-port-v13.xml",

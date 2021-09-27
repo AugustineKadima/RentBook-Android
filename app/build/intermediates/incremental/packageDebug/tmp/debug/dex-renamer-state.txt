@@ -1,4 +1,4 @@
-#Sun Sep 26 22:51:53 EAT 2021
+#Mon Sep 27 18:15:56 EAT 2021
 path.4=3/classes.dex
 path.3=2/classes.dex
 path.2=14/classes.dex
@@ -9,20 +9,20 @@ path.7=9/classes.dex
 path.6=6/classes.dex
 path.5=5/classes.dex
 path.0=classes.dex
-base.4=/home/sirkadima/moringa-school-projects/CORE/RentBook/app/build/intermediates/dex/debug/mergeProjectDexDebug/3/classes.dex
-base.3=/home/sirkadima/moringa-school-projects/CORE/RentBook/app/build/intermediates/dex/debug/mergeProjectDexDebug/2/classes.dex
-base.2=/home/sirkadima/moringa-school-projects/CORE/RentBook/app/build/intermediates/dex/debug/mergeProjectDexDebug/14/classes.dex
-base.1=/home/sirkadima/moringa-school-projects/CORE/RentBook/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
-base.0=/home/sirkadima/moringa-school-projects/CORE/RentBook/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
+base.4=/media/sirkadima/Elements4/ANDROID/RentBook/app/build/intermediates/dex/debug/mergeProjectDexDebug/3/classes.dex
+base.3=/media/sirkadima/Elements4/ANDROID/RentBook/app/build/intermediates/dex/debug/mergeProjectDexDebug/2/classes.dex
+base.2=/media/sirkadima/Elements4/ANDROID/RentBook/app/build/intermediates/dex/debug/mergeProjectDexDebug/14/classes.dex
+base.1=/media/sirkadima/Elements4/ANDROID/RentBook/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
+base.0=/media/sirkadima/Elements4/ANDROID/RentBook/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
 renamed.3=classes4.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex
 renamed.0=classes.dex
 renamed.7=classes8.dex
-base.8=/home/sirkadima/moringa-school-projects/CORE/RentBook/app/build/intermediates/dex/debug/mergeExtDexDebug/classes2.dex
+base.8=/media/sirkadima/Elements4/ANDROID/RentBook/app/build/intermediates/dex/debug/mergeExtDexDebug/classes2.dex
 renamed.6=classes7.dex
-base.7=/home/sirkadima/moringa-school-projects/CORE/RentBook/app/build/intermediates/dex/debug/mergeProjectDexDebug/9/classes.dex
+base.7=/media/sirkadima/Elements4/ANDROID/RentBook/app/build/intermediates/dex/debug/mergeProjectDexDebug/9/classes.dex
 renamed.5=classes6.dex
-base.6=/home/sirkadima/moringa-school-projects/CORE/RentBook/app/build/intermediates/dex/debug/mergeProjectDexDebug/6/classes.dex
+base.6=/media/sirkadima/Elements4/ANDROID/RentBook/app/build/intermediates/dex/debug/mergeProjectDexDebug/6/classes.dex
 renamed.4=classes5.dex
-base.5=/home/sirkadima/moringa-school-projects/CORE/RentBook/app/build/intermediates/dex/debug/mergeProjectDexDebug/5/classes.dex
+base.5=/media/sirkadima/Elements4/ANDROID/RentBook/app/build/intermediates/dex/debug/mergeProjectDexDebug/5/classes.dex

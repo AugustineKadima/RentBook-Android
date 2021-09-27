@@ -34,7 +34,6 @@ public class Login extends AppCompatActivity {
     SharedPreferences.Editor editor;
 
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

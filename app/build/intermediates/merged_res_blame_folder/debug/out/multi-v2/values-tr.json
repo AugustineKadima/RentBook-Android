@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/sirkadima/moringa-school-projects/CORE/RentBook/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-tr/values-tr.xml",
+            "outputFile": "/media/sirkadima/Elements4/ANDROID/RentBook/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-tr/values-tr.xml",
             "map": [
                 {
                     "source": "/home/sirkadima/.gradle/caches/transforms-3/dd899772f6be5434b73cf178284bcfa8/transformed/jetified-play-services-basement-17.1.0/res/values-tr/values.xml",

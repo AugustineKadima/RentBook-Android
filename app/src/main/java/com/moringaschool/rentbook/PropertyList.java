@@ -11,6 +11,8 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.SearchView;
 import android.widget.Toast;
 
@@ -37,7 +39,9 @@ public class PropertyList extends AppCompatActivity {
     private List<Property> propertyItems;
     private PropertyAdapter adapter;
 
-//    private ApiInterface apiInterface;
+//   Animation
+
+    Animation falldown;
 
     private FirebaseDatabase db = FirebaseDatabase.getInstance();
     private DatabaseReference root = db.getReference().child("properties");
@@ -52,10 +56,16 @@ public class PropertyList extends AppCompatActivity {
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         recyclerView.setHasFixedSize(true);
 
+//   Animation
+
+        falldown = AnimationUtils.loadAnimation(this, R.anim.fall_down);
+
         propertyItems = new ArrayList<>();
         adapter = new PropertyAdapter(this, propertyItems);
 
+        recyclerView.setAnimation(falldown);
         recyclerView.setAdapter(adapter);
+
 
         ItemTouchHelper itemTouchHelper = new ItemTouchHelper(simpleCallback);
         itemTouchHelper.attachToRecyclerView(recyclerView);

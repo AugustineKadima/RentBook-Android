@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/sirkadima/moringa-school-projects/CORE/RentBook/app/src/main/AndroidManifest.xml:2:1-52:12
-INJECTED from /home/sirkadima/moringa-school-projects/CORE/RentBook/app/src/main/AndroidManifest.xml:2:1-52:12
-INJECTED from /home/sirkadima/moringa-school-projects/CORE/RentBook/app/src/main/AndroidManifest.xml:2:1-52:12
-INJECTED from /home/sirkadima/moringa-school-projects/CORE/RentBook/app/src/main/AndroidManifest.xml:2:1-52:12
+ADDED from /media/sirkadima/Elements4/ANDROID/RentBook/app/src/main/AndroidManifest.xml:2:1-52:12
+INJECTED from /media/sirkadima/Elements4/ANDROID/RentBook/app/src/main/AndroidManifest.xml:2:1-52:12
+INJECTED from /media/sirkadima/Elements4/ANDROID/RentBook/app/src/main/AndroidManifest.xml:2:1-52:12
+INJECTED from /media/sirkadima/Elements4/ANDROID/RentBook/app/src/main/AndroidManifest.xml:2:1-52:12
 MERGED from [androidx.databinding:viewbinding:7.0.0] /home/sirkadima/.gradle/caches/transforms-3/890ead7a225e8e8adbabf1126908806d/transformed/jetified-viewbinding-7.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.material:material:1.4.0] /home/sirkadima/.gradle/caches/transforms-3/a4db12b072650e13bc36a4fc9443bd47/transformed/material-1.4.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] /home/sirkadima/.gradle/caches/transforms-3/fb168b44b05705a805528f1c42f7e2f6/transformed/constraintlayout-2.1.0/AndroidManifest.xml:2:1-11:12
@@ -84,25 +84,25 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] /home/sirkadima/.gradle/c
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] /home/sirkadima/.gradle/caches/transforms-3/bcde78bc88dd626eb99fc345b357b7d4/transformed/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [io.grpc:grpc-android:1.28.0] /home/sirkadima/.gradle/caches/transforms-3/209013ccce9f4844e6ae6768b87dfdab/transformed/jetified-grpc-android-1.28.0/AndroidManifest.xml:2:1-13:12
 MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /home/sirkadima/.gradle/caches/transforms-3/0e4fe9ac0069942711d5424f8db25fa9/transformed/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:2:1-11:12
-INJECTED from /home/sirkadima/moringa-school-projects/CORE/RentBook/app/src/main/AndroidManifest.xml:2:1-52:12
-INJECTED from /home/sirkadima/moringa-school-projects/CORE/RentBook/app/src/main/AndroidManifest.xml:2:1-52:12
-INJECTED from /home/sirkadima/moringa-school-projects/CORE/RentBook/app/src/main/AndroidManifest.xml:2:1-52:12
+INJECTED from /media/sirkadima/Elements4/ANDROID/RentBook/app/src/main/AndroidManifest.xml:2:1-52:12
+INJECTED from /media/sirkadima/Elements4/ANDROID/RentBook/app/src/main/AndroidManifest.xml:2:1-52:12
+INJECTED from /media/sirkadima/Elements4/ANDROID/RentBook/app/src/main/AndroidManifest.xml:2:1-52:12
 	package
-		ADDED from /home/sirkadima/moringa-school-projects/CORE/RentBook/app/src/main/AndroidManifest.xml:3:5-41
-		INJECTED from /home/sirkadima/moringa-school-projects/CORE/RentBook/app/src/main/AndroidManifest.xml
-		INJECTED from /home/sirkadima/moringa-school-projects/CORE/RentBook/app/src/main/AndroidManifest.xml
+		ADDED from /media/sirkadima/Elements4/ANDROID/RentBook/app/src/main/AndroidManifest.xml:3:5-41
+		INJECTED from /media/sirkadima/Elements4/ANDROID/RentBook/app/src/main/AndroidManifest.xml
+		INJECTED from /media/sirkadima/Elements4/ANDROID/RentBook/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /home/sirkadima/moringa-school-projects/CORE/RentBook/app/src/main/AndroidManifest.xml
-		ADDED from /home/sirkadima/moringa-school-projects/CORE/RentBook/app/src/main/AndroidManifest.xml:2:1-52:12
-		INJECTED from /home/sirkadima/moringa-school-projects/CORE/RentBook/app/src/main/AndroidManifest.xml
+		INJECTED from /media/sirkadima/Elements4/ANDROID/RentBook/app/src/main/AndroidManifest.xml
+		ADDED from /media/sirkadima/Elements4/ANDROID/RentBook/app/src/main/AndroidManifest.xml:2:1-52:12
+		INJECTED from /media/sirkadima/Elements4/ANDROID/RentBook/app/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /home/sirkadima/moringa-school-projects/CORE/RentBook/app/src/main/AndroidManifest.xml
-		ADDED from /home/sirkadima/moringa-school-projects/CORE/RentBook/app/src/main/AndroidManifest.xml:2:1-52:12
-		INJECTED from /home/sirkadima/moringa-school-projects/CORE/RentBook/app/src/main/AndroidManifest.xml
+		INJECTED from /media/sirkadima/Elements4/ANDROID/RentBook/app/src/main/AndroidManifest.xml
+		ADDED from /media/sirkadima/Elements4/ANDROID/RentBook/app/src/main/AndroidManifest.xml:2:1-52:12
+		INJECTED from /media/sirkadima/Elements4/ANDROID/RentBook/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /home/sirkadima/moringa-school-projects/CORE/RentBook/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /media/sirkadima/Elements4/ANDROID/RentBook/app/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from /home/sirkadima/moringa-school-projects/CORE/RentBook/app/src/main/AndroidManifest.xml:5:5-67
+ADDED from /media/sirkadima/Elements4/ANDROID/RentBook/app/src/main/AndroidManifest.xml:5:5-67
 MERGED from [com.google.firebase:firebase-crash:9.2.0] /home/sirkadima/.gradle/caches/transforms-3/7f96c8acc3744b9dfbb6b963d342cd91/transformed/jetified-firebase-crash-9.2.0/AndroidManifest.xml:20:5-66
 MERGED from [com.google.firebase:firebase-crash:9.2.0] /home/sirkadima/.gradle/caches/transforms-3/7f96c8acc3744b9dfbb6b963d342cd91/transformed/jetified-firebase-crash-9.2.0/AndroidManifest.xml:20:5-66
 MERGED from [com.google.firebase:firebase-database:20.0.1] /home/sirkadima/.gradle/caches/transforms-3/7b400ea217a8bf9c711ec34916c87208/transformed/jetified-firebase-database-20.0.1/AndroidManifest.xml:26:5-67
@@ -126,9 +126,9 @@ MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.1] /home
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:19.0.1] /home/sirkadima/.gradle/caches/transforms-3/d31ded6ce607cf7e09e61e22c2ac9464/transformed/jetified-play-services-measurement-sdk-api-19.0.1/AndroidManifest.xml:23:5-67
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:19.0.1] /home/sirkadima/.gradle/caches/transforms-3/d31ded6ce607cf7e09e61e22c2ac9464/transformed/jetified-play-services-measurement-sdk-api-19.0.1/AndroidManifest.xml:23:5-67
 	android:name
-		ADDED from /home/sirkadima/moringa-school-projects/CORE/RentBook/app/src/main/AndroidManifest.xml:5:22-64
+		ADDED from /media/sirkadima/Elements4/ANDROID/RentBook/app/src/main/AndroidManifest.xml:5:22-64
 application
-ADDED from /home/sirkadima/moringa-school-projects/CORE/RentBook/app/src/main/AndroidManifest.xml:7:5-50:19
+ADDED from /media/sirkadima/Elements4/ANDROID/RentBook/app/src/main/AndroidManifest.xml:7:5-50:19
 MERGED from [com.google.android.material:material:1.4.0] /home/sirkadima/.gradle/caches/transforms-3/a4db12b072650e13bc36a4fc9443bd47/transformed/material-1.4.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.4.0] /home/sirkadima/.gradle/caches/transforms-3/a4db12b072650e13bc36a4fc9443bd47/transformed/material-1.4.0/AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] /home/sirkadima/.gradle/caches/transforms-3/fb168b44b05705a805528f1c42f7e2f6/transformed/constraintlayout-2.1.0/AndroidManifest.xml:9:5-20
@@ -190,91 +190,91 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/sirka
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.5.0] /home/sirkadima/.gradle/caches/transforms-3/a6ed9dfb3abf7d8541f7a1d01bf1d39b/transformed/core-1.5.0/AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from /home/sirkadima/moringa-school-projects/CORE/RentBook/app/src/main/AndroidManifest.xml:12:9-35
+		ADDED from /media/sirkadima/Elements4/ANDROID/RentBook/app/src/main/AndroidManifest.xml:12:9-35
 	android:label
-		ADDED from /home/sirkadima/moringa-school-projects/CORE/RentBook/app/src/main/AndroidManifest.xml:10:9-41
+		ADDED from /media/sirkadima/Elements4/ANDROID/RentBook/app/src/main/AndroidManifest.xml:10:9-41
 	android:roundIcon
-		ADDED from /home/sirkadima/moringa-school-projects/CORE/RentBook/app/src/main/AndroidManifest.xml:11:9-54
+		ADDED from /media/sirkadima/Elements4/ANDROID/RentBook/app/src/main/AndroidManifest.xml:11:9-54
 	android:icon
-		ADDED from /home/sirkadima/moringa-school-projects/CORE/RentBook/app/src/main/AndroidManifest.xml:9:9-43
+		ADDED from /media/sirkadima/Elements4/ANDROID/RentBook/app/src/main/AndroidManifest.xml:9:9-43
 	android:allowBackup
-		ADDED from /home/sirkadima/moringa-school-projects/CORE/RentBook/app/src/main/AndroidManifest.xml:8:9-35
+		ADDED from /media/sirkadima/Elements4/ANDROID/RentBook/app/src/main/AndroidManifest.xml:8:9-35
 	android:theme
-		ADDED from /home/sirkadima/moringa-school-projects/CORE/RentBook/app/src/main/AndroidManifest.xml:13:9-46
+		ADDED from /media/sirkadima/Elements4/ANDROID/RentBook/app/src/main/AndroidManifest.xml:13:9-46
 activity#com.moringaschool.rentbook.Login
-ADDED from /home/sirkadima/moringa-school-projects/CORE/RentBook/app/src/main/AndroidManifest.xml:14:9-16:39
+ADDED from /media/sirkadima/Elements4/ANDROID/RentBook/app/src/main/AndroidManifest.xml:14:9-16:39
 	android:exported
-		ADDED from /home/sirkadima/moringa-school-projects/CORE/RentBook/app/src/main/AndroidManifest.xml:16:13-36
+		ADDED from /media/sirkadima/Elements4/ANDROID/RentBook/app/src/main/AndroidManifest.xml:16:13-36
 	android:name
-		ADDED from /home/sirkadima/moringa-school-projects/CORE/RentBook/app/src/main/AndroidManifest.xml:15:13-34
+		ADDED from /media/sirkadima/Elements4/ANDROID/RentBook/app/src/main/AndroidManifest.xml:15:13-34
 activity#com.moringaschool.rentbook.PropertyDetails
-ADDED from /home/sirkadima/moringa-school-projects/CORE/RentBook/app/src/main/AndroidManifest.xml:17:9-19:39
+ADDED from /media/sirkadima/Elements4/ANDROID/RentBook/app/src/main/AndroidManifest.xml:17:9-19:39
 	android:exported
-		ADDED from /home/sirkadima/moringa-school-projects/CORE/RentBook/app/src/main/AndroidManifest.xml:19:13-36
+		ADDED from /media/sirkadima/Elements4/ANDROID/RentBook/app/src/main/AndroidManifest.xml:19:13-36
 	android:name
-		ADDED from /home/sirkadima/moringa-school-projects/CORE/RentBook/app/src/main/AndroidManifest.xml:18:13-44
+		ADDED from /media/sirkadima/Elements4/ANDROID/RentBook/app/src/main/AndroidManifest.xml:18:13-44
 activity#com.moringaschool.rentbook.TenantDetails
-ADDED from /home/sirkadima/moringa-school-projects/CORE/RentBook/app/src/main/AndroidManifest.xml:20:9-22:39
+ADDED from /media/sirkadima/Elements4/ANDROID/RentBook/app/src/main/AndroidManifest.xml:20:9-22:39
 	android:exported
-		ADDED from /home/sirkadima/moringa-school-projects/CORE/RentBook/app/src/main/AndroidManifest.xml:22:13-36
+		ADDED from /media/sirkadima/Elements4/ANDROID/RentBook/app/src/main/AndroidManifest.xml:22:13-36
 	android:name
-		ADDED from /home/sirkadima/moringa-school-projects/CORE/RentBook/app/src/main/AndroidManifest.xml:21:13-42
+		ADDED from /media/sirkadima/Elements4/ANDROID/RentBook/app/src/main/AndroidManifest.xml:21:13-42
 activity#com.moringaschool.rentbook.TenantsList
-ADDED from /home/sirkadima/moringa-school-projects/CORE/RentBook/app/src/main/AndroidManifest.xml:23:9-25:39
+ADDED from /media/sirkadima/Elements4/ANDROID/RentBook/app/src/main/AndroidManifest.xml:23:9-25:39
 	android:exported
-		ADDED from /home/sirkadima/moringa-school-projects/CORE/RentBook/app/src/main/AndroidManifest.xml:25:13-36
+		ADDED from /media/sirkadima/Elements4/ANDROID/RentBook/app/src/main/AndroidManifest.xml:25:13-36
 	android:name
-		ADDED from /home/sirkadima/moringa-school-projects/CORE/RentBook/app/src/main/AndroidManifest.xml:24:13-40
+		ADDED from /media/sirkadima/Elements4/ANDROID/RentBook/app/src/main/AndroidManifest.xml:24:13-40
 activity#com.moringaschool.rentbook.PropertyList
-ADDED from /home/sirkadima/moringa-school-projects/CORE/RentBook/app/src/main/AndroidManifest.xml:26:9-28:39
+ADDED from /media/sirkadima/Elements4/ANDROID/RentBook/app/src/main/AndroidManifest.xml:26:9-28:39
 	android:exported
-		ADDED from /home/sirkadima/moringa-school-projects/CORE/RentBook/app/src/main/AndroidManifest.xml:28:13-36
+		ADDED from /media/sirkadima/Elements4/ANDROID/RentBook/app/src/main/AndroidManifest.xml:28:13-36
 	android:name
-		ADDED from /home/sirkadima/moringa-school-projects/CORE/RentBook/app/src/main/AndroidManifest.xml:27:13-41
+		ADDED from /media/sirkadima/Elements4/ANDROID/RentBook/app/src/main/AndroidManifest.xml:27:13-41
 activity#com.moringaschool.rentbook.AddTenant
-ADDED from /home/sirkadima/moringa-school-projects/CORE/RentBook/app/src/main/AndroidManifest.xml:29:9-31:39
+ADDED from /media/sirkadima/Elements4/ANDROID/RentBook/app/src/main/AndroidManifest.xml:29:9-31:39
 	android:exported
-		ADDED from /home/sirkadima/moringa-school-projects/CORE/RentBook/app/src/main/AndroidManifest.xml:31:13-36
+		ADDED from /media/sirkadima/Elements4/ANDROID/RentBook/app/src/main/AndroidManifest.xml:31:13-36
 	android:name
-		ADDED from /home/sirkadima/moringa-school-projects/CORE/RentBook/app/src/main/AndroidManifest.xml:30:13-38
+		ADDED from /media/sirkadima/Elements4/ANDROID/RentBook/app/src/main/AndroidManifest.xml:30:13-38
 activity#com.moringaschool.rentbook.AddProperty
-ADDED from /home/sirkadima/moringa-school-projects/CORE/RentBook/app/src/main/AndroidManifest.xml:32:9-34:39
+ADDED from /media/sirkadima/Elements4/ANDROID/RentBook/app/src/main/AndroidManifest.xml:32:9-34:39
 	android:exported
-		ADDED from /home/sirkadima/moringa-school-projects/CORE/RentBook/app/src/main/AndroidManifest.xml:34:13-36
+		ADDED from /media/sirkadima/Elements4/ANDROID/RentBook/app/src/main/AndroidManifest.xml:34:13-36
 	android:name
-		ADDED from /home/sirkadima/moringa-school-projects/CORE/RentBook/app/src/main/AndroidManifest.xml:33:13-40
+		ADDED from /media/sirkadima/Elements4/ANDROID/RentBook/app/src/main/AndroidManifest.xml:33:13-40
 activity#com.moringaschool.rentbook.LandlordSignup
-ADDED from /home/sirkadima/moringa-school-projects/CORE/RentBook/app/src/main/AndroidManifest.xml:35:9-37:39
+ADDED from /media/sirkadima/Elements4/ANDROID/RentBook/app/src/main/AndroidManifest.xml:35:9-37:39
 	android:exported
-		ADDED from /home/sirkadima/moringa-school-projects/CORE/RentBook/app/src/main/AndroidManifest.xml:37:13-36
+		ADDED from /media/sirkadima/Elements4/ANDROID/RentBook/app/src/main/AndroidManifest.xml:37:13-36
 	android:name
-		ADDED from /home/sirkadima/moringa-school-projects/CORE/RentBook/app/src/main/AndroidManifest.xml:36:13-43
+		ADDED from /media/sirkadima/Elements4/ANDROID/RentBook/app/src/main/AndroidManifest.xml:36:13-43
 activity#com.moringaschool.rentbook.PropertyAndTenants
-ADDED from /home/sirkadima/moringa-school-projects/CORE/RentBook/app/src/main/AndroidManifest.xml:38:9-40:39
+ADDED from /media/sirkadima/Elements4/ANDROID/RentBook/app/src/main/AndroidManifest.xml:38:9-40:39
 	android:exported
-		ADDED from /home/sirkadima/moringa-school-projects/CORE/RentBook/app/src/main/AndroidManifest.xml:40:13-36
+		ADDED from /media/sirkadima/Elements4/ANDROID/RentBook/app/src/main/AndroidManifest.xml:40:13-36
 	android:name
-		ADDED from /home/sirkadima/moringa-school-projects/CORE/RentBook/app/src/main/AndroidManifest.xml:39:13-47
+		ADDED from /media/sirkadima/Elements4/ANDROID/RentBook/app/src/main/AndroidManifest.xml:39:13-47
 activity#com.moringaschool.rentbook.MainActivity
-ADDED from /home/sirkadima/moringa-school-projects/CORE/RentBook/app/src/main/AndroidManifest.xml:41:9-49:20
+ADDED from /media/sirkadima/Elements4/ANDROID/RentBook/app/src/main/AndroidManifest.xml:41:9-49:20
 	android:exported
-		ADDED from /home/sirkadima/moringa-school-projects/CORE/RentBook/app/src/main/AndroidManifest.xml:43:13-36
+		ADDED from /media/sirkadima/Elements4/ANDROID/RentBook/app/src/main/AndroidManifest.xml:43:13-36
 	android:name
-		ADDED from /home/sirkadima/moringa-school-projects/CORE/RentBook/app/src/main/AndroidManifest.xml:42:13-41
+		ADDED from /media/sirkadima/Elements4/ANDROID/RentBook/app/src/main/AndroidManifest.xml:42:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/sirkadima/moringa-school-projects/CORE/RentBook/app/src/main/AndroidManifest.xml:44:13-48:29
+ADDED from /media/sirkadima/Elements4/ANDROID/RentBook/app/src/main/AndroidManifest.xml:44:13-48:29
 action#android.intent.action.MAIN
-ADDED from /home/sirkadima/moringa-school-projects/CORE/RentBook/app/src/main/AndroidManifest.xml:45:17-69
+ADDED from /media/sirkadima/Elements4/ANDROID/RentBook/app/src/main/AndroidManifest.xml:45:17-69
 	android:name
-		ADDED from /home/sirkadima/moringa-school-projects/CORE/RentBook/app/src/main/AndroidManifest.xml:45:25-66
+		ADDED from /media/sirkadima/Elements4/ANDROID/RentBook/app/src/main/AndroidManifest.xml:45:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/sirkadima/moringa-school-projects/CORE/RentBook/app/src/main/AndroidManifest.xml:47:17-77
+ADDED from /media/sirkadima/Elements4/ANDROID/RentBook/app/src/main/AndroidManifest.xml:47:17-77
 	android:name
-		ADDED from /home/sirkadima/moringa-school-projects/CORE/RentBook/app/src/main/AndroidManifest.xml:47:27-74
+		ADDED from /media/sirkadima/Elements4/ANDROID/RentBook/app/src/main/AndroidManifest.xml:47:27-74
 uses-sdk
-INJECTED from /home/sirkadima/moringa-school-projects/CORE/RentBook/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /home/sirkadima/moringa-school-projects/CORE/RentBook/app/src/main/AndroidManifest.xml
-INJECTED from /home/sirkadima/moringa-school-projects/CORE/RentBook/app/src/main/AndroidManifest.xml
+INJECTED from /media/sirkadima/Elements4/ANDROID/RentBook/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /media/sirkadima/Elements4/ANDROID/RentBook/app/src/main/AndroidManifest.xml
+INJECTED from /media/sirkadima/Elements4/ANDROID/RentBook/app/src/main/AndroidManifest.xml
 MERGED from [androidx.databinding:viewbinding:7.0.0] /home/sirkadima/.gradle/caches/transforms-3/890ead7a225e8e8adbabf1126908806d/transformed/jetified-viewbinding-7.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.databinding:viewbinding:7.0.0] /home/sirkadima/.gradle/caches/transforms-3/890ead7a225e8e8adbabf1126908806d/transformed/jetified-viewbinding-7.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.material:material:1.4.0] /home/sirkadima/.gradle/caches/transforms-3/a4db12b072650e13bc36a4fc9443bd47/transformed/material-1.4.0/AndroidManifest.xml:20:5-44
@@ -435,16 +435,16 @@ MERGED from [io.grpc:grpc-android:1.28.0] /home/sirkadima/.gradle/caches/transfo
 MERGED from [io.grpc:grpc-android:1.28.0] /home/sirkadima/.gradle/caches/transforms-3/209013ccce9f4844e6ae6768b87dfdab/transformed/jetified-grpc-android-1.28.0/AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /home/sirkadima/.gradle/caches/transforms-3/0e4fe9ac0069942711d5424f8db25fa9/transformed/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /home/sirkadima/.gradle/caches/transforms-3/0e4fe9ac0069942711d5424f8db25fa9/transformed/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:7:5-9:41
-INJECTED from /home/sirkadima/moringa-school-projects/CORE/RentBook/app/src/main/AndroidManifest.xml
-INJECTED from /home/sirkadima/moringa-school-projects/CORE/RentBook/app/src/main/AndroidManifest.xml
+INJECTED from /media/sirkadima/Elements4/ANDROID/RentBook/app/src/main/AndroidManifest.xml
+INJECTED from /media/sirkadima/Elements4/ANDROID/RentBook/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /home/sirkadima/moringa-school-projects/CORE/RentBook/app/src/main/AndroidManifest.xml
-		ADDED from /home/sirkadima/moringa-school-projects/CORE/RentBook/app/src/main/AndroidManifest.xml
-		INJECTED from /home/sirkadima/moringa-school-projects/CORE/RentBook/app/src/main/AndroidManifest.xml
+		INJECTED from /media/sirkadima/Elements4/ANDROID/RentBook/app/src/main/AndroidManifest.xml
+		ADDED from /media/sirkadima/Elements4/ANDROID/RentBook/app/src/main/AndroidManifest.xml
+		INJECTED from /media/sirkadima/Elements4/ANDROID/RentBook/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /home/sirkadima/moringa-school-projects/CORE/RentBook/app/src/main/AndroidManifest.xml
-		ADDED from /home/sirkadima/moringa-school-projects/CORE/RentBook/app/src/main/AndroidManifest.xml
-		INJECTED from /home/sirkadima/moringa-school-projects/CORE/RentBook/app/src/main/AndroidManifest.xml
+		INJECTED from /media/sirkadima/Elements4/ANDROID/RentBook/app/src/main/AndroidManifest.xml
+		ADDED from /media/sirkadima/Elements4/ANDROID/RentBook/app/src/main/AndroidManifest.xml
+		INJECTED from /media/sirkadima/Elements4/ANDROID/RentBook/app/src/main/AndroidManifest.xml
 service#com.google.firebase.components.ComponentDiscoveryService
 ADDED from [com.google.firebase:firebase-common-ktx:20.0.0] /home/sirkadima/.gradle/caches/transforms-3/0808b87ea422fd531237c8827b309d08/transformed/jetified-firebase-common-ktx-20.0.0/AndroidManifest.xml:12:9-18:19
 MERGED from [com.google.firebase:firebase-database:20.0.1] /home/sirkadima/.gradle/caches/transforms-3/7b400ea217a8bf9c711ec34916c87208/transformed/jetified-firebase-database-20.0.1/AndroidManifest.xml:29:9-35:19
