@@ -138,5 +138,9 @@
     {
         "merged": "/media/sirkadima/Elements4/ANDROID/RentBook/app/build/intermediates/merged_res/debug/anim_fall_down.xml.flat",
         "source": "/media/sirkadima/Elements4/ANDROID/RentBook/app/src/main/res/anim/fall_down.xml"
+    },
+    {
+        "merged": "/media/sirkadima/Elements4/ANDROID/RentBook/app/build/intermediates/merged_res/debug/layout-port_activity_property_and_tenants.xml.flat",
+        "source": "/media/sirkadima/Elements4/ANDROID/RentBook/app/src/main/res/layout-port/activity_property_and_tenants.xml"
     }
 ]

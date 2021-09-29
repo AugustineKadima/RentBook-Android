@@ -121,6 +121,10 @@ public class AddProperty extends AppCompatActivity {
                 propertyMap.put("electricity", electricity);
                 propertyMap.put("internet", internet);
 
+//                String propertyKey = root.push().getKey();
+//                propertyMap.put("key", propertyKey);
+//                root.child(propertyKey).setValue(propertyMap);
+
                 root.push().setValue(propertyMap).addOnCompleteListener(new OnCompleteListener<Void>() {
                     @Override
                     public void onComplete(@NonNull Task<Void> task) {

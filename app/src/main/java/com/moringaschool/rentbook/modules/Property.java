@@ -15,6 +15,7 @@ public class Property {
     private String property_location;
     private String property_name;
     private String water;
+//    private String propertyKey;
 
 
     public Property(){}
@@ -30,6 +31,18 @@ public class Property {
         this.water = water;
 
     }
+
+//    public Property(String caretaker_name, String caretaker_phone_number, String electricity, String internet, String number_of_units, String property_location, String property_name, String water, String propertyKey) {
+//        this.caretaker_name = caretaker_name;
+//        this.caretaker_phone_number = caretaker_phone_number;
+//        this.electricity = electricity;
+//        this.internet = internet;
+//        this.number_of_units = number_of_units;
+//        this.property_location = property_location;
+//        this.property_name = property_name;
+//        this.water = water;
+//        this.propertyKey = propertyKey;
+//    }
 
     public String getCaretaker_name() {
         return caretaker_name;

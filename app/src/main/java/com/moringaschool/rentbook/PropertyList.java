@@ -39,6 +39,8 @@ public class PropertyList extends AppCompatActivity {
     private List<Property> propertyItems;
     private PropertyAdapter adapter;
 
+    private List<String> userIds;
+
 //   Animation
 
     Animation falldown;
@@ -61,6 +63,8 @@ public class PropertyList extends AppCompatActivity {
         falldown = AnimationUtils.loadAnimation(this, R.anim.fall_down);
 
         propertyItems = new ArrayList<>();
+        userIds = new ArrayList<>();
+
         adapter = new PropertyAdapter(this, propertyItems);
 
         recyclerView.setAnimation(falldown);
@@ -74,10 +78,14 @@ public class PropertyList extends AppCompatActivity {
         root.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
+                userIds.clear();
+                propertyItems.clear();
                 for(DataSnapshot dataSnapshot: snapshot.getChildren()){
                     Property property = dataSnapshot.getValue(Property.class);
                     propertyItems.add(property);
+                    userIds.add(dataSnapshot.getKey());
                 }
+                adapter.setIds(userIds);
                 adapter.notifyDataSetChanged();
             }
 
@@ -134,7 +142,7 @@ public class PropertyList extends AppCompatActivity {
         @Override
         public void onSwiped(@NonNull RecyclerView.ViewHolder viewHolder, int direction) {
             if(direction == ItemTouchHelper.LEFT){
-                adapter.deleteItem();
+                adapter.deleteItem(viewHolder.getAdapterPosition());
                 Toast.makeText(PropertyList.this, "Deleting", Toast.LENGTH_SHORT).show();
             }
         }

@@ -4,20 +4,20 @@
         "source": "/media/sirkadima/Elements4/ANDROID/RentBook/app/src/main/res/layout/fragment_property_detail.xml"
     },
     {
-        "merged": "/media/sirkadima/Elements4/ANDROID/RentBook/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/property_list_item.xml",
-        "source": "/media/sirkadima/Elements4/ANDROID/RentBook/app/src/main/res/layout/property_list_item.xml"
-    },
-    {
         "merged": "/media/sirkadima/Elements4/ANDROID/RentBook/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_tenant_detail.xml",
         "source": "/media/sirkadima/Elements4/ANDROID/RentBook/app/src/main/res/layout/fragment_tenant_detail.xml"
     },
     {
-        "merged": "/media/sirkadima/Elements4/ANDROID/RentBook/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_property_and_tenants.xml",
-        "source": "/media/sirkadima/Elements4/ANDROID/RentBook/app/src/main/res/layout/activity_property_and_tenants.xml"
+        "merged": "/media/sirkadima/Elements4/ANDROID/RentBook/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/property_list_item.xml",
+        "source": "/media/sirkadima/Elements4/ANDROID/RentBook/app/src/main/res/layout/property_list_item.xml"
     },
     {
         "merged": "/media/sirkadima/Elements4/ANDROID/RentBook/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_main.xml",
         "source": "/media/sirkadima/Elements4/ANDROID/RentBook/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/media/sirkadima/Elements4/ANDROID/RentBook/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_property_and_tenants.xml",
+        "source": "/media/sirkadima/Elements4/ANDROID/RentBook/app/src/main/res/layout/activity_property_and_tenants.xml"
     },
     {
         "merged": "/media/sirkadima/Elements4/ANDROID/RentBook/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_add_property.xml",

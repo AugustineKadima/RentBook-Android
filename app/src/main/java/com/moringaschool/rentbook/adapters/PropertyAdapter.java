@@ -38,11 +38,13 @@ public class PropertyAdapter extends RecyclerView.Adapter<PropertyAdapter.ViewHo
     private List<Property> propertyList;
     private List<Property> propertyListAll;
     Context mContext;
+    private List<String> userIds;
 
     public PropertyAdapter(Context mContext ,List<Property> propertyList) {
         this.propertyList = propertyList;
         this.mContext = mContext;
         this.propertyListAll = new ArrayList<>(propertyList);
+        userIds = new ArrayList<>();
     }
 
     @NonNull
@@ -52,9 +54,22 @@ public class PropertyAdapter extends RecyclerView.Adapter<PropertyAdapter.ViewHo
         return new ViewHolder(view);
     }
 
+    public void setIds(List<String> ids){
+        userIds.clear();
+        userIds.addAll(ids);
+    }
 
 //    Delete Item
-    public void deleteItem(){
+    public void deleteItem(int position){
+        DatabaseReference mRef = FirebaseDatabase.getInstance().getReference("properties");
+        Toast.makeText(mContext, "Error: " + userIds.get(position), Toast.LENGTH_SHORT).show();
+
+        mRef.child(userIds.get(position)).removeValue(new DatabaseReference.CompletionListener() {
+            @Override
+            public void onComplete(@Nullable DatabaseError error, @NonNull DatabaseReference ref) {
+
+            }
+        });
     }
 
     @Override
