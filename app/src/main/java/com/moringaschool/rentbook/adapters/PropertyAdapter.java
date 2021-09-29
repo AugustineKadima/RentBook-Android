@@ -62,7 +62,6 @@ public class PropertyAdapter extends RecyclerView.Adapter<PropertyAdapter.ViewHo
 //    Delete Item
     public void deleteItem(int position){
         DatabaseReference mRef = FirebaseDatabase.getInstance().getReference("properties");
-        Toast.makeText(mContext, "Error: " + userIds.get(position), Toast.LENGTH_SHORT).show();
 
         mRef.child(userIds.get(position)).removeValue(new DatabaseReference.CompletionListener() {
             @Override

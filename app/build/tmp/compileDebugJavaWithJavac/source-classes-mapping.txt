@@ -75,11 +75,8 @@ com/moringaschool/rentbook/adapters/TenantAdapter.java
  com.moringaschool.rentbook.adapters.TenantAdapter$ViewHolder
 com/moringaschool/rentbook/databinding/TenantListItemBinding.java
  com.moringaschool.rentbook.databinding.TenantListItemBinding
-com/moringaschool/rentbook/PropertyList.java
- com.moringaschool.rentbook.PropertyList
- com.moringaschool.rentbook.PropertyList$1
- com.moringaschool.rentbook.PropertyList$2
- com.moringaschool.rentbook.PropertyList$3
+com/moringaschool/rentbook/modules/Property.java
+ com.moringaschool.rentbook.modules.Property
 com/moringaschool/rentbook/AddProperty.java
  com.moringaschool.rentbook.AddProperty
  com.moringaschool.rentbook.AddProperty$1
@@ -88,17 +85,20 @@ com/moringaschool/rentbook/fragments/PropertyDetailFragment.java
  com.moringaschool.rentbook.fragments.PropertyDetailFragment
 com/moringaschool/rentbook/adapters/PropertyPagerAdapter.java
  com.moringaschool.rentbook.adapters.PropertyPagerAdapter
-com/moringaschool/rentbook/adapters/PropertyAdapter.java
- com.moringaschool.rentbook.adapters.PropertyAdapter
- com.moringaschool.rentbook.adapters.PropertyAdapter$1
- com.moringaschool.rentbook.adapters.PropertyAdapter$2
- com.moringaschool.rentbook.adapters.PropertyAdapter$ViewHolder
- com.moringaschool.rentbook.adapters.PropertyAdapter$ViewHolder$1
 com/moringaschool/rentbook/PropertyAndTenants.java
  com.moringaschool.rentbook.PropertyAndTenants
  com.moringaschool.rentbook.PropertyAndTenants$1
  com.moringaschool.rentbook.PropertyAndTenants$2
  com.moringaschool.rentbook.PropertyAndTenants$3
  com.moringaschool.rentbook.PropertyAndTenants$4
-com/moringaschool/rentbook/modules/Property.java
- com.moringaschool.rentbook.modules.Property
+com/moringaschool/rentbook/PropertyList.java
+ com.moringaschool.rentbook.PropertyList
+ com.moringaschool.rentbook.PropertyList$1
+ com.moringaschool.rentbook.PropertyList$2
+ com.moringaschool.rentbook.PropertyList$3
+com/moringaschool/rentbook/adapters/PropertyAdapter.java
+ com.moringaschool.rentbook.adapters.PropertyAdapter
+ com.moringaschool.rentbook.adapters.PropertyAdapter$1
+ com.moringaschool.rentbook.adapters.PropertyAdapter$2
+ com.moringaschool.rentbook.adapters.PropertyAdapter$ViewHolder
+ com.moringaschool.rentbook.adapters.PropertyAdapter$ViewHolder$1
